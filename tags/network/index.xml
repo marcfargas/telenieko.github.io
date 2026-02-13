@@ -10,9 +10,9 @@
     <atom:link href="https://www.marcfargas.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Wireless networks in Debian Initramfs</title>
-      <link>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</link>
+      <link>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</guid>
+      <guid>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Initramfs is&lt;/strong&gt; a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic &lt;em&gt;before loading your system&lt;/em&gt;.
 The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem.
@@ -185,9 +185,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Moved to Google Apps</title>
-      <link>https://www.marcfargas.com/2008/07/moved-to-google-apps/</link>
+      <link>https://www.marcfargas.com/posts/moved-to-google-apps/</link>
       <pubDate>Tue, 29 Jul 2008 19:47:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/moved-to-google-apps/</guid>
+      <guid>https://www.marcfargas.com/posts/moved-to-google-apps/</guid>
       <description>&lt;p&gt;I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.&lt;/p&gt;
 &lt;p&gt;The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&amp;rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&amp;rsquo;t answered, please resend.&lt;/p&gt;
 &lt;p&gt;The only downside, I hoped google would have some &amp;ldquo;easy&amp;rdquo; way to move my google account from *@gmail.com to my Google Apps domain.&lt;/p&gt;</description>
@@ -198,9 +198,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Ip Tunnel Over Ssh With Tun</title>
-      <link>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</link>
+      <link>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</link>
       <pubDate>Thu, 24 Jul 2008 10:14:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</guid>
+      <guid>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</guid>
       <description>&lt;p&gt;Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&amp;hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.&lt;/p&gt;
 &lt;p&gt;The problem&amp;rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&amp;hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.</p>
@@ -238,9 +238,9 @@ Now, on the client it&rsquo;s as easy as to run ssh with some parameters, my scr
     </item>
     <item>
       <title>Outgoing connections from Linux not working</title>
-      <link>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</link>
+      <link>https://www.marcfargas.com/posts/outgoing-connections-from-linux-not-working/</link>
       <pubDate>Sun, 13 Jan 2008 13:10:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</guid>
+      <guid>https://www.marcfargas.com/posts/outgoing-connections-from-linux-not-working/</guid>
       <description>&lt;p&gt;A friend of mine has a nice MythTV box on his bedroom. Suddently the box decided to not open outgoing connections anymore&amp;hellip; I say outgoing because I could still connect to it from my home.&lt;/p&gt;
 &lt;p&gt;I could not find out what was last changed, maybe an aptitude upgrade or did he change ISP?&lt;/p&gt;
 &lt;p&gt;After some time looking around the only thing I could find out was a small difference between a SYN packet send from a remote place and the SYN packets send by the broken system:&lt;/p&gt;</description>

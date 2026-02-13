@@ -10,9 +10,9 @@
     <atom:link href="https://www.marcfargas.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Wireless networks in Debian Initramfs</title>
-      <link>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</link>
+      <link>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</guid>
+      <guid>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Initramfs is&lt;/strong&gt; a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic &lt;em&gt;before loading your system&lt;/em&gt;.
 The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem.
@@ -185,9 +185,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Ip Tunnel Over Ssh With Tun</title>
-      <link>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</link>
+      <link>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</link>
       <pubDate>Thu, 24 Jul 2008 10:14:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</guid>
+      <guid>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</guid>
       <description>&lt;p&gt;Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&amp;hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.&lt;/p&gt;
 &lt;p&gt;The problem&amp;rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&amp;hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.</p>

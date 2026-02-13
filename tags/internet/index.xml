@@ -10,20 +10,20 @@
     <atom:link href="https://www.marcfargas.com/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WIP: Migrando a Hugo</title>
-      <link>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</link>
+      <link>https://www.marcfargas.com/posts/wip-migrando-a-hugo/</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</guid>
+      <guid>https://www.marcfargas.com/posts/wip-migrando-a-hugo/</guid>
       <description>Detalle de la migración a Hugo</description>
       <content:encoded><![CDATA[<p>Al parecer mi blog estaba fuera de línea, no he escrito nada desde 2013 así que tampoco le he prestado demasiada atención&hellip;</p>
-<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/2012/06/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
+<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/posts/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
 <p>De momento están todos los contenidos hasta 2011 migrados. Me falta 2012 y 2013.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Migrando a Blogger</title>
-      <link>https://www.marcfargas.com/2012/06/migrando-a-blogger/</link>
+      <link>https://www.marcfargas.com/posts/migrando-a-blogger/</link>
       <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/migrando-a-blogger/</guid>
+      <guid>https://www.marcfargas.com/posts/migrando-a-blogger/</guid>
       <description>&lt;p&gt;Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.&lt;/p&gt;
 &lt;p&gt;De momento parece que lo más complicado serán los comentarios&amp;hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!&lt;/p&gt;
 &lt;p&gt;El cambio más notable es que lo que escriba en castellano lo colgaré en &lt;a href=&#34;http://www.marcfargas.es/&#34;&gt;www.marcfargas.es&lt;/a&gt; y lo que escriba en inglés lo colgaré de &lt;a href=&#34;http://www.marcfargas.com/&#34;&gt;www.marcfargas.com&lt;/a&gt;&lt;/p&gt;</description>
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Contraseñas seguras sin recordar ninguna (ni apuntarlas)</title>
-      <link>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
+      <link>https://www.marcfargas.com/posts/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
+      <guid>https://www.marcfargas.com/posts/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
       <description>&lt;p&gt;Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.&lt;/p&gt;
 &lt;p&gt;Ahora bien, no tendría más gracia (y queda más friki) poder generar &lt;strong&gt;mentalmente&lt;/strong&gt; una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &amp;ldquo;mentalmente&amp;rdquo;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.</p>

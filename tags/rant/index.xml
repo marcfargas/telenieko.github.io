@@ -10,9 +10,9 @@
     <atom:link href="https://www.marcfargas.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State of RAD 2019</title>
-      <link>https://www.marcfargas.com/2019/06/state-of-rad-2019/</link>
+      <link>https://www.marcfargas.com/posts/state-of-rad-2019/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      <guid>https://www.marcfargas.com/2019/06/state-of-rad-2019/</guid>
+      <guid>https://www.marcfargas.com/posts/state-of-rad-2019/</guid>
       <description>&lt;p&gt;Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.&lt;/p&gt;
 &lt;p&gt;But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.</p>

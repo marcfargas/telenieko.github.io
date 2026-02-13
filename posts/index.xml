@@ -10,20 +10,20 @@
     <atom:link href="https://www.marcfargas.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WIP: Migrando a Hugo</title>
-      <link>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</link>
+      <link>https://www.marcfargas.com/posts/wip-migrando-a-hugo/</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</guid>
+      <guid>https://www.marcfargas.com/posts/wip-migrando-a-hugo/</guid>
       <description>Detalle de la migración a Hugo</description>
       <content:encoded><![CDATA[<p>Al parecer mi blog estaba fuera de línea, no he escrito nada desde 2013 así que tampoco le he prestado demasiada atención&hellip;</p>
-<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/2012/06/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
+<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/posts/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
 <p>De momento están todos los contenidos hasta 2011 migrados. Me falta 2012 y 2013.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>State of RAD 2019</title>
-      <link>https://www.marcfargas.com/2019/06/state-of-rad-2019/</link>
+      <link>https://www.marcfargas.com/posts/state-of-rad-2019/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      <guid>https://www.marcfargas.com/2019/06/state-of-rad-2019/</guid>
+      <guid>https://www.marcfargas.com/posts/state-of-rad-2019/</guid>
       <description>&lt;p&gt;Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.&lt;/p&gt;
 &lt;p&gt;But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.</p>
@@ -76,9 +76,9 @@
     </item>
     <item>
       <title>Enable Wireless networks in Debian Initramfs</title>
-      <link>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</link>
+      <link>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</guid>
+      <guid>https://www.marcfargas.com/posts/enable-wireless-networks-in-debian-initramfs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Initramfs is&lt;/strong&gt; a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic &lt;em&gt;before loading your system&lt;/em&gt;.
 The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem.
@@ -251,9 +251,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Spain in Figures 2012</title>
-      <link>https://www.marcfargas.com/2012/06/spain-in-figures-2012/</link>
+      <link>https://www.marcfargas.com/posts/spain-in-figures-2012/</link>
       <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/spain-in-figures-2012/</guid>
+      <guid>https://www.marcfargas.com/posts/spain-in-figures-2012/</guid>
       <description>&lt;p&gt;El INE acaba de &lt;a href=&#34;http://www.ine.es/ss/Satellite?param1=PYSDetalleGratuitas&amp;amp;c=INEPublicacion_C&amp;amp;p=1254735110672&amp;amp;pagename=ProductosYServicios%2FPYSLayout&amp;amp;cid=1259924856416&amp;amp;L=1&#34;&gt;publicar&lt;/a&gt; (en Inglés) su publicación &amp;ldquo;&lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GYWRrMjNLc2pUNEU&#34;&gt;Spain in Figures 2012&lt;/a&gt;&amp;rdquo;. Se puede descargar en PDF o pedir una copia impresa por dos eurillos.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.ine.es/ss/Satellite?blobcol=urldata&amp;amp;blobkey=id&amp;amp;blobtable=MungoBlobs&amp;amp;blobwhere=1259938689978&amp;amp;ssbinary=true&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.ine.es/ss/Satellite?blobcol=urldata&amp;blobkey=id&amp;blobtable=MungoBlobs&amp;blobwhere=1259938689978&amp;ssbinary=true&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Portada del documento &amp;ldquo;Spain in Figures 2012&amp;rdquo;&lt;/p&gt;
@@ -268,9 +268,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>¿Los informáticos no entienden de paro?</title>
-      <link>https://www.marcfargas.com/2012/06/los-inform%C3%A1ticos-no-entienden-de-paro/</link>
+      <link>https://www.marcfargas.com/posts/los-inform%C3%A1ticos-no-entienden-de-paro/</link>
       <pubDate>Sun, 17 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/los-inform%C3%A1ticos-no-entienden-de-paro/</guid>
+      <guid>https://www.marcfargas.com/posts/los-inform%C3%A1ticos-no-entienden-de-paro/</guid>
       <description>&lt;p&gt;A veces uno se pregunta ¿quien redacta las noticias? Un periodista, un loro parlante, o una empresa con intereses en el contenido del artículo?&lt;/p&gt;
 &lt;p&gt;El País lleva hoy una noticia titulada: &amp;ldquo;&lt;a href=&#34;http://economia.elpais.com/economia/2012/06/15/actualidad/1339777853_083430.html&#34;&gt;Los informáticos no entienden de paro&lt;/a&gt;&amp;rdquo; que dice: &amp;ldquo;Ser ingeniero informático o de telecomunicaciones hoy día es sinónimo de empleo. Es una de las profesiones con menor tasa de paro, solo un 7,6% frente al 24% medio español.&amp;rdquo;&lt;/p&gt;
 &lt;figure class=&#34;align-center &#34;&gt;
@@ -313,9 +313,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>¡La prima sigue subiendo! ¿y? (y II)</title>
-      <link>https://www.marcfargas.com/2012/06/la-prima-sigue-subiendo-y-y-ii/</link>
+      <link>https://www.marcfargas.com/posts/la-prima-sigue-subiendo-y-y-ii/</link>
       <pubDate>Wed, 13 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/la-prima-sigue-subiendo-y-y-ii/</guid>
+      <guid>https://www.marcfargas.com/posts/la-prima-sigue-subiendo-y-y-ii/</guid>
       <description>&lt;p&gt;Ayer hablábamos del &amp;ldquo;rescate&amp;rdquo;, el cómo se hizo, porqué, etc. Pero quedaron algunas cosas en el tintero como la segunda parte del título: &lt;strong&gt;¿porque parece que el &lt;a href=&#34;http://www.elblogsalmon.com/economia/la-deprimente-recepcion-para-un-rescate-mezquino-e-injusto&#34;&gt;mercado&lt;/a&gt; sea &lt;a href=&#34;http://www.gurusblog.com/archives/rentabilidad-bono-espana/12/06/2012/&#34;&gt;inmune&lt;/a&gt; a una noticia tan buena? ¿dónde está la orgía/euforia alcista?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Pues, como dicen por &lt;a href=&#34;http://www.ferrerinvest.com/1/post/2012/06/qu-ocurri-hoy-en-el-ibex-para-empezar-6-y-acabar-en-negativo.html&#34;&gt;ferrerinvest (Hugo)&lt;/a&gt; la noticia ya estaba descontada. No es sólo que Reuters saliera con la noticia el viernes sino que toda la semana olía a que se cocía algo (pista: cuando ningún político sale a decir tonterías es que o a) están todos de vacaciones o b) están trabajando en algo que es mejor no hacer público hasta que esté preparado). En este caso era la b).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ayer hablábamos del &ldquo;rescate&rdquo;, el cómo se hizo, porqué, etc. Pero quedaron algunas cosas en el tintero como la segunda parte del título: <strong>¿porque parece que el <a href="http://www.elblogsalmon.com/economia/la-deprimente-recepcion-para-un-rescate-mezquino-e-injusto">mercado</a> sea <a href="http://www.gurusblog.com/archives/rentabilidad-bono-espana/12/06/2012/">inmune</a> a una noticia tan buena? ¿dónde está la orgía/euforia alcista?</strong></p>
@@ -348,9 +348,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>¡El rescate aún no es firme! ¡La prima sigue subiendo! ¿y?</title>
-      <link>https://www.marcfargas.com/2012/06/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</link>
+      <link>https://www.marcfargas.com/posts/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</link>
       <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</guid>
+      <guid>https://www.marcfargas.com/posts/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</guid>
       <description>&lt;p&gt;El &lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GVDlsV3dES1lUOTg&#34;&gt;comunicado del Eurogrupo&lt;/a&gt; sobre el (&lt;strong&gt;futuro&lt;/strong&gt;) rescate a España está trayendo cola así que para no ser menos yo también hablo de &amp;ldquo;El Rescate&amp;rdquo; (título para la futura película de TVE sobre el tema),&lt;/p&gt;
 &lt;p&gt;Primero, lo básico:&lt;/p&gt;
 &lt;ul&gt;
@@ -394,9 +394,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Migrando a Blogger</title>
-      <link>https://www.marcfargas.com/2012/06/migrando-a-blogger/</link>
+      <link>https://www.marcfargas.com/posts/migrando-a-blogger/</link>
       <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2012/06/migrando-a-blogger/</guid>
+      <guid>https://www.marcfargas.com/posts/migrando-a-blogger/</guid>
       <description>&lt;p&gt;Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.&lt;/p&gt;
 &lt;p&gt;De momento parece que lo más complicado serán los comentarios&amp;hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!&lt;/p&gt;
 &lt;p&gt;El cambio más notable es que lo que escriba en castellano lo colgaré en &lt;a href=&#34;http://www.marcfargas.es/&#34;&gt;www.marcfargas.es&lt;/a&gt; y lo que escriba en inglés lo colgaré de &lt;a href=&#34;http://www.marcfargas.com/&#34;&gt;www.marcfargas.com&lt;/a&gt;&lt;/p&gt;</description>
@@ -410,9 +410,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Contraseñas seguras sin recordar ninguna (ni apuntarlas)</title>
-      <link>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
+      <link>https://www.marcfargas.com/posts/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
+      <guid>https://www.marcfargas.com/posts/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
       <description>&lt;p&gt;Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.&lt;/p&gt;
 &lt;p&gt;Ahora bien, no tendría más gracia (y queda más friki) poder generar &lt;strong&gt;mentalmente&lt;/strong&gt; una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &amp;ldquo;mentalmente&amp;rdquo;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.</p>
@@ -442,9 +442,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Urgencias Quirón o &#34;mejor no tengas prisa&#34;</title>
-      <link>https://www.marcfargas.com/2010/11/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</link>
+      <link>https://www.marcfargas.com/posts/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</link>
       <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/11/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</guid>
+      <guid>https://www.marcfargas.com/posts/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</guid>
       <description>&lt;p&gt;Hace un tiempo &lt;a href=&#34;http://www.joserodriguez.info/bloc/?page_id=2&#34; title=&#34;Sobre José Rodríguez&#34;&gt;José Rodríguez&lt;/a&gt; (@trinitro) &lt;a href=&#34;http://www.joserodriguez.info/bloc/?p=3463&#34; title=&#34;Algunos ramalazos de las herencias de la gestión sanitaria de los gobiernos de Pujol y del exconseller de sanitat Trias&#34;&gt;escribía sobre la sanidad concertada&lt;/a&gt; en un post interesante sobre una experiencia suya en el CAP Sant Cugat (gestionado por Mutua Terrassa). Como hoy he tenido el placer de disfrutar de los servicios sanitarios de un hospital privado me ha sobrado tiempo para acordarme de su post. Así que abusaré de mi tribuna digital que es este blog para aborrecer a mis lectores (¿tengo alguno?) con mis penurias de la tarde. Eso si, lo haré con la excusa de decir que solo quiero insistir en mi comentario al post de José de que &lt;strong&gt;el problema no es tanto el modelo sanitario, sino&lt;/strong&gt; &lt;a href=&#34;http://www.joserodriguez.info/bloc/?p=3463&amp;amp;cpage=1#comment-8161&#34;&gt;&lt;strong&gt;un problema de gestión y control&lt;/strong&gt;.&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Hace un tiempo <a href="http://www.joserodriguez.info/bloc/?page_id=2" title="Sobre José Rodríguez">José Rodríguez</a> (@trinitro) <a href="http://www.joserodriguez.info/bloc/?p=3463" title="Algunos ramalazos de las herencias de la gestión sanitaria de los gobiernos de Pujol y del exconseller de sanitat Trias">escribía sobre la sanidad concertada</a> en un post interesante sobre una experiencia suya en el CAP Sant Cugat (gestionado por Mutua Terrassa). Como hoy he tenido el placer de disfrutar de los servicios sanitarios de un hospital privado me ha sobrado tiempo para acordarme de su post. Así que abusaré de mi tribuna digital que es este blog para aborrecer a mis lectores (¿tengo alguno?) con mis penurias de la tarde. Eso si, lo haré con la excusa de decir que solo quiero insistir en mi comentario al post de José de que <strong>el problema no es tanto el modelo sanitario, sino</strong> <a href="http://www.joserodriguez.info/bloc/?p=3463&amp;cpage=1#comment-8161"><strong>un problema de gestión y control</strong>.</a></p>
 <p>Ayer me di un golpe (/ostión/) en la nariz (el fútbol fuera de la tele duele, ¿lo sabíais?) y, a parte de hinchada y sangrando, esta mañana he podido apreciar que estaba torcida. De modo que después de comer he ido al Hospital Quirón de urgencias para ver si podían recolocarme la nariz un poco.</p>
@@ -464,9 +464,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Voto útil</title>
-      <link>https://www.marcfargas.com/2010/08/voto-%C3%BAtil/</link>
+      <link>https://www.marcfargas.com/posts/voto-%C3%BAtil/</link>
       <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/08/voto-%C3%BAtil/</guid>
+      <guid>https://www.marcfargas.com/posts/voto-%C3%BAtil/</guid>
       <description>&lt;p&gt;¡Se acercan elecciones en Catalunya! (por si alguien aún no lo sabía).&lt;/p&gt;
 &lt;p&gt;Este año hay una peculiaridad respecto a anteriores convocatorias. Tenemos una galaxia de pequeños partidos o agrupaciones jóvenes (de nueva creación) que concurren a las elecciones. Por ello creo conveniente recordar algún que otro sutil aspecto de como funcionan las elecciones en España (y, a falta de Ley Electoral propia, en Catalunya).&lt;/p&gt;
 &lt;p&gt;Cuando una persona deposita su voto en la urna lo hace, en teoria, pensando en que candidatura (lista) tiene &lt;strong&gt;mayor capacidad&lt;/strong&gt; para hacer lo que él (el votante) considera mejor para el país. Cada lista tiene un programa que trata diversos temas &lt;em&gt;desde el punto de vista de ese partido o agrupación&lt;/em&gt;. Hablan de economía, sanidad, independencia o justicia, cada una, a su manera. En algunas vemos puntos en común y diferencias&amp;hellip;&lt;/p&gt;</description>
@@ -481,9 +481,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>La teoría de &#39;El Dos Letras&#39;</title>
-      <link>https://www.marcfargas.com/2010/08/la-teor%C3%ADa-de-el-dos-letras/</link>
+      <link>https://www.marcfargas.com/posts/la-teor%C3%ADa-de-el-dos-letras/</link>
       <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/08/la-teor%C3%ADa-de-el-dos-letras/</guid>
+      <guid>https://www.marcfargas.com/posts/la-teor%C3%ADa-de-el-dos-letras/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Este post es de esos que ofenden a algunos, quien pueda sentirse ofendido tiene 2 opciones: No leerlo o considerar que forma parte de la minoría excluida del colectivo que voy a mencionar. Si aún así se ofende pues tiene dos problemas: ¡Ofenderse y Des-ofenderse! (El colectivo que voy a mencionar es aquel en que la matrícula de su coche tiene el formato antiguo (X-YYYY-ZZ) o el primer bloque del nuevo (XXXX-B**).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Disclaimer:</strong> Este post es de esos que ofenden a algunos, quien pueda sentirse ofendido tiene 2 opciones: No leerlo o considerar que forma parte de la minoría excluida del colectivo que voy a mencionar. Si aún así se ofende pues tiene dos problemas: ¡Ofenderse y Des-ofenderse! (El colectivo que voy a mencionar es aquel en que la matrícula de su coche tiene el formato antiguo (X-YYYY-ZZ) o el primer bloque del nuevo (XXXX-B**).</p>
 <p>Hay un tipo de conductor&hellip; aquel que al verlo nos preguntamos: <em>¿dónde le habrán dado el carné?</em> o, más bien, gritamos <em>¿dónde te han dado el carné, melón!?</em> es el colectivo denominado &ldquo;conductores de tómbola&rdquo; (porque, sospechamos, les dieron el carné en una tómbola). Son conductores que <strong>no recuerdan</strong> algunas normas básicas del código de circulación, como:</p>
@@ -509,9 +509,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>El &#39;negocio&#39; de Comprar una Casa</title>
-      <link>https://www.marcfargas.com/2010/07/el-negocio-de-comprar-una-casa/</link>
+      <link>https://www.marcfargas.com/posts/el-negocio-de-comprar-una-casa/</link>
       <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/07/el-negocio-de-comprar-una-casa/</guid>
+      <guid>https://www.marcfargas.com/posts/el-negocio-de-comprar-una-casa/</guid>
       <description>&lt;p&gt;A veces le doy vueltas a &lt;strong&gt;¿Es buen negocio comprarse una casa?&lt;/strong&gt; porque, reconozcámoslo, nadie se compra una casa para perder dinero. Voy a soltar un par de razonamientos que puede hacerse una &amp;ldquo;persona de la calle&amp;rdquo;. Así de paso complementaré el post de Roger de ayer, &lt;a href=&#34;http://www.lorem-ipsum.es/blogs/materiasgrises/2010/07/la-gran-recesion-lecciones-i.html&#34;&gt;concretamente el punto &amp;ldquo;G&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hay una &lt;a href=&#34;http://buscon.rae.es/draeI/SrvltConsulta?TIPO_BUS=3&amp;amp;LEMA=m%C3%A1xima&#34;&gt;máxima&lt;/a&gt; que viene a decir algo así como &amp;ldquo;A Mayor riesgo, mayor rentabilidad&amp;rdquo; y &amp;ldquo;A Menor riesgo, menor rentabilidad&amp;rdquo;. Se puede escribir también al revés: &amp;ldquo;Cuanta más rentabilidad, más riesgo&amp;rdquo;. Si a esto le juntamos los grandes argumentos del comprador de casas hay algo que no cuadra: &amp;ldquo;El precio nunca baja&amp;rdquo;, &amp;ldquo;Es una inversión segura&amp;rdquo;&amp;hellip; pero, para que una inversión sea rentable ha de tener algún riesgo, ¿no?. ¿Dónde está el riesgo en comprar una casa? o, ¿quizás no es &lt;strong&gt;tan buen negocio&lt;/strong&gt;?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A veces le doy vueltas a <strong>¿Es buen negocio comprarse una casa?</strong> porque, reconozcámoslo, nadie se compra una casa para perder dinero. Voy a soltar un par de razonamientos que puede hacerse una &ldquo;persona de la calle&rdquo;. Así de paso complementaré el post de Roger de ayer, <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/07/la-gran-recesion-lecciones-i.html">concretamente el punto &ldquo;G&rdquo;</a>.</p>
@@ -529,9 +529,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Traición o Orgullo</title>
-      <link>https://www.marcfargas.com/2010/07/traici%C3%B3n-o-orgullo/</link>
+      <link>https://www.marcfargas.com/posts/traici%C3%B3n-o-orgullo/</link>
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/07/traici%C3%B3n-o-orgullo/</guid>
+      <guid>https://www.marcfargas.com/posts/traici%C3%B3n-o-orgullo/</guid>
       <description>&lt;p&gt;Ahí fuera, más allá de nuestras fronteras, hay Catalanes de renombre. El nombre de “Catalunya” los sigue allá donde vayan para orgullo de sus compatriotas. En casi cualquier ámbito imaginable &lt;a href=&#34;http://es.wikipedia.org/wiki/Categor%C3%ADa:Catalanes&#34;&gt;tenemos grandes nombres&lt;/a&gt;: Antoni Gaudí, Salvador Dalí y Joan Miró, Montserrat Caballé, Pau Gasol, Ferran Adrià… Incluso exportamos marcas de renombre como &lt;a href=&#34;http://www.elperiodico.com/es/noticias/gente/20100629/seis-productos-catalanes-aspiran-estar-entre-los-100-mejores-del-mundo/356350.shtml&#34;&gt;Vichy Catalan o Freixenet&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Nos henchimos de orgullo cuando estas y otras muchas personas salen ahí fuera. Pensamos que son los mejores. Y puede que lo sean o, simplemente, es que son de nuestra tierra.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ahí fuera, más allá de nuestras fronteras, hay Catalanes de renombre. El nombre de “Catalunya” los sigue allá donde vayan para orgullo de sus compatriotas. En casi cualquier ámbito imaginable <a href="http://es.wikipedia.org/wiki/Categor%C3%ADa:Catalanes">tenemos grandes nombres</a>: Antoni Gaudí, Salvador Dalí y Joan Miró, Montserrat Caballé, Pau Gasol, Ferran Adrià… Incluso exportamos marcas de renombre como <a href="http://www.elperiodico.com/es/noticias/gente/20100629/seis-productos-catalanes-aspiran-estar-entre-los-100-mejores-del-mundo/356350.shtml">Vichy Catalan o Freixenet</a>.</p>
@@ -551,9 +551,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Reforma Laboral, 14 de Junio</title>
-      <link>https://www.marcfargas.com/2010/06/reforma-laboral-14-de-junio/</link>
+      <link>https://www.marcfargas.com/posts/reforma-laboral-14-de-junio/</link>
       <pubDate>Mon, 14 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/06/reforma-laboral-14-de-junio/</guid>
+      <guid>https://www.marcfargas.com/posts/reforma-laboral-14-de-junio/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.elpais.com/&#34;&gt;El País&lt;/a&gt; ha publicado (&lt;a href=&#34;http://w3.marcfargas.com/es/doc/2010-06/el-documento-del-gobierno-para-la-reforma-laboral&#34;&gt;El documento del Gobierno para la reforma laboral&lt;/a&gt;) las 41 páginas del último documento que el Gobierno entregó a patronal y sindicatos el viernes que, en principio, es con el que se empezará la negociación con los grupos parlamentarios. A falta de la versión definitiva (que, en un principio, saldrá el Miércoles) comento lo que me parece más destacado del borrador actual.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTA:&lt;/strong&gt; &lt;em&gt;Lo que se detalla aquí es un borrador de la reforma (de ahí la redacción en condicional) en ningún cais representa la versión final de la Reforma. (Lo pongo claro por si alguien llega aquí en un futuo vía Google).&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://www.elpais.com/">El País</a> ha publicado (<a href="http://w3.marcfargas.com/es/doc/2010-06/el-documento-del-gobierno-para-la-reforma-laboral">El documento del Gobierno para la reforma laboral</a>) las 41 páginas del último documento que el Gobierno entregó a patronal y sindicatos el viernes que, en principio, es con el que se empezará la negociación con los grupos parlamentarios. A falta de la versión definitiva (que, en un principio, saldrá el Miércoles) comento lo que me parece más destacado del borrador actual.</p>
@@ -571,9 +571,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>La Reforma Laboral al Desnudo</title>
-      <link>https://www.marcfargas.com/2010/06/la-reforma-laboral-al-desnudo/</link>
+      <link>https://www.marcfargas.com/posts/la-reforma-laboral-al-desnudo/</link>
       <pubDate>Wed, 09 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/06/la-reforma-laboral-al-desnudo/</guid>
+      <guid>https://www.marcfargas.com/posts/la-reforma-laboral-al-desnudo/</guid>
       <description>&lt;p&gt;Mis &lt;a href=&#34;http://www.disney.es/FilmesDisney/g-force/&#34;&gt;espías/fuentes&lt;/a&gt; en la Moncloa me han pasado el &lt;strong&gt;último borrador&lt;/strong&gt; de la Reforma Laboral que se está intentando pactar, dice así:&lt;/p&gt;
 &lt;p&gt;Ley XX/2010 de XX de XXX.. por la que&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;Artículo Primero: Se establece &lt;strong&gt;Curro&lt;/strong&gt; como el vocablo adecuado para referirse al, hasta ahora, concepto de &lt;strong&gt;Trabajo&lt;/strong&gt;, el cambio de vocablo afecta a todo el ámbito: &lt;strong&gt;Currante&lt;/strong&gt; por Trabajador, Estatuto de los Currantes por Estatuto de los Trabajadores, etc&amp;hellip;&lt;/p&gt;
@@ -590,9 +590,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Jugando con el Calendario Electoral</title>
-      <link>https://www.marcfargas.com/2010/06/jugando-con-el-calendario-electoral/</link>
+      <link>https://www.marcfargas.com/posts/jugando-con-el-calendario-electoral/</link>
       <pubDate>Mon, 07 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/06/jugando-con-el-calendario-electoral/</guid>
+      <guid>https://www.marcfargas.com/posts/jugando-con-el-calendario-electoral/</guid>
       <description>&lt;p&gt;Las apuestas sobre cuando se celebrarán las próximas elecciones al Parlament de Catalunya son de lo más variopintas, con sus defensores y retractores.&lt;/p&gt;
 &lt;p&gt;Para que todos podamos participar en las apuestas en igualdad de condiciones primero hay que explicar las normas:&lt;/p&gt;
 &lt;p&gt;La primera de todas es que, a &lt;a href=&#34;http://www.parlament.cat/web/composicio/resultats-electorals&#34;&gt;falta de una ley electoral propia&lt;/a&gt;, las elecciones al Parlament se rigen por las mismas normas que las &lt;a href=&#34;http://noticias.juridicas.com/base_datos/Admin/lo5-1985.html&#34;&gt;del Congreso de los Diputados&lt;/a&gt;. Algo muy útil teniendo en cuenta las posibilidades de que se &amp;ldquo;llegasen a juntar&amp;rdquo; ambas convocatorias, aprendiendo un lote de normas podemos apostar a dos caballos.&lt;/p&gt;</description>
@@ -626,9 +626,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Prohibido endeudarse en 2011</title>
-      <link>https://www.marcfargas.com/2010/06/prohibido-endeudarse-en-2011/</link>
+      <link>https://www.marcfargas.com/posts/prohibido-endeudarse-en-2011/</link>
       <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/06/prohibido-endeudarse-en-2011/</guid>
+      <guid>https://www.marcfargas.com/posts/prohibido-endeudarse-en-2011/</guid>
       <description>&lt;p&gt;Una de las flamantes medidas que incluye el &lt;a href=&#34;http://www.boe.es/boe/dias/2010/05/24/pdfs/BOE-A-2010-8228.pdf&#34;&gt;Real Decreto-ley 8/2010, de 20 de mayo, por el que se adoptan medidas extraordinarias para la reducción del déficit público&lt;/a&gt;. Es la prohibición de concertar operaciones de endeudamiento a largo plazo hasta el año 2012.&lt;/p&gt;
 &lt;p&gt;A casi cualquiera que le pongan esto en frente lo primero que piensa es: ¿Cuanto tiempo tengo para endeudarme? y si tienes mucho tiempo la medida no sirve para nada (o puede ser contraproducente). Así que al redactar el decreto la pregunta inversa es: ¿Como de pronto hay que aplicar la medida para que sea efectiva?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Una de las flamantes medidas que incluye el <a href="http://www.boe.es/boe/dias/2010/05/24/pdfs/BOE-A-2010-8228.pdf">Real Decreto-ley 8/2010, de 20 de mayo, por el que se adoptan medidas extraordinarias para la reducción del déficit público</a>. Es la prohibición de concertar operaciones de endeudamiento a largo plazo hasta el año 2012.</p>
@@ -645,9 +645,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Responsabilidad política</title>
-      <link>https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/</link>
+      <link>https://www.marcfargas.com/posts/responsabilidad-pol%C3%ADtica/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/</guid>
+      <guid>https://www.marcfargas.com/posts/responsabilidad-pol%C3%ADtica/</guid>
       <description>&lt;p&gt;Esta mañana ha sucedido algo extraño en Madrid, muchos pensarán que ya saben el qué, pero quizás no ven claro el &lt;strong&gt;Que&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Para entender lo que ha sucedido hoy, antes de señalar a nadie con el dedo hay que ver clara la situación en la que se encuentra España. Podemos mirar &lt;a href=&#34;http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/generando-desconfianza.html&#34;&gt;como nos ven desde fuera&lt;/a&gt; para hacernos una idea, pero en resumen: no somos Grecia, pero estamos a un paso de acabar igual.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Esta mañana ha sucedido algo extraño en Madrid, muchos pensarán que ya saben el qué, pero quizás no ven claro el <strong>Que</strong>.</p>
@@ -678,12 +678,12 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Y ahora, Reforma laboral</title>
-      <link>https://www.marcfargas.com/2010/05/y-ahora-reforma-laboral/</link>
+      <link>https://www.marcfargas.com/posts/y-ahora-reforma-laboral/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/y-ahora-reforma-laboral/</guid>
-      <description>&lt;p&gt;Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (&lt;a href=&#34;https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/&#34;&gt;Responsabilidad política&lt;/a&gt; aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:&lt;/p&gt;
+      <guid>https://www.marcfargas.com/posts/y-ahora-reforma-laboral/</guid>
+      <description>&lt;p&gt;Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (&lt;a href=&#34;https://www.marcfargas.com/posts/responsabilidad-pol%C3%ADtica/&#34;&gt;Responsabilidad política&lt;/a&gt; aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:&lt;/p&gt;
 &lt;p&gt;El lunes al anochecer vence el (último) plazo dado por Zapatero para llegar a un acuerdo para la Reforma Laboral. Si hay acuerdo (lo dudo) no digo nada, pero si no lo hay&amp;hellip; viviremos un deja vú.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (<a href="https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/">Responsabilidad política</a> aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:</p>
+      <content:encoded><![CDATA[<p>Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (<a href="https://www.marcfargas.com/posts/responsabilidad-pol%C3%ADtica/">Responsabilidad política</a> aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:</p>
 <p>El lunes al anochecer vence el (último) plazo dado por Zapatero para llegar a un acuerdo para la Reforma Laboral. Si hay acuerdo (lo dudo) no digo nada, pero si no lo hay&hellip; viviremos un deja vú.</p>
 <p>Si no hay acuerdo, presumible mente, Zapatero tomará exactamente la misma via que ha tomado con la reducción del déficit: decreto. Y la misma vía implica la misma consecuencia: convalidar en el Congreso.</p>
 <p>Y ahí está el pastel, partiendo de que la Reforma Laboral sea <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/01/%C2%BFpor-que-necesitamos-una-reforma-laboral.html">tan dura como debe ser</a> CiU lo tendrá muy difícil para abstenerse de nuevo (recordad: hay elecciones en Noviembre y una cosa es tener Sentido de Estado, la otra es suicidarse políticamente desde la oposición / ser idiota) y del resto de fuerzas políticas no podemos esperar más que lo de hoy (el coste político de lo de hoy es irrisorio comparado con el que tendría esa Reforma).</p>
@@ -699,9 +699,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Resacón Diagonal</title>
-      <link>https://www.marcfargas.com/2010/05/resac%C3%B3n-diagonal/</link>
+      <link>https://www.marcfargas.com/posts/resac%C3%B3n-diagonal/</link>
       <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/resac%C3%B3n-diagonal/</guid>
+      <guid>https://www.marcfargas.com/posts/resac%C3%B3n-diagonal/</guid>
       <description>&lt;p&gt;Y habló el pueblo. Dijo &amp;ldquo;C&amp;rdquo;. Dijo algo así como: Ahora no es el momento de gastar dinero, la Diagonal está bien como está, mi coche va por donde yo quiero, la Diagonal es una arteria ¿que pasará con los coches?, Hereu plega ja, yo voto C para llevar la contraria al Ayuntamiento, &amp;hellip;&lt;/p&gt;
 &lt;p&gt;Jamás se habían dicho tantas cosas con una sola letra. Impresionante. Todo lo de arriba lo he oído, al menos, una vez en boca de alguien (menos lo del coche).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Y habló el pueblo. Dijo &ldquo;C&rdquo;. Dijo algo así como: Ahora no es el momento de gastar dinero, la Diagonal está bien como está, mi coche va por donde yo quiero, la Diagonal es una arteria ¿que pasará con los coches?, Hereu plega ja, yo voto C para llevar la contraria al Ayuntamiento, &hellip;</p>
@@ -727,21 +727,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Espero que ambas víctimas satisfagan la sed de dimisiones/ceses que ha reclamado la oposición durante toda la semana y que esto ponga fin al circo (porque ha sido un circo).</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>Los cuchillos Ginsu y Zapatero</title>
-      <link>https://www.marcfargas.com/2010/05/los-cuchillos-ginsu-y-zapatero/</link>
+      <link>https://www.marcfargas.com/posts/los-cuchillos-ginsu-y-zapatero/</link>
       <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/los-cuchillos-ginsu-y-zapatero/</guid>
+      <guid>https://www.marcfargas.com/posts/los-cuchillos-ginsu-y-zapatero/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/abLB7aTmnE4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -762,9 +762,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Decisiones técnicas en manos de la ciudadania</title>
-      <link>https://www.marcfargas.com/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</link>
+      <link>https://www.marcfargas.com/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</link>
       <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</guid>
+      <guid>https://www.marcfargas.com/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</guid>
       <description>&lt;p&gt;Siguiendo con la serie de posts sobre la Reforma de la Diagonal, voy con una nota rápida.&lt;/p&gt;
 &lt;p&gt;Hay voces que claman que es una aberración poner en manos de la ciudadanía una decisión de carácter técnico que debería ser tomada por los técnicos del Ayuntamiento.&lt;/p&gt;
 &lt;p&gt;Lo cierto es que la consulta se planteó, originalmente, sin decisiones técnicas a tomar, la verdad.&lt;/p&gt;
@@ -780,21 +780,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Por último, la inclusión de la opción C también presenta una decisión ideológica compleja que, creo, no debe presentarse en una consulta a tan bajo nivel, pues las decisiones ideológicas se toman en las elecciones. Así pués: Decisión ideológica primero, luego la técnica y por último la estética. No está mal para ser la primera consulta que hace el Ayuntamiento.</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>La inteligencia tras la Consulta de la Diagonal</title>
-      <link>https://www.marcfargas.com/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/</link>
+      <link>https://www.marcfargas.com/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/</link>
       <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/</guid>
+      <guid>https://www.marcfargas.com/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/</guid>
       <description>&lt;p&gt;Y seguimos con la Reforma de la Diagonal (Diagonal, la Reforma necesaria).&lt;/p&gt;
 &lt;p&gt;Ayer comentaba: como lo que, en un principio, se planteó como una consulta sobre un tema meramente estético se había convertido en una decisión bastante más compleja (Decisiones técnicas en manos de la ciudadania). Hoy toca plantear una nueva pregunta: &lt;strong&gt;¿Realmente el Ayuntamiento ha dejado tan importante decisión en manos de la ciudadanía?&lt;/strong&gt; (la decisión sería: evitar el colapso de la Diagonal).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Y seguimos con la Reforma de la Diagonal (Diagonal, la Reforma necesaria).</p>
@@ -805,21 +805,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Pero atentos, sobretodo los que estén votando la tercera opción con efusividad: La tercera opción <strong>deja las manos libres a Hereu</strong> para hacer prácticamente lo que quiera, lo único que no puede hacer es A o B, pero puede hacer una calle totalmente peatonal si quiere, o una autopista de peage, o una montaña rusa. <strong>Lo que quiera</strong> menos la A o la B. Ahí os he pillado eh :) Ahora preguntaos: ¿Tal vez a Hereu le interese que gane la C?</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>Boulevard Diagonal, la opción A</title>
-      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/</link>
+      <link>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-a/</link>
       <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/</guid>
+      <guid>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-a/</guid>
       <description>&lt;p&gt;El viernes escribía sobre la necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria), ahora comentaré a vuelo de pájaro la opción A. &lt;em&gt;A vuelo de pájaro porque la red está llena de información sobre la opción A, solo quiero introducirla brevemente para exponer mis opiniones sobre ella.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Imaginaos por un momento un Passeig de Gràcia con tranvía.&lt;/p&gt;
 &lt;figure class=&#34;align-center &#34;&gt;
@@ -847,22 +847,22 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Y el otro problema, que a mi parecer es el más grave, es el único carril para el tránsito. Imaginad cualquiera de las siguientes situaciones: Un pequeño toque entre dos coches (no esperareis que se aparten para hacer el parte, ¿verdad?), un vehículo averiado, un autobús estropeado&hellip; el último es poco probable, pero si se rompe estará ahí unos 30 minutos. Los otros casos dependen de lo conscientes que sean los implicados de que no están solos en el mundo. En cualquier caso, hay un solo carril limitado físicamente por ambos lados (árboles, y los separadores del TRAM), ese tramo de Diagonal queda totalmente impracticable, y dependeremos de los reflejos de los demás que no se queden parados en el resto de Diagonal. No es algo que pase a menudo, pero puede pasar, y eso <strong>sí es un problema</strong>. Se pueden hacer algunos arreglos como trasladar el carril de proximidad a la calzada central (manteniendo el pavimento diferenciado) de modo que al menos puedas apartar los vehículos parados/averiados y, incluso, ¡puedes pasar con el vehículo policial que multa a los indebidamente estacionados!</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>Boulevard Diagonal, la opción B</title>
-      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/</link>
+      <link>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-b/</link>
       <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/</guid>
-      <description>&lt;p&gt;Hace un rato hablaba de la opción A de la Reforma Diagonal (&lt;a href=&#34;https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/&#34;&gt;Boulevard Diagonal, la opción A&lt;/a&gt;), y el viernes escribía sobre la necesidad de reformar la Diagonal (&lt;a href=&#34;https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/&#34;&gt;Diagonal, la Reforma necesaria&lt;/a&gt;). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.&lt;/p&gt;
+      <guid>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-b/</guid>
+      <description>&lt;p&gt;Hace un rato hablaba de la opción A de la Reforma Diagonal (&lt;a href=&#34;https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-a/&#34;&gt;Boulevard Diagonal, la opción A&lt;/a&gt;), y el viernes escribía sobre la necesidad de reformar la Diagonal (&lt;a href=&#34;https://www.marcfargas.com/posts/diagonal-la-reforma-necesaria/&#34;&gt;Diagonal, la Reforma necesaria&lt;/a&gt;). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.&lt;/p&gt;
 &lt;p&gt;El ejercicio ahora será imaginarse la &amp;ldquo;Rambla de Catalunya&amp;rdquo; o &amp;ldquo;Les Rambles&amp;rdquo;, con tranvía y aceras, bastante, más anchas.&lt;/p&gt;
 &lt;figure class=&#34;align-center &#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;SECCIO_B.jpg#center&#34;/&gt; &lt;figcaption&gt;
@@ -871,7 +871,7 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 &lt;/figure&gt;
 
 &lt;p&gt;Ahora tenéis una idea aproximada de los que es la Rambla Diagonal:&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Hace un rato hablaba de la opción A de la Reforma Diagonal (<a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">Boulevard Diagonal, la opción A</a>), y el viernes escribía sobre la necesidad de reformar la Diagonal (<a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la Reforma necesaria</a>). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.</p>
+      <content:encoded><![CDATA[<p>Hace un rato hablaba de la opción A de la Reforma Diagonal (<a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">Boulevard Diagonal, la opción A</a>), y el viernes escribía sobre la necesidad de reformar la Diagonal (<a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la Reforma necesaria</a>). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.</p>
 <p>El ejercicio ahora será imaginarse la &ldquo;Rambla de Catalunya&rdquo; o &ldquo;Les Rambles&rdquo;, con tranvía y aceras, bastante, más anchas.</p>
 <figure class="align-center ">
     <img loading="lazy" src="SECCIO_B.jpg#center"/> <figcaption>
@@ -886,21 +886,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Y la otra, más subjetiva, es que en días de muchísimo calor o frío, el paseo central podría acabar en desuso. Teniendo las aceras laterales, en la central únicamente habrá gente que quiera pasear y los que están en tránsito desde el tranvía a la acera lateral. Si hace mucho frió o calor los primeros, seguramente, estén dentro del TRAM.</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>Boulevard Diagonal, la opción C</title>
-      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/</link>
+      <link>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-c/</link>
       <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/</guid>
+      <guid>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-c/</guid>
       <description>&lt;p&gt;Hace un rato escribía de la opción B de la Reforma Diagonal (Rambla Diagonal, la opción B), algo antes sobre la opción A (Boulevard Diagonal, la opción A), y el viernes escribía sobre la imperiosa necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria). Queda la opción C. Esta con algo más de profundidad.&lt;/p&gt;
 &lt;p&gt;La opción C es, oficialmente, &amp;ldquo;cap de les dues&amp;rdquo; o &amp;ldquo;ni A ni B&amp;rdquo;. Pero tiene muchas lecturas posibles: &amp;ldquo;No me toques la Diagonal&amp;rdquo;, &amp;ldquo;Mi coche pasa por donde yo quiero&amp;rdquo;, &amp;ldquo;Ahora no es el momento&amp;rdquo;, &amp;ldquo;Ni A ni B&amp;rdquo;, &amp;ldquo;Quiero más opciones&amp;rdquo;, &amp;hellip; el catálogo es infinito. Hay lecturas más interesadas o menos, y las hay de más responsables o menos.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Hace un rato escribía de la opción B de la Reforma Diagonal (Rambla Diagonal, la opción B), algo antes sobre la opción A (Boulevard Diagonal, la opción A), y el viernes escribía sobre la imperiosa necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria). Queda la opción C. Esta con algo más de profundidad.</p>
@@ -918,21 +918,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Y <strong>recordad</strong>, que es la primera vez que el Ayuntamiento hace esto lo más importante, independientemente de la opción escogida, <strong>es la participación</strong> de modo que <strong>por favor id a votar</strong>. No teneis ni que salir de casa!</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>Diagonal, la Reforma necesaria</title>
-      <link>https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/</link>
+      <link>https://www.marcfargas.com/posts/diagonal-la-reforma-necesaria/</link>
       <pubDate>Sat, 08 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/</guid>
+      <guid>https://www.marcfargas.com/posts/diagonal-la-reforma-necesaria/</guid>
       <description>&lt;p&gt;Durante la próxima semana tendrá lugar en Barcelona la que será la primera consulta ciudadana sobre un tema, importante, de la ciudad.&lt;/p&gt;
 &lt;p&gt;Todos los mayores de 16 años que estuvieran empadronados en Barcelona el 31/12/2009 podrán votar, entre los días &lt;strong&gt;10 y 16 de Mayo (de 2010)&lt;/strong&gt;, en cualquiera de los 108 puntos presenciales o por Internet.&lt;/p&gt;
 &lt;p&gt;A tres dias del día &amp;ldquo;D&amp;rdquo; aún hay gente que se pregunta muchas cosas, como ¿Es necesaria la reforma?, ¿Como me afecta? o ¿Vale la pena que vaya a votar?&lt;/p&gt;</description>
@@ -985,21 +985,21 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
 <p>Gracias por leer estos cuatro tostones sobre la Reforma de la Diagonal, todo lo que he escrito sobre el tema:</p>
 <h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
 <ul>
-<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
-<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
-<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
-<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
-<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+<li><a href="/posts/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/posts/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/posts/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/posts/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/posts/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
       <title>La dignidad de Catalunya</title>
-      <link>https://www.marcfargas.com/2008/11/la-dignidad-de-catalunya/</link>
+      <link>https://www.marcfargas.com/posts/la-dignidad-de-catalunya/</link>
       <pubDate>Wed, 26 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/2008/11/la-dignidad-de-catalunya/</guid>
+      <guid>https://www.marcfargas.com/posts/la-dignidad-de-catalunya/</guid>
       <description>Reproducción de la editorial conjunta publicada por 12 periódicos catalanes</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Doce periódicos de Cataluña: El Periódico, La Vanguardia, Avui, El Punt, Diari de Girona, Diari de Tarragona, Segre, La Mañana, Regió 7, El 9 Nou, Diari de Sabadell y Diari de Terrassa. Publicaron esta mañana (Jueves, 26 de Noviembre de 2009) una editorial conjunta, reproduzco aquí su contenido:</p>
@@ -1018,46 +1018,46 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Nokia Beta Labs Stickers</title>
-      <link>https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/</link>
+      <link>https://www.marcfargas.com/posts/nokia-beta-labs-stickers/</link>
       <pubDate>Mon, 25 Aug 2008 10:36:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/</guid>
+      <guid>https://www.marcfargas.com/posts/nokia-beta-labs-stickers/</guid>
       <description>&lt;p&gt;Three days ago Nokia Beta Labs &lt;a href=&#34;https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/&#34;&gt;announced&lt;/a&gt; they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Nokia Beta Labs stickers&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/stickers.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Nokia Beta Labs stickers&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/posts/nokia-beta-labs-stickers/stickers.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Maybe they should have send 10 stickers to the 100 first ones, I&amp;rsquo;ll have a hard time looking where to put so many stickers!&lt;/p&gt;
 &lt;p&gt;Anyway, thanks Nokia&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Three days ago Nokia Beta Labs <a href="https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/">announced</a> they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!</p>
-<p><img alt="Nokia Beta Labs stickers" loading="lazy" src="/2008/08/nokia-beta-labs-stickers/stickers.jpg"></p>
+<p><img alt="Nokia Beta Labs stickers" loading="lazy" src="/posts/nokia-beta-labs-stickers/stickers.jpg"></p>
 <p>Maybe they should have send 10 stickers to the 100 first ones, I&rsquo;ll have a hard time looking where to put so many stickers!</p>
 <p>Anyway, thanks Nokia</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Hobbes in the River</title>
-      <link>https://www.marcfargas.com/2008/08/hobbes-in-the-river/</link>
+      <link>https://www.marcfargas.com/posts/hobbes-in-the-river/</link>
       <pubDate>Wed, 20 Aug 2008 21:05:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/08/hobbes-in-the-river/</guid>
+      <guid>https://www.marcfargas.com/posts/hobbes-in-the-river/</guid>
       <description>&lt;p&gt;This Saturday there was the &amp;ldquo;Fast Painting&amp;rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&amp;rsquo;t spend any time painting.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Hobbes in the river&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/2008/08/hobbes-in-the-river/hobbes.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hobbes in the river&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/posts/hobbes-in-the-river/hobbes.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This Saturday there was the &ldquo;Fast Painting&rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&rsquo;t spend any time painting.</p>
-<p><img alt="Hobbes in the river" loading="lazy" src="/2008/08/hobbes-in-the-river/hobbes.jpg"></p>
+<p><img alt="Hobbes in the river" loading="lazy" src="/posts/hobbes-in-the-river/hobbes.jpg"></p>
 <p>He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Im 25</title>
-      <link>https://www.marcfargas.com/2008/08/im-25/</link>
+      <link>https://www.marcfargas.com/posts/im-25/</link>
       <pubDate>Sun, 03 Aug 2008 10:00:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/08/im-25/</guid>
+      <guid>https://www.marcfargas.com/posts/im-25/</guid>
       <description>&lt;p&gt;Just for you to know, I&amp;rsquo;m now 25 years old!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Just for you to know, I&rsquo;m now 25 years old!</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Moved to Google Apps</title>
-      <link>https://www.marcfargas.com/2008/07/moved-to-google-apps/</link>
+      <link>https://www.marcfargas.com/posts/moved-to-google-apps/</link>
       <pubDate>Tue, 29 Jul 2008 19:47:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/moved-to-google-apps/</guid>
+      <guid>https://www.marcfargas.com/posts/moved-to-google-apps/</guid>
       <description>&lt;p&gt;I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.&lt;/p&gt;
 &lt;p&gt;The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&amp;rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&amp;rsquo;t answered, please resend.&lt;/p&gt;
 &lt;p&gt;The only downside, I hoped google would have some &amp;ldquo;easy&amp;rdquo; way to move my google account from *@gmail.com to my Google Apps domain.&lt;/p&gt;</description>
@@ -1068,9 +1068,9 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
     </item>
     <item>
       <title>Ip Tunnel Over Ssh With Tun</title>
-      <link>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</link>
+      <link>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</link>
       <pubDate>Thu, 24 Jul 2008 10:14:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</guid>
+      <guid>https://www.marcfargas.com/posts/ip-tunnel-over-ssh-with-tun/</guid>
       <description>&lt;p&gt;Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&amp;hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.&lt;/p&gt;
 &lt;p&gt;The problem&amp;rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&amp;hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.</p>
@@ -1108,9 +1108,9 @@ Now, on the client it&rsquo;s as easy as to run ssh with some parameters, my scr
     </item>
     <item>
       <title>Wordpress in the Meantime</title>
-      <link>https://www.marcfargas.com/2008/07/wordpress-in-the-meantime/</link>
+      <link>https://www.marcfargas.com/posts/wordpress-in-the-meantime/</link>
       <pubDate>Sun, 20 Jul 2008 20:34:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/wordpress-in-the-meantime/</guid>
+      <guid>https://www.marcfargas.com/posts/wordpress-in-the-meantime/</guid>
       <description>&lt;p&gt;Ok, as you may have noticed I&amp;rsquo;m running Wordpress.&lt;/p&gt;
 &lt;p&gt;Although I&amp;rsquo;m a big fan of Django and I really enjoy developing sites with it, I just realised I do not have time to &amp;ldquo;build&amp;rdquo; my own website, neither to write up a blog app (I know, there are many out there). So I decided I&amp;rsquo;d try to live with Wordpress for some time, &amp;hellip;&lt;/p&gt;
 &lt;p&gt;That just has a few problems&amp;hellip; My server (marcfargas.com) has no PHP, and no MySQL! So I have to run the blog on a subdomain which is hosted in Dreamhost (I have an account here for other stuff).&lt;/p&gt;</description>
@@ -1123,9 +1123,9 @@ Now, on the client it&rsquo;s as easy as to run ssh with some parameters, my scr
     </item>
     <item>
       <title>Ms Excel Help Little Gem</title>
-      <link>https://www.marcfargas.com/2008/02/ms-excel-help-little-gem/</link>
+      <link>https://www.marcfargas.com/posts/ms-excel-help-little-gem/</link>
       <pubDate>Wed, 13 Feb 2008 13:12:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/02/ms-excel-help-little-gem/</guid>
+      <guid>https://www.marcfargas.com/posts/ms-excel-help-little-gem/</guid>
       <description>&lt;p&gt;We know Microsoft likes to be ambiguous, I just got this on MS Excel Help (In Spanish):&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Si a1 es VERDADERO o se omite, ref se interpreta como una referencia estilo A1.
 Si a1 es FALSO o se omite, ref se interpreta como una referencia estilo L1C1.
@@ -1146,9 +1146,9 @@ If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.
     </item>
     <item>
       <title>Outgoing connections from Linux not working</title>
-      <link>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</link>
+      <link>https://www.marcfargas.com/posts/outgoing-connections-from-linux-not-working/</link>
       <pubDate>Sun, 13 Jan 2008 13:10:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</guid>
+      <guid>https://www.marcfargas.com/posts/outgoing-connections-from-linux-not-working/</guid>
       <description>&lt;p&gt;A friend of mine has a nice MythTV box on his bedroom. Suddently the box decided to not open outgoing connections anymore&amp;hellip; I say outgoing because I could still connect to it from my home.&lt;/p&gt;
 &lt;p&gt;I could not find out what was last changed, maybe an aptitude upgrade or did he change ISP?&lt;/p&gt;
 &lt;p&gt;After some time looking around the only thing I could find out was a small difference between a SYN packet send from a remote place and the SYN packets send by the broken system:&lt;/p&gt;</description>
@@ -1170,9 +1170,9 @@ If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.
     </item>
     <item>
       <title>Trying Blogger</title>
-      <link>https://www.marcfargas.com/2007/10/trying-blogger/</link>
+      <link>https://www.marcfargas.com/posts/trying-blogger/</link>
       <pubDate>Sat, 20 Oct 2007 17:57:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2007/10/trying-blogger/</guid>
+      <guid>https://www.marcfargas.com/posts/trying-blogger/</guid>
       <description>&lt;p&gt;Hi there,&lt;/p&gt;
 &lt;p&gt;This is a first post just to make sure something appears there. I created this blog just to see if my Nokia N95 can publish stuff there via Lifeblog or Share Online. But it doesn&amp;rsquo;t seem to like Google as it won&amp;rsquo;t publish to Blogger, neither Picassa&amp;hellip; Just flickr, Vox and Typepad&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Maybe that changes someday. But atleast I have a place to take notes of public interest.&lt;/p&gt;</description>

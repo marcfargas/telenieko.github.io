@@ -10,9 +10,9 @@
     <atom:link href="https://www.marcfargas.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moved to Google Apps</title>
-      <link>https://www.marcfargas.com/2008/07/moved-to-google-apps/</link>
+      <link>https://www.marcfargas.com/posts/moved-to-google-apps/</link>
       <pubDate>Tue, 29 Jul 2008 19:47:00 +0100</pubDate>
-      <guid>https://www.marcfargas.com/2008/07/moved-to-google-apps/</guid>
+      <guid>https://www.marcfargas.com/posts/moved-to-google-apps/</guid>
       <description>&lt;p&gt;I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.&lt;/p&gt;
 &lt;p&gt;The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&amp;rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&amp;rsquo;t answered, please resend.&lt;/p&gt;
 &lt;p&gt;The only downside, I hoped google would have some &amp;ldquo;easy&amp;rdquo; way to move my google account from *@gmail.com to my Google Apps domain.&lt;/p&gt;</description>
