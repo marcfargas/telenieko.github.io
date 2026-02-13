@@ -1,0 +1,57 @@
+local_backend: true
+
+backend:
+  name: github
+  repo: marcfargas/marcfargas.com
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    path: "{{year}}/{{slug}}/index"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Language", name: "language", widget: "select", options: ["en", "es", "both"], default: "en" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Series", name: "series", widget: "list", required: false }
+      - { label: "Show TOC", name: "showtoc", widget: "boolean", default: false, required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Project URL", name: "url_project", widget: "string", required: false }
+      - { label: "Highlighted", name: "highlighted", widget: "boolean", default: false }
+      - { label: "Weight", name: "weight", widget: "number", default: 10 }
+      - { label: "Language", name: "language", widget: "select", options: ["en", "es", "both"], default: "en" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "notes"
+    label: "Notes"
+    folder: "content/notes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Language", name: "language", widget: "select", options: ["en", "es", "both"], default: "en" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
