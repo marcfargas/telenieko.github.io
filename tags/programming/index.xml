@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>programming on marcfargas.com</title>
+    <title>Programming on Marc Fargas</title>
     <link>https://www.marcfargas.com/tags/programming/</link>
-    <description>Recent content in programming on marcfargas.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2021 
-  | Follow on &lt;a href=&#34;https://twitter.com/telenieko&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; 
-  | &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34; target=&#34;_blank&#34;&gt;PaperMod theme&lt;/a&gt; 
-  &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 12:32:12 +0200</lastBuildDate><atom:link href="https://www.marcfargas.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Programming on Marc Fargas</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Jun 2019 12:32:12 +0200</lastBuildDate>
+    <atom:link href="https://www.marcfargas.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State of RAD 2019</title>
       <link>https://www.marcfargas.com/2019/06/state-of-rad-2019/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      
       <guid>https://www.marcfargas.com/2019/06/state-of-rad-2019/</guid>
-      <description>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.
-But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.</description>
+      <description>&lt;p&gt;Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.&lt;/p&gt;
+&lt;p&gt;But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.</p>
 <p>But, for those old enough, there was a time when you could build stuff with just a notepad. It &ldquo;got the job done&rdquo;.</p>
 <p>On the desktop, Microsoft had FoxPro, VB6 or, even, Microsoft Access. I say Microsoft because there was a time that&rsquo;s &ldquo;all&rdquo; there was.</p>
@@ -67,6 +63,5 @@ But, for those old enough, there was a time when you could build stuff with just
 <p>Just as I also believe that the next economic crisis (soon to come) will end with lots of the current subscription based businesses moving companies back to things whose operation do not rely on being able to pay the next month&rsquo;s fee.</p>
 ]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

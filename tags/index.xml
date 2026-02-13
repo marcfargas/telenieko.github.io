@@ -1,85 +1,159 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on marcfargas.com</title>
+    <title>Tags on Marc Fargas</title>
     <link>https://www.marcfargas.com/tags/</link>
-    <description>Recent content in Tags on marcfargas.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2021 
-  | Follow on &lt;a href=&#34;https://twitter.com/telenieko&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; 
-  | &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34; target=&#34;_blank&#34;&gt;PaperMod theme&lt;/a&gt; 
-  &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 12:32:12 +0200</lastBuildDate><atom:link href="https://www.marcfargas.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Tags on Marc Fargas</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcfargas.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>programming</title>
+      <title>Internet</title>
+      <link>https://www.marcfargas.com/tags/internet/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
       <link>https://www.marcfargas.com/tags/programming/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/programming/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://www.marcfargas.com/tags/python/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/python/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>rant</title>
+      <title>Rant</title>
       <link>https://www.marcfargas.com/tags/rant/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/rant/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://www.marcfargas.com/tags/linux/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/linux/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>network</title>
+      <title>Network</title>
       <link>https://www.marcfargas.com/tags/network/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/network/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>life</title>
+      <title>Dinero</title>
+      <link>https://www.marcfargas.com/tags/dinero/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/dinero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>España</title>
+      <link>https://www.marcfargas.com/tags/espa%C3%B1a/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/espa%C3%B1a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Política</title>
+      <link>https://www.marcfargas.com/tags/pol%C3%ADtica/</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/pol%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seguridad</title>
+      <link>https://www.marcfargas.com/tags/seguridad/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/seguridad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catalunya</title>
+      <link>https://www.marcfargas.com/tags/catalunya/</link>
+      <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/catalunya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sanidad</title>
+      <link>https://www.marcfargas.com/tags/sanidad/</link>
+      <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/sanidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elecciones</title>
+      <link>https://www.marcfargas.com/tags/elecciones/</link>
+      <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/elecciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mis Teorías®</title>
+      <link>https://www.marcfargas.com/tags/mis-teor%C3%ADas/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/mis-teor%C3%ADas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ladrillo</title>
+      <link>https://www.marcfargas.com/tags/ladrillo/</link>
+      <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/ladrillo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fútbol</title>
+      <link>https://www.marcfargas.com/tags/f%C3%BAtbol/</link>
+      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/f%C3%BAtbol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Barcelona</title>
+      <link>https://www.marcfargas.com/tags/barcelona/</link>
+      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/barcelona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagonal</title>
+      <link>https://www.marcfargas.com/tags/diagonal/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/diagonal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reforma-Diagonal</title>
+      <link>https://www.marcfargas.com/tags/reforma-diagonal/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/tags/reforma-diagonal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
       <link>https://www.marcfargas.com/tags/life/</link>
       <pubDate>Wed, 20 Aug 2008 21:05:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/life/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>https://www.marcfargas.com/tags/google/</link>
       <pubDate>Tue, 29 Jul 2008 19:47:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/tags/google/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

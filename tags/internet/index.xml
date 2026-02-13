@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Internet on Marc Fargas</title>
+    <link>https://www.marcfargas.com/tags/internet/</link>
+    <description>Recent content in Internet on Marc Fargas</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcfargas.com/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP: Migrando a Hugo</title>
+      <link>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</guid>
+      <description>Detalle de la migración a Hugo</description>
+      <content:encoded><![CDATA[<p>Al parecer mi blog estaba fuera de línea, no he escrito nada desde 2013 así que tampoco le he prestado demasiada atención&hellip;</p>
+<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/2012/06/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
+<p>De momento están todos los contenidos hasta 2011 migrados. Me falta 2012 y 2013.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Migrando a Blogger</title>
+      <link>https://www.marcfargas.com/2012/06/migrando-a-blogger/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/migrando-a-blogger/</guid>
+      <description>&lt;p&gt;Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.&lt;/p&gt;
+&lt;p&gt;De momento parece que lo más complicado serán los comentarios&amp;hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!&lt;/p&gt;
+&lt;p&gt;El cambio más notable es que lo que escriba en castellano lo colgaré en &lt;a href=&#34;http://www.marcfargas.es/&#34;&gt;www.marcfargas.es&lt;/a&gt; y lo que escriba en inglés lo colgaré de &lt;a href=&#34;http://www.marcfargas.com/&#34;&gt;www.marcfargas.com&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.</p>
+<p>De momento parece que lo más complicado serán los comentarios&hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!</p>
+<p>El cambio más notable es que lo que escriba en castellano lo colgaré en <a href="http://www.marcfargas.es/">www.marcfargas.es</a> y lo que escriba en inglés lo colgaré de <a href="http://www.marcfargas.com/">www.marcfargas.com</a></p>
+<p>Si estás suscrito por RSS cambia la URL por <a href="http://feeds.feedburner.com/marcfargascom">http://feeds.feedburner.com/marcfargascom</a> para marcfargas.es la de marcfargas.com la pondré cuando la sepa ;)</p>
+<p>¡Ahora solo falta que se me ocurra algo nuevo que escribir!</p>
+<p>(Como con todos los cambios de blog, es posible que tu lector RSS se vuelva, literalmente, majara. Si es así: ¡lo siento!)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Contraseñas seguras sin recordar ninguna (ni apuntarlas)</title>
+      <link>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
+      <description>&lt;p&gt;Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.&lt;/p&gt;
+&lt;p&gt;Ahora bien, no tendría más gracia (y queda más friki) poder generar &lt;strong&gt;mentalmente&lt;/strong&gt; una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &amp;ldquo;mentalmente&amp;rdquo;).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.</p>
+<p>Ahora bien, no tendría más gracia (y queda más friki) poder generar <strong>mentalmente</strong> una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &ldquo;mentalmente&rdquo;).</p>
+<p>Es decir, en lugar de recordar infinidad de contraseñas, solo hay que recordar el <strong>proceso para generarlas mentalmente</strong>.</p>
+<p>Algunos ejemplos para, por ejemplo, twitter.com:</p>
+<ul>
+<li>Doy la vuelta al nombre de la web, luego una de cada dos consonantes en mayúsculas y las vocales las cambio por &ldquo;.&quot;: <strong>r.Tt.Wt</strong> sería la contraseña para Twitter.com</li>
+<li>Cambio cada vocal por un numero (aeiou &gt; 12345), sumo los valores de las vocales y lo pongo en esa posición con un &ldquo;!&quot;: <strong>tw3tt5!2r</strong> (el &ldquo;5!&rdquo; es la suma de valores y el ! en la quinta posición).</li>
+</ul>
+<p>O cualquier otra cosa que se nos ocurra, la gracia es que el proceso es sencillo, para cada web nos sale una contraseña diferente y, <strong>mientras no digamos a nadie cual es el proceso nuestras contraseñas estarán seguras.</strong></p>
+<p>Llamaremos a esto: &ldquo;Generación de contraseñas por algoritmos simples&rdquo; o &ldquo;Generación de contraseñas mentalmente&rdquo;.</p>
+<p>Un par de recomendaciones cuando diseñeis vuestro algoritmo:</p>
+<ul>
+<li>Algunas webs tienen ciertos requisitos en cuanto a las contraseñas de modo que, para evitarnos problemas, el algoritmo debería asegurar que siempre aparezcan:
+<ul>
+<li>Números</li>
+<li>Mayúsculas y Minúsculas</li>
+<li>Signos de puntuación (aunque siempre sea el mismo al final, principio o el medio).</li>
+</ul>
+</li>
+<li>Si cambiamos de algoritmo deberemos ir cambiando todas las contraseñas para no tener que recordar que algoritmo va con cada web (la cosa pierde toda la gracia).</li>
+</ul>
+<p>Ahora haced el favor de dejar de usar el nombre del perro como contraseña para el banco, ¡leñe!.</p>
+<p><strong>NOTA 16.13 CET:</strong> Los ejemplos de arriba son eso, ejemplos. Y como tales son simples y sencillos. El algoritmo que uno piense para si mismo debe ser algo más elaborado que dé contraseñas más complejas, no una simple sustitución o reordenación de letras.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

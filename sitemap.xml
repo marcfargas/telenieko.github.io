@@ -2,11 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.marcfargas.com/projects/odoo-toolbox/</loc>
+  </url><url>
+    <loc>https://www.marcfargas.com/projects/go-easy/</loc>
+  </url><url>
+    <loc>https://www.marcfargas.com/projects/surf-cli/</loc>
+  </url><url>
+    <loc>https://www.marcfargas.com/projects/holdpty/</loc>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/internet/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.marcfargas.com/</loc>
-    <lastmod>2019-06-11T12:32:12+02:00</lastmod>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.marcfargas.com/posts/</loc>
-    <lastmod>2019-06-11T12:32:12+02:00</lastmod>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.marcfargas.com/tags/programming/</loc>
     <lastmod>2019-06-11T12:32:12+02:00</lastmod>
@@ -20,9 +37,6 @@
     <loc>https://www.marcfargas.com/2019/06/state-of-rad-2019/</loc>
     <lastmod>2019-06-11T12:32:12+02:00</lastmod>
   </url><url>
-    <loc>https://www.marcfargas.com/tags/</loc>
-    <lastmod>2019-06-11T12:32:12+02:00</lastmod>
-  </url><url>
     <loc>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</loc>
     <lastmod>2017-12-07T21:43:57+01:00</lastmod>
   </url><url>
@@ -31,6 +45,129 @@
   </url><url>
     <loc>https://www.marcfargas.com/tags/network/</loc>
     <lastmod>2017-12-07T21:43:57+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/dinero/</loc>
+    <lastmod>2012-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/espa%C3%B1a/</loc>
+    <lastmod>2012-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2012/06/spain-in-figures-2012/</loc>
+    <lastmod>2012-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2012/06/los-inform%C3%A1ticos-no-entienden-de-paro/</loc>
+    <lastmod>2012-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2012/06/la-prima-sigue-subiendo-y-y-ii/</loc>
+    <lastmod>2012-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/pol%C3%ADtica/</loc>
+    <lastmod>2012-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2012/06/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</loc>
+    <lastmod>2012-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2012/06/migrando-a-blogger/</loc>
+    <lastmod>2012-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</loc>
+    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/seguridad/</loc>
+    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/catalunya/</loc>
+    <lastmod>2010-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/sanidad/</loc>
+    <lastmod>2010-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/11/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</loc>
+    <lastmod>2010-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/elecciones/</loc>
+    <lastmod>2010-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/08/voto-%C3%BAtil/</loc>
+    <lastmod>2010-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/08/la-teor%C3%ADa-de-el-dos-letras/</loc>
+    <lastmod>2010-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/mis-teor%C3%ADas/</loc>
+    <lastmod>2010-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/07/el-negocio-de-comprar-una-casa/</loc>
+    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/ladrillo/</loc>
+    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/f%C3%BAtbol/</loc>
+    <lastmod>2010-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/07/traici%C3%B3n-o-orgullo/</loc>
+    <lastmod>2010-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/06/reforma-laboral-14-de-junio/</loc>
+    <lastmod>2010-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/06/la-reforma-laboral-al-desnudo/</loc>
+    <lastmod>2010-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/06/jugando-con-el-calendario-electoral/</loc>
+    <lastmod>2010-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/06/prohibido-endeudarse-en-2011/</loc>
+    <lastmod>2010-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/y-ahora-reforma-laboral/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/barcelona/</loc>
+    <lastmod>2010-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/series/reforma-diagonal-2010/</loc>
+    <lastmod>2010-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/resac%C3%B3n-diagonal/</loc>
+    <lastmod>2010-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/series/</loc>
+    <lastmod>2010-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/los-cuchillos-ginsu-y-zapatero/</loc>
+    <lastmod>2010-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</loc>
+    <lastmod>2010-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/diagonal/</loc>
+    <lastmod>2010-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/</loc>
+    <lastmod>2010-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/tags/reforma-diagonal/</loc>
+    <lastmod>2010-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/</loc>
+    <lastmod>2010-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/</loc>
+    <lastmod>2010-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/</loc>
+    <lastmod>2010-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/</loc>
+    <lastmod>2010-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcfargas.com/2008/11/la-dignidad-de-catalunya/</loc>
+    <lastmod>2008-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/</loc>
     <lastmod>2008-08-25T10:36:00+01:00</lastmod>
@@ -67,8 +204,10 @@
   </url><url>
     <loc>https://www.marcfargas.com/archives/</loc>
   </url><url>
-    <loc>https://www.marcfargas.com/search/</loc>
+    <loc>https://www.marcfargas.com/notes/</loc>
   </url><url>
-    <loc>https://www.marcfargas.com/series/</loc>
+    <loc>https://www.marcfargas.com/projects/</loc>
+  </url><url>
+    <loc>https://www.marcfargas.com/search/</loc>
   </url>
 </urlset>

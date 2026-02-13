@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on marcfargas.com</title>
+    <title>Posts on Marc Fargas</title>
     <link>https://www.marcfargas.com/posts/</link>
-    <description>Recent content in Posts on marcfargas.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2021 
-  | Follow on &lt;a href=&#34;https://twitter.com/telenieko&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; 
-  | &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34; target=&#34;_blank&#34;&gt;PaperMod theme&lt;/a&gt; 
-  &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 12:32:12 +0200</lastBuildDate><atom:link href="https://www.marcfargas.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Posts on Marc Fargas</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcfargas.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP: Migrando a Hugo</title>
+      <link>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2021/08/wip-migrando-a-hugo/</guid>
+      <description>Detalle de la migración a Hugo</description>
+      <content:encoded><![CDATA[<p>Al parecer mi blog estaba fuera de línea, no he escrito nada desde 2013 así que tampoco le he prestado demasiada atención&hellip;</p>
+<p>Hasta ahora tenía este <em>site</em> en <a href="https://www.marcfargas.com/2012/06/migrando-a-blogger/">Blogger</a>, mientras que <a href="https://www.marcfargas.com">marcfargas.com</a> hace años que está hecho con <a href="https://gohugo.io/">Hugo</a> así que ya puestos&hellip; vamos a migrar de Blogger a Hugo.</p>
+<p>De momento están todos los contenidos hasta 2011 migrados. Me falta 2012 y 2013.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>State of RAD 2019</title>
       <link>https://www.marcfargas.com/2019/06/state-of-rad-2019/</link>
       <pubDate>Tue, 11 Jun 2019 12:32:12 +0200</pubDate>
-      
       <guid>https://www.marcfargas.com/2019/06/state-of-rad-2019/</guid>
-      <description>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.
-But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.</description>
+      <description>&lt;p&gt;Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.&lt;/p&gt;
+&lt;p&gt;But, for those old enough, there was a time when you could build stuff with just a notepad. It &amp;ldquo;got the job done&amp;rdquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Though we are often sold into the idea that software development is better than ever before, the measure of better is open for debate. Surely you now have fancy stuff/words like DevOps, CI/CD, TDD, BDD, and more acronyms than there are three letter agencies in the US government.</p>
 <p>But, for those old enough, there was a time when you could build stuff with just a notepad. It &ldquo;got the job done&rdquo;.</p>
 <p>On the desktop, Microsoft had FoxPro, VB6 or, even, Microsoft Access. I say Microsoft because there was a time that&rsquo;s &ldquo;all&rdquo; there was.</p>
@@ -67,14 +74,16 @@ But, for those old enough, there was a time when you could build stuff with just
 <p>Just as I also believe that the next economic crisis (soon to come) will end with lots of the current subscription based businesses moving companies back to things whose operation do not rely on being able to pay the next month&rsquo;s fee.</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Enable Wireless networks in Debian Initramfs</title>
       <link>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</link>
       <pubDate>Thu, 07 Dec 2017 21:43:57 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2017/12/enable-wireless-networks-in-debian-initramfs/</guid>
-      <description>Initramfs is a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic before loading your system. The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem. Basically anything that goes before mounting the root filesystem and, after that, before launching INIT (you can read more in the Debian Wiki).</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Initramfs is&lt;/strong&gt; a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic &lt;em&gt;before loading your system&lt;/em&gt;.
+The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem.
+Basically anything that goes &lt;em&gt;before&lt;/em&gt; mounting the root filesystem and,
+after that, before launching INIT (you can read more in the &lt;a href=&#34;https://wiki.debian.org/initramfs&#34; title=&#34;Debian Wiki on initramfs&#34;&gt;Debian Wiki&lt;/a&gt;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>Initramfs is</strong> a very tiny environment in which your Linux system boots in order to do a lot of initialisation magic <em>before loading your system</em>.
 The most common use case is to mount the root filesystem, like when it’s encrypted and you need to type a passphrase to mount it. Or if fsck needs to run on an unclean root filesystem.
@@ -114,38 +123,38 @@ A very good place to start would be <code>man initramfs-tools</code> for our pur
 <p>We will use a hook to do the first two steps, note that for the modules part you can just type the module name in <code>/etc/initramfs-tools/modules</code> and it should work. We do it in the hook just to keep everything together.</p>
 <p>This goes into <code>/etc/initramfs-tools/hooks/enable-wireless</code>, make sure to put
 the right modules on the <code>manual_add_modules</code> line.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># !/bin/sh</span>
-set -e
-PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
-prereqs<span style="color:#f92672">()</span>
-<span style="color:#f92672">{</span>
-    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>PREREQ<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
-<span style="color:#f92672">}</span>
-<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> in
-    prereqs<span style="color:#f92672">)</span>
-        prereqs
-        exit <span style="color:#ae81ff">0</span>
-        ;;
-<span style="color:#66d9ef">esac</span>
-
-. /usr/share/initramfs-tools/hook-functions
-
-<span style="color:#75715e"># CHANGE HERE for your correct modules.</span>
-manual_add_modules iwlwifi iwlmvm
-copy_exec /sbin/wpa_supplicant
-copy_exec /sbin/wpa_cli
-copy_file config /etc/initramfs-tools/wpa_supplicant.conf /etc/wpa_supplicant.conf
-</code></pre></div><p>Pretty straighforward, the upper half is boilerplate as required by initramfs-tools, see the manpage for more. The rest is quite readable: add the modules (it will also add the firmwares), copy wpa* stuff, copy the configuration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># !/bin/sh</span>
+</span></span><span style="display:flex;"><span>set -e
+</span></span><span style="display:flex;"><span>PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>prereqs<span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>PREREQ<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> in
+</span></span><span style="display:flex;"><span>    prereqs<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>        prereqs
+</span></span><span style="display:flex;"><span>        exit <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>        ;;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>. /usr/share/initramfs-tools/hook-functions
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># CHANGE HERE for your correct modules.</span>
+</span></span><span style="display:flex;"><span>manual_add_modules iwlwifi iwlmvm
+</span></span><span style="display:flex;"><span>copy_exec /sbin/wpa_supplicant
+</span></span><span style="display:flex;"><span>copy_exec /sbin/wpa_cli
+</span></span><span style="display:flex;"><span>copy_file config /etc/initramfs-tools/wpa_supplicant.conf /etc/wpa_supplicant.conf
+</span></span></code></pre></div><p>Pretty straighforward, the upper half is boilerplate as required by initramfs-tools, see the manpage for more. The rest is quite readable: add the modules (it will also add the firmwares), copy wpa* stuff, copy the configuration.</p>
 <p>Now, <code>wpa_supplicant.conf</code> is unique to you, as always, <code>man wpa_supplicant.conf</code> is your friend, and here is an example:</p>
-<pre><code># Sample /etc/initramfs-tools/wpa_supplicant.conf
+<pre tabindex="0"><code># Sample /etc/initramfs-tools/wpa_supplicant.conf
 # note that this is independent of the system /etc/wpa_supplicant.conf (if any)
 # only add the network you need at boot time. **And keep the ctrl_interface** !!
 ctrl_interface=/tmp/wpa_supplicant
 
 network={
-    ssid=&quot;MyNetwork&quot;
+    ssid=&#34;MyNetwork&#34;
     scan_ssid=1
-    psk=&quot;network passphrase&quot;
+    psk=&#34;network passphrase&#34;
     key_mgmt=WPA-PSK
 }
 </code></pre><h3 id="connection-script-init-premount">Connection script (init-premount)</h3>
@@ -160,196 +169,951 @@ on <a href="https://manpages.debian.org/jessie/initramfs-tools/initramfs-tools.8
 </blockquote>
 <p>So&hellip; dirty hack is to assume alphabetical order of execution and put &ldquo;a_&rdquo; in front of the script. It works, for now.</p>
 <p>This goes into `<code>/etc/initramfs-tools/scripts/init-premount/a_enable_wireless</code>, you need to change the <code>INTERFACE=</code> and, maybe, the <code>AUTH_LIMIT</code> one (the timeout):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
-</span><span style="color:#75715e"></span>PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
-prereqs<span style="color:#f92672">()</span>
-<span style="color:#f92672">{</span>
-    echo <span style="color:#e6db74">&#34;</span>$PREREQ<span style="color:#e6db74">&#34;</span>
-<span style="color:#f92672">}</span>
-
-<span style="color:#66d9ef">case</span> $1 in
-prereqs<span style="color:#f92672">)</span>
-    prereqs
-    exit <span style="color:#ae81ff">0</span>
-    ;;
-<span style="color:#66d9ef">esac</span>
-
-. /scripts/functions
-
-AUTH_LIMIT<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>
-INTERFACE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wlp5s0&#34;</span>
-alias WPACLI<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/sbin/wpa_cli -p/tmp/wpa_supplicant -i</span>$INTERFACE<span style="color:#e6db74"> &#34;</span>
-
-log_begin_msg <span style="color:#e6db74">&#34;Starting WLAN connection&#34;</span>
-/sbin/wpa_supplicant  -i$INTERFACE -c/etc/wpa_supplicant.conf -P/run/initram-wpa_supplicant.pid -B -f /tmp/wpa_supplicant.log
-
-<span style="color:#75715e"># Wait for AUTH_LIMIT seconds, then check the status</span>
-limit<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>AUTH_LIMIT<span style="color:#e6db74">}</span>
-
-echo -n <span style="color:#e6db74">&#34;Waiting for connection (max </span><span style="color:#e6db74">${</span>AUTH_LIMIT<span style="color:#e6db74">}</span><span style="color:#e6db74"> seconds)&#34;</span>
-<span style="color:#66d9ef">while</span> <span style="color:#f92672">[</span> $limit -ge <span style="color:#ae81ff">0</span> -a <span style="color:#e6db74">`</span>WPACLI status | grep wpa_state<span style="color:#e6db74">`</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;wpa_state=COMPLETED&#34;</span> <span style="color:#f92672">]</span>
-<span style="color:#66d9ef">do</span>
-    sleep <span style="color:#ae81ff">1</span>
-    echo -n <span style="color:#e6db74">&#34;.&#34;</span>
-    limit<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>expr $limit - 1<span style="color:#e6db74">`</span>
-<span style="color:#66d9ef">done</span>
-echo <span style="color:#e6db74">&#34;&#34;</span>
-
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">`</span>WPACLI status | grep wpa_state<span style="color:#e6db74">`</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;wpa_state=COMPLETED&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-  ONLINE<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
-  log_failure_msg <span style="color:#e6db74">&#34;WLAN offline after timeout&#34;</span>
-  panic
-<span style="color:#66d9ef">else</span>
-  ONLINE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-  log_success_msg <span style="color:#e6db74">&#34;WLAN online&#34;</span>
-<span style="color:#66d9ef">fi</span>
-
-configure_networking
-</code></pre></div><h3 id="kill-when-done">Kill when done</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span>PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>prereqs<span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$PREREQ<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">case</span> $1 in
+</span></span><span style="display:flex;"><span>prereqs<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    prereqs
+</span></span><span style="display:flex;"><span>    exit <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    ;;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>. /scripts/functions
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>AUTH_LIMIT<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>INTERFACE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wlp5s0&#34;</span>
+</span></span><span style="display:flex;"><span>alias WPACLI<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/sbin/wpa_cli -p/tmp/wpa_supplicant -i</span>$INTERFACE<span style="color:#e6db74"> &#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>log_begin_msg <span style="color:#e6db74">&#34;Starting WLAN connection&#34;</span>
+</span></span><span style="display:flex;"><span>/sbin/wpa_supplicant  -i$INTERFACE -c/etc/wpa_supplicant.conf -P/run/initram-wpa_supplicant.pid -B -f /tmp/wpa_supplicant.log
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Wait for AUTH_LIMIT seconds, then check the status</span>
+</span></span><span style="display:flex;"><span>limit<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>AUTH_LIMIT<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo -n <span style="color:#e6db74">&#34;Waiting for connection (max </span><span style="color:#e6db74">${</span>AUTH_LIMIT<span style="color:#e6db74">}</span><span style="color:#e6db74"> seconds)&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">[</span> $limit -ge <span style="color:#ae81ff">0</span> -a <span style="color:#e6db74">`</span>WPACLI status | grep wpa_state<span style="color:#e6db74">`</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;wpa_state=COMPLETED&#34;</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    echo -n <span style="color:#e6db74">&#34;.&#34;</span>
+</span></span><span style="display:flex;"><span>    limit<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>expr $limit - 1<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">`</span>WPACLI status | grep wpa_state<span style="color:#e6db74">`</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;wpa_state=COMPLETED&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  ONLINE<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  log_failure_msg <span style="color:#e6db74">&#34;WLAN offline after timeout&#34;</span>
+</span></span><span style="display:flex;"><span>  panic
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>  ONLINE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  log_success_msg <span style="color:#e6db74">&#34;WLAN online&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>configure_networking
+</span></span></code></pre></div><h3 id="kill-when-done">Kill when done</h3>
 <p>Last, but not least, `<code>/etc/initramfs-tools/scripts/local-bottom/kill_wireless</code>
 should contain:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
-</span><span style="color:#75715e"></span>PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
-prereqs<span style="color:#f92672">()</span>
-<span style="color:#f92672">{</span>
-    echo <span style="color:#e6db74">&#34;</span>$PREREQ<span style="color:#e6db74">&#34;</span>
-<span style="color:#f92672">}</span>
-
-<span style="color:#66d9ef">case</span> $1 in
-prereqs<span style="color:#f92672">)</span>
-    prereqs
-    exit <span style="color:#ae81ff">0</span>
-    ;;
-<span style="color:#66d9ef">esac</span>
-
-echo <span style="color:#e6db74">&#34;Killing wpa_supplicant so the system takes over later.&#34;</span>
-kill <span style="color:#e6db74">`</span>cat /run/initram-wpa_supplicant.pid<span style="color:#e6db74">`</span>
-</code></pre></div><h2 id="final-touches">Final touches</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span>PREREQ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>prereqs<span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$PREREQ<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">case</span> $1 in
+</span></span><span style="display:flex;"><span>prereqs<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    prereqs
+</span></span><span style="display:flex;"><span>    exit <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    ;;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Killing wpa_supplicant so the system takes over later.&#34;</span>
+</span></span><span style="display:flex;"><span>kill <span style="color:#e6db74">`</span>cat /run/initram-wpa_supplicant.pid<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><h2 id="final-touches">Final touches</h2>
 <p>You may have noticed we use the provided <code>configure_networking</code> function, it
 relies on you passing the proper <code>ip=</code>kernel parameter, so better supply it,
 for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/grub</code> like:
 <code>GRUB_CMDLINE_LINUX=&quot;ip=:::::wlp5s0:on panic=10&quot;</code>
 (<a href="https://www.kernel.org/doc/Documentation/filesystems/nfs/nfsroot.txt" title="Mounting the root filesystem via NFS (nfsroot) -- which documents the ip parameter">see here the documentation of the ip= parameter</a>). The <code>panic=10</code> makes the system reboot if something goes wrong (like network failure), when testing you might prefer <code>break=premount</code> or some other options, see the <a href="https://www.kernel.org/doc/Documentation/filesystems/nfs/nfsroot.txt" title="Mounting the root filesystem via NFS (nfsroot) -- which documents the ip parameter">initramfs-tools manpage</a><a href="https://manpages.debian.org/jessie/initramfs-tools/initramfs-tools.8.en.html" title="initramfs-tools manpage">5</a> or <a href="https://wiki.debian.org/InitramfsDebug" title="Debian Wiki on InitramfsDebug">the Debian wiki InitramfsDebug page</a></p>
 <p>Make the scripts executable, and, finally, rebuild initramfs and update-grub:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod +x /etc/initramfs-tools/scripts/local-bottom/kill_wireless
-chmod +x /etc/initramfs-tools/scripts/init-premount/a_enable_wireless
-chmod +x /etc/initramfs-tools/hooks/enable-wireless
-
-update-initramfs -k all -u
-update-grub
-</code></pre></div><p>And&hellip; reboot. I suggest you boot with <code>break=bottom</code>so you can check things work as expected (i.e with <code>ip link</code> and <code>ip addr</code>).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x /etc/initramfs-tools/scripts/local-bottom/kill_wireless
+</span></span><span style="display:flex;"><span>chmod +x /etc/initramfs-tools/scripts/init-premount/a_enable_wireless
+</span></span><span style="display:flex;"><span>chmod +x /etc/initramfs-tools/hooks/enable-wireless
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>update-initramfs -k all -u
+</span></span><span style="display:flex;"><span>update-grub
+</span></span></code></pre></div><p>And&hellip; reboot. I suggest you boot with <code>break=bottom</code>so you can check things work as expected (i.e with <code>ip link</code> and <code>ip addr</code>).</p>
 ]]></content:encoded>
     </item>
-    
+    <item>
+      <title>Spain in Figures 2012</title>
+      <link>https://www.marcfargas.com/2012/06/spain-in-figures-2012/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/spain-in-figures-2012/</guid>
+      <description>&lt;p&gt;El INE acaba de &lt;a href=&#34;http://www.ine.es/ss/Satellite?param1=PYSDetalleGratuitas&amp;amp;c=INEPublicacion_C&amp;amp;p=1254735110672&amp;amp;pagename=ProductosYServicios%2FPYSLayout&amp;amp;cid=1259924856416&amp;amp;L=1&#34;&gt;publicar&lt;/a&gt; (en Inglés) su publicación &amp;ldquo;&lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GYWRrMjNLc2pUNEU&#34;&gt;Spain in Figures 2012&lt;/a&gt;&amp;rdquo;. Se puede descargar en PDF o pedir una copia impresa por dos eurillos.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ine.es/ss/Satellite?blobcol=urldata&amp;amp;blobkey=id&amp;amp;blobtable=MungoBlobs&amp;amp;blobwhere=1259938689978&amp;amp;ssbinary=true&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.ine.es/ss/Satellite?blobcol=urldata&amp;blobkey=id&amp;blobtable=MungoBlobs&amp;blobwhere=1259938689978&amp;ssbinary=true&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Portada del documento &amp;ldquo;Spain in Figures 2012&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;En cualquier caso es un documento lleno de gráficos y tablas sencillas que dan una visión general del país en conjunto tocando prácticamente todos los sectores.&lt;/p&gt;
+&lt;p&gt;¡El que se aburra puede hecharle un vistazo!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>El INE acaba de <a href="http://www.ine.es/ss/Satellite?param1=PYSDetalleGratuitas&amp;c=INEPublicacion_C&amp;p=1254735110672&amp;pagename=ProductosYServicios%2FPYSLayout&amp;cid=1259924856416&amp;L=1">publicar</a> (en Inglés) su publicación &ldquo;<a href="https://docs.google.com/open?id=0Bzinpbd-yc1GYWRrMjNLc2pUNEU">Spain in Figures 2012</a>&rdquo;. Se puede descargar en PDF o pedir una copia impresa por dos eurillos.</p>
+<p><a href="http://www.ine.es/ss/Satellite?blobcol=urldata&amp;blobkey=id&amp;blobtable=MungoBlobs&amp;blobwhere=1259938689978&amp;ssbinary=true"><img loading="lazy" src="http://www.ine.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1259938689978&ssbinary=true"></a></p>
+<p>Portada del documento &ldquo;Spain in Figures 2012&rdquo;</p>
+<p>En cualquier caso es un documento lleno de gráficos y tablas sencillas que dan una visión general del país en conjunto tocando prácticamente todos los sectores.</p>
+<p>¡El que se aburra puede hecharle un vistazo!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>¿Los informáticos no entienden de paro?</title>
+      <link>https://www.marcfargas.com/2012/06/los-inform%C3%A1ticos-no-entienden-de-paro/</link>
+      <pubDate>Sun, 17 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/los-inform%C3%A1ticos-no-entienden-de-paro/</guid>
+      <description>&lt;p&gt;A veces uno se pregunta ¿quien redacta las noticias? Un periodista, un loro parlante, o una empresa con intereses en el contenido del artículo?&lt;/p&gt;
+&lt;p&gt;El País lleva hoy una noticia titulada: &amp;ldquo;&lt;a href=&#34;http://economia.elpais.com/economia/2012/06/15/actualidad/1339777853_083430.html&#34;&gt;Los informáticos no entienden de paro&lt;/a&gt;&amp;rdquo; que dice: &amp;ldquo;Ser ingeniero informático o de telecomunicaciones hoy día es sinónimo de empleo. Es una de las profesiones con menor tasa de paro, solo un 7,6% frente al 24% medio español.&amp;rdquo;&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;Informacion%20ElPais.jpg#center&#34;
+         alt=&#34;Captura de pantalla del artículo de El País&#34;/&gt; &lt;figcaption&gt;
+            Captura del artículo de El País
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;La única fuente citada en el artículo es Adecco pero no está claro que cifras ha aportado, si solo el 13% o también las otras. En cualquier caso, haremos un ejercicio de Googling consultando alguna fuente pública para &lt;strong&gt;contrastar la información&lt;/strong&gt;, podríamos, por ejemplo, recurrir al INEM que tiene, precisamente, un &amp;ldquo;&lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GczdvNTRsRVBvZzg&#34;&gt;Informe mensual de mercado de trabajo de personal titulada (Área Enseñanzas Técnicas) Abril 2012&lt;/a&gt; y &lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GQ0pkcXZ3c2hsQWs&#34;&gt;la segunda parte que es de Mayo&lt;/a&gt;&amp;rdquo; de donde podemos sacar:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A veces uno se pregunta ¿quien redacta las noticias? Un periodista, un loro parlante, o una empresa con intereses en el contenido del artículo?</p>
+<p>El País lleva hoy una noticia titulada: &ldquo;<a href="http://economia.elpais.com/economia/2012/06/15/actualidad/1339777853_083430.html">Los informáticos no entienden de paro</a>&rdquo; que dice: &ldquo;Ser ingeniero informático o de telecomunicaciones hoy día es sinónimo de empleo. Es una de las profesiones con menor tasa de paro, solo un 7,6% frente al 24% medio español.&rdquo;</p>
+<figure class="align-center ">
+    <img loading="lazy" src="Informacion%20ElPais.jpg#center"
+         alt="Captura de pantalla del artículo de El País"/> <figcaption>
+            Captura del artículo de El País
+        </figcaption>
+</figure>
+
+<p>La única fuente citada en el artículo es Adecco pero no está claro que cifras ha aportado, si solo el 13% o también las otras. En cualquier caso, haremos un ejercicio de Googling consultando alguna fuente pública para <strong>contrastar la información</strong>, podríamos, por ejemplo, recurrir al INEM que tiene, precisamente, un &ldquo;<a href="https://docs.google.com/open?id=0Bzinpbd-yc1GczdvNTRsRVBvZzg">Informe mensual de mercado de trabajo de personal titulada (Área Enseñanzas Técnicas) Abril 2012</a> y <a href="https://docs.google.com/open?id=0Bzinpbd-yc1GQ0pkcXZ3c2hsQWs">la segunda parte que es de Mayo</a>&rdquo; de donde podemos sacar:</p>
+<ul>
+<li><strong>Variación interanual de parados</strong> en telecos es del <strong>13% y casi un 16% en técnicos de telecos</strong>. (para Mayo no hay de Informática).</li>
+<li>El número de demandantes de empleo con esas titulaciones (y otras similares) va en aumento.</li>
+<li>El número de nuevos contratos es decreciente.</li>
+<li>Es una lástima que no den el dato de personas con contrato en vigor con la titulación (para poder calcular la tasa de paro de la titulación, claro). ¡Si alguien da con él que avise!</li>
+<li>Es una lástima que no se pueda descargar la serie de &ldquo;parados por titulación&rdquo;, ¡si alguien la encuentra que avise!</li>
+</ul>
+<p>Lo primero que llama la atención es la <strong>variación interanual</strong>, el paro en España ha aumentado (variación interanual) un 14% según la EPA. De modo que ambas titulaciones <strong>sufren el aumento de paro igual</strong> o peor que el resto.</p>
+<p>Luego, no hay manera de encajar el 7,6% en ningún sitio (salvo &ldquo;Contratos de Programador Informático&rdquo; del mes sobre el total de contratos en la titulación (pág 12. primer link).</p>
+<p>Llegados aquí, viendo que ese pedacito del mercado laboral está tan hecho trizas como todos los demás, volvemos a la pregunta de arriba: ¿DE DONDE SALEN ESOS NÚMEROS!!!? (y ya puestos, de donde sale el resto del artículo?).</p>
+<p>Mientras guardaremos el artículo en el mismo cajón donde guardé esta foto tan chula de mi móvil:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="LV%20Pochettino.jpg#center"
+         alt="Captura de pantalla donde se ven dos titulares opuestos del mismo medio en dos horas"/> <figcaption>
+            Rigor informativo
+        </figcaption>
+</figure>
+
+]]></content:encoded>
+    </item>
+    <item>
+      <title>¡La prima sigue subiendo! ¿y? (y II)</title>
+      <link>https://www.marcfargas.com/2012/06/la-prima-sigue-subiendo-y-y-ii/</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/la-prima-sigue-subiendo-y-y-ii/</guid>
+      <description>&lt;p&gt;Ayer hablábamos del &amp;ldquo;rescate&amp;rdquo;, el cómo se hizo, porqué, etc. Pero quedaron algunas cosas en el tintero como la segunda parte del título: &lt;strong&gt;¿porque parece que el &lt;a href=&#34;http://www.elblogsalmon.com/economia/la-deprimente-recepcion-para-un-rescate-mezquino-e-injusto&#34;&gt;mercado&lt;/a&gt; sea &lt;a href=&#34;http://www.gurusblog.com/archives/rentabilidad-bono-espana/12/06/2012/&#34;&gt;inmune&lt;/a&gt; a una noticia tan buena? ¿dónde está la orgía/euforia alcista?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pues, como dicen por &lt;a href=&#34;http://www.ferrerinvest.com/1/post/2012/06/qu-ocurri-hoy-en-el-ibex-para-empezar-6-y-acabar-en-negativo.html&#34;&gt;ferrerinvest (Hugo)&lt;/a&gt; la noticia ya estaba descontada. No es sólo que Reuters saliera con la noticia el viernes sino que toda la semana olía a que se cocía algo (pista: cuando ningún político sale a decir tonterías es que o a) están todos de vacaciones o b) están trabajando en algo que es mejor no hacer público hasta que esté preparado). En este caso era la b).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ayer hablábamos del &ldquo;rescate&rdquo;, el cómo se hizo, porqué, etc. Pero quedaron algunas cosas en el tintero como la segunda parte del título: <strong>¿porque parece que el <a href="http://www.elblogsalmon.com/economia/la-deprimente-recepcion-para-un-rescate-mezquino-e-injusto">mercado</a> sea <a href="http://www.gurusblog.com/archives/rentabilidad-bono-espana/12/06/2012/">inmune</a> a una noticia tan buena? ¿dónde está la orgía/euforia alcista?</strong></p>
+<p>Pues, como dicen por <a href="http://www.ferrerinvest.com/1/post/2012/06/qu-ocurri-hoy-en-el-ibex-para-empezar-6-y-acabar-en-negativo.html">ferrerinvest (Hugo)</a> la noticia ya estaba descontada. No es sólo que Reuters saliera con la noticia el viernes sino que toda la semana olía a que se cocía algo (pista: cuando ningún político sale a decir tonterías es que o a) están todos de vacaciones o b) están trabajando en algo que es mejor no hacer público hasta que esté preparado). En este caso era la b).</p>
+<p>Mirad y ved:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="IBEX_STOXX_SPX_DAX_PreEurogrupo.png#center"
+         alt="Gráfico de líneas a un mes del IBEX35, EuroStoxx50, DAX y S&amp;P 500 alrededor del 2012-06-12"/> <figcaption>
+            Mercados y el comunicado del Eurogrupo
+        </figcaption>
+</figure>
+
+<p>Se ve con claridad que el mundo descontaba algún tipo de buena noticia para la semana y puesto que ni el BCE ni la FED dieron buenas noticias solo quedaban dos posibles: Grecia o España.</p>
+<p>Pero eso es en La Bolsa. En el caso del IBEX sobretodo los bancos. Aquellos &ldquo;en buen estado&rdquo; cuyas cotizaciones eran duramente castigadas &ldquo;por si los demás revientan&rdquo;. Así que el mercado, habiendo ya descontado la noticia, quedó plano.</p>
+<p><em>(El gráfico es de líneas para que se vea el movimiento entero del mercado, las velas del lunes ponen mucho ruido que no vale la pena. El lunes hubo mucho <strong>intentar comprar la noticia,</strong> cuando esta estaba comprada en el rumor).</em></p>
+<p>En el mercado de la deuda soberana la película es algo distinta:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="BonoEspana10y.png#center"
+         alt="Gráfico mostrando el bono a 10 años de España en 2012, hasta junio"/> <figcaption>
+            Bono a 10YR de España en 2012
+        </figcaption>
+</figure>
+
+<p>Si bien el mercado realizó el mismo descuento durante la semana (probablemente esperando algún tipo de Solución de gran calado) una vez publicado el comunicado se vio que este <strong>sólo</strong> abarcaba al sector financiero y no solucionaba los otros problemas (estructurales) de España, es más, los empeoraba al <strong>insinuar, cerca de, 100.000 millones de euros</strong> más de deuda para el final del verano (aunque se cuenten a parte).</p>
+<p>Se han dado los pasos correctos para solucionar el problema del sector financiero, pero parte de la solución va en detrimento del problema de las finanzas del Estado. Ahora hace falta dar señales claras de que eso se va a solucionar y de que la deuda se va a pagar.</p>
+<p>Y sigue siendo imprescindible eliminar cualquier duda sobre la capacidad de pago de a) las entidades financieras a nivel Europeo y b) los Estados de la Unión.</p>
+<p>Seguramente en la cumbre de la UE de final de mes veremos más, quizás ¿un avance significativo en la unión bancaria? ¿unión fiscal? ambas hacen falta&hellip;</p>
+<p>Como apunte final&hellip; el precio de la deuda española es para echarse a llorar, no sería de extrañar que el BCE intentase aguantarlo en la UCI hasta la cumbre (fin de mes está muy lejos aún).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>¡El rescate aún no es firme! ¡La prima sigue subiendo! ¿y?</title>
+      <link>https://www.marcfargas.com/2012/06/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/el-rescate-a%C3%BAn-no-es-firme-la-prima-sigue-subiendo-y/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;https://docs.google.com/open?id=0Bzinpbd-yc1GVDlsV3dES1lUOTg&#34;&gt;comunicado del Eurogrupo&lt;/a&gt; sobre el (&lt;strong&gt;futuro&lt;/strong&gt;) rescate a España está trayendo cola así que para no ser menos yo también hablo de &amp;ldquo;El Rescate&amp;rdquo; (título para la futura película de TVE sobre el tema),&lt;/p&gt;
+&lt;p&gt;Primero, lo básico:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tenemos un comunicado del Eurogrupo que dice que (redactado) &amp;ldquo;España presentará, pronto, una &lt;strong&gt;petición formal&amp;rdquo;&lt;/strong&gt; y &amp;ldquo;El Eurogrupo tiene la voluntad de responder favorablemente a esa petición&amp;rdquo;. &lt;strong&gt;Punto&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dice también que la petición formal debería ir seguida de pronunciamientos por parte del ECB, EBa y el FMI con las condiciones para el sector financiero, etc.&lt;/li&gt;
+&lt;li&gt;Falta, primero, la petición formal; segundo, que el Eurogrupo responda favorablemente; y más cosas todavía.&lt;/li&gt;
+&lt;li&gt;También se habla de &amp;ldquo;unos 100.000 millones de euros&amp;rdquo; estimados. Se supone que la petición formal dará la cifra exacta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dicho esto, dejadme sentar unas pequeñas bases:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>El <a href="https://docs.google.com/open?id=0Bzinpbd-yc1GVDlsV3dES1lUOTg">comunicado del Eurogrupo</a> sobre el (<strong>futuro</strong>) rescate a España está trayendo cola así que para no ser menos yo también hablo de &ldquo;El Rescate&rdquo; (título para la futura película de TVE sobre el tema),</p>
+<p>Primero, lo básico:</p>
+<ul>
+<li>Tenemos un comunicado del Eurogrupo que dice que (redactado) &ldquo;España presentará, pronto, una <strong>petición formal&rdquo;</strong> y &ldquo;El Eurogrupo tiene la voluntad de responder favorablemente a esa petición&rdquo;. <strong>Punto</strong>.</li>
+<li>Dice también que la petición formal debería ir seguida de pronunciamientos por parte del ECB, EBa y el FMI con las condiciones para el sector financiero, etc.</li>
+<li>Falta, primero, la petición formal; segundo, que el Eurogrupo responda favorablemente; y más cosas todavía.</li>
+<li>También se habla de &ldquo;unos 100.000 millones de euros&rdquo; estimados. Se supone que la petición formal dará la cifra exacta.</li>
+</ul>
+<p>Dicho esto, dejadme sentar unas pequeñas bases:</p>
+<ul>
+<li>Tenemos un sistema bancario con &ldquo;un montón de basura&rdquo; en sus balances que a) nadie sabe como de grande es el montón y b) estamos casi seguros que una vez <strong>reconocido varías entidades se encontrarán en situación de quiebra.</strong></li>
+<li>En el punto a) ya se está trabajando. Tenemos a un montón de extranjeros trajeados por Madrid que están intentando valorar el tamaño de &ldquo;el montón de basura&rdquo;. Este trabajo tiene una importancia capital para <strong>mejorar la imagen del sistema financiero español.</strong> Sus cálculos serán más o menos acertados pero será <strong>la primera auditoria externa</strong> (de fuera de España) que ponga una cifra al agujero.</li>
+<li>Esto nos lleva al punto b): sabemos, y lo sabe todo el mundo, que varias (muchas) entidades no sobrevivirán al proceso de reconocer el agujero en sus balances. Y el Gobierno sabe, perfectamente, que b.1) no tiene el dinero para recapitalizar los bancos y b.2) <a href="http://www.eleconomista.es/mercado-continuo/noticias/4019132/06/12/Montoro-Espana-ve-cerrados-los-mercados-por-la-prima-de-riesgo.html">no puede captarlo</a>.</li>
+</ul>
+<p>Estas tres palabras: &ldquo;no puede captarlo&rdquo; son las que nos llevan a la encrucijada:</p>
+<ul>
+<li>Reconocemos las perdidas de nuestro sistema financiero y a) dejamos caer a los bancos provocando un caos financiero (a lo Lehman Brothers) o b) <strong>conseguimos el dinero como sea</strong>.</li>
+<li>No reconocemos nada, miramos para otro lado y a ver que pasa (esto, por cierto, es lo que llevamos haciendo desde que Zapatero dijo &ldquo;<a href="http://www.elmundo.es/elmundo/2008/09/24/espana/1222271012.html">El sistema financiero español es quizás el más sólido</a>&rdquo;).</li>
+</ul>
+<p>Ante todo, aplaudir al Gobierno por, al fin, optar por la primera opción cueste lo que cueste. Independientemente de si lo hacen por que quieren, porque lo manda Merkel o su suegra. Es vital que reconozcamos las pérdidas latentes.</p>
+<h4 id="llegados-a-este-punto-vemos-que-hay-una-hoja-de-ruta-con-varios-pasos">Llegados a este punto vemos que hay una hoja de ruta con varios pasos</h4>
+<ol>
+<li>Hacer saber al mundo que se van a reconocer las pérdidas reales del sector (los mercados se acojonan porque saben que no tenemos dinero).</li>
+<li>Hacer saber al mundo que se va a disponer de los fondos necesarios para recapitalizar las entidades. (El comunicado del Eurogrupo es esto).</li>
+<li>Conseguir dimensionar el agujero y hacer saber al mundo que el tamaño es ese y que no habrá sorpresas futuras (para eso son las auditorias externas).</li>
+<li>Conseguir el dinero para recapitalizar las entidades quebradas (podemos hacer una Porra de cuantas serán/eran Cajas de Ahorros). (&ldquo;El Rescate&rdquo;)</li>
+<li>Provisiones por aquí, pérdidas por allá, ahora viene el FROB, te mete unos COCOs y listos.</li>
+</ol>
+<p>Es difícil que pueda hacerse un paso sin los previos, podríamos haber hecho el 3 y 4 saltándonos el 1 y 2 pero si con el 1 los mercados se pusieron rojos imagináos si damos directamente la cifra a lo bruto.</p>
+<p>Esto es todo por ahora..</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Migrando a Blogger</title>
+      <link>https://www.marcfargas.com/2012/06/migrando-a-blogger/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2012/06/migrando-a-blogger/</guid>
+      <description>&lt;p&gt;Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.&lt;/p&gt;
+&lt;p&gt;De momento parece que lo más complicado serán los comentarios&amp;hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!&lt;/p&gt;
+&lt;p&gt;El cambio más notable es que lo que escriba en castellano lo colgaré en &lt;a href=&#34;http://www.marcfargas.es/&#34;&gt;www.marcfargas.es&lt;/a&gt; y lo que escriba en inglés lo colgaré de &lt;a href=&#34;http://www.marcfargas.com/&#34;&gt;www.marcfargas.com&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Estos días (el día después de darme cuenta que hace más de un año que no escribo nada) me estoy dedicando a probar Blogger como plataforma para escribir y estoy migrando aquí lo que tenía en el otro lado.</p>
+<p>De momento parece que lo más complicado serán los comentarios&hellip; según Disqus están todos migrados pero no aparece ninguno. ¡Ya veremos si aparecen!</p>
+<p>El cambio más notable es que lo que escriba en castellano lo colgaré en <a href="http://www.marcfargas.es/">www.marcfargas.es</a> y lo que escriba en inglés lo colgaré de <a href="http://www.marcfargas.com/">www.marcfargas.com</a></p>
+<p>Si estás suscrito por RSS cambia la URL por <a href="http://feeds.feedburner.com/marcfargascom">http://feeds.feedburner.com/marcfargascom</a> para marcfargas.es la de marcfargas.com la pondré cuando la sepa ;)</p>
+<p>¡Ahora solo falta que se me ocurra algo nuevo que escribir!</p>
+<p>(Como con todos los cambios de blog, es posible que tu lector RSS se vuelva, literalmente, majara. Si es así: ¡lo siento!)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Contraseñas seguras sin recordar ninguna (ni apuntarlas)</title>
+      <link>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2011/01/contrase%C3%B1as-seguras-sin-recordar-ninguna-ni-apuntarlas/</guid>
+      <description>&lt;p&gt;Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.&lt;/p&gt;
+&lt;p&gt;Ahora bien, no tendría más gracia (y queda más friki) poder generar &lt;strong&gt;mentalmente&lt;/strong&gt; una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &amp;ldquo;mentalmente&amp;rdquo;).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Dicen los sabios que no hay que usar la misma contraseña en más de un sitio, y que todas han de ser mínimamente buenas (ie: no vale el nombre del perro). Pero es un consejo muy ignorado, a fin de cuentas nadie quiere tener que recordar tantas palabrejas.</p>
+<p>Ahora bien, no tendría más gracia (y queda más friki) poder generar <strong>mentalmente</strong> una contraseña para cada sitio de manera que todas fueran diferentes y complejas, pero que no tuviéramos que recordar ninguna? (La clave aquí, está en el &ldquo;mentalmente&rdquo;).</p>
+<p>Es decir, en lugar de recordar infinidad de contraseñas, solo hay que recordar el <strong>proceso para generarlas mentalmente</strong>.</p>
+<p>Algunos ejemplos para, por ejemplo, twitter.com:</p>
+<ul>
+<li>Doy la vuelta al nombre de la web, luego una de cada dos consonantes en mayúsculas y las vocales las cambio por &ldquo;.&quot;: <strong>r.Tt.Wt</strong> sería la contraseña para Twitter.com</li>
+<li>Cambio cada vocal por un numero (aeiou &gt; 12345), sumo los valores de las vocales y lo pongo en esa posición con un &ldquo;!&quot;: <strong>tw3tt5!2r</strong> (el &ldquo;5!&rdquo; es la suma de valores y el ! en la quinta posición).</li>
+</ul>
+<p>O cualquier otra cosa que se nos ocurra, la gracia es que el proceso es sencillo, para cada web nos sale una contraseña diferente y, <strong>mientras no digamos a nadie cual es el proceso nuestras contraseñas estarán seguras.</strong></p>
+<p>Llamaremos a esto: &ldquo;Generación de contraseñas por algoritmos simples&rdquo; o &ldquo;Generación de contraseñas mentalmente&rdquo;.</p>
+<p>Un par de recomendaciones cuando diseñeis vuestro algoritmo:</p>
+<ul>
+<li>Algunas webs tienen ciertos requisitos en cuanto a las contraseñas de modo que, para evitarnos problemas, el algoritmo debería asegurar que siempre aparezcan:
+<ul>
+<li>Números</li>
+<li>Mayúsculas y Minúsculas</li>
+<li>Signos de puntuación (aunque siempre sea el mismo al final, principio o el medio).</li>
+</ul>
+</li>
+<li>Si cambiamos de algoritmo deberemos ir cambiando todas las contraseñas para no tener que recordar que algoritmo va con cada web (la cosa pierde toda la gracia).</li>
+</ul>
+<p>Ahora haced el favor de dejar de usar el nombre del perro como contraseña para el banco, ¡leñe!.</p>
+<p><strong>NOTA 16.13 CET:</strong> Los ejemplos de arriba son eso, ejemplos. Y como tales son simples y sencillos. El algoritmo que uno piense para si mismo debe ser algo más elaborado que dé contraseñas más complejas, no una simple sustitución o reordenación de letras.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Urgencias Quirón o &#34;mejor no tengas prisa&#34;</title>
+      <link>https://www.marcfargas.com/2010/11/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</link>
+      <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/11/urgencias-quir%C3%B3n-o-mejor-no-tengas-prisa/</guid>
+      <description>&lt;p&gt;Hace un tiempo &lt;a href=&#34;http://www.joserodriguez.info/bloc/?page_id=2&#34; title=&#34;Sobre José Rodríguez&#34;&gt;José Rodríguez&lt;/a&gt; (@trinitro) &lt;a href=&#34;http://www.joserodriguez.info/bloc/?p=3463&#34; title=&#34;Algunos ramalazos de las herencias de la gestión sanitaria de los gobiernos de Pujol y del exconseller de sanitat Trias&#34;&gt;escribía sobre la sanidad concertada&lt;/a&gt; en un post interesante sobre una experiencia suya en el CAP Sant Cugat (gestionado por Mutua Terrassa). Como hoy he tenido el placer de disfrutar de los servicios sanitarios de un hospital privado me ha sobrado tiempo para acordarme de su post. Así que abusaré de mi tribuna digital que es este blog para aborrecer a mis lectores (¿tengo alguno?) con mis penurias de la tarde. Eso si, lo haré con la excusa de decir que solo quiero insistir en mi comentario al post de José de que &lt;strong&gt;el problema no es tanto el modelo sanitario, sino&lt;/strong&gt; &lt;a href=&#34;http://www.joserodriguez.info/bloc/?p=3463&amp;amp;cpage=1#comment-8161&#34;&gt;&lt;strong&gt;un problema de gestión y control&lt;/strong&gt;.&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hace un tiempo <a href="http://www.joserodriguez.info/bloc/?page_id=2" title="Sobre José Rodríguez">José Rodríguez</a> (@trinitro) <a href="http://www.joserodriguez.info/bloc/?p=3463" title="Algunos ramalazos de las herencias de la gestión sanitaria de los gobiernos de Pujol y del exconseller de sanitat Trias">escribía sobre la sanidad concertada</a> en un post interesante sobre una experiencia suya en el CAP Sant Cugat (gestionado por Mutua Terrassa). Como hoy he tenido el placer de disfrutar de los servicios sanitarios de un hospital privado me ha sobrado tiempo para acordarme de su post. Así que abusaré de mi tribuna digital que es este blog para aborrecer a mis lectores (¿tengo alguno?) con mis penurias de la tarde. Eso si, lo haré con la excusa de decir que solo quiero insistir en mi comentario al post de José de que <strong>el problema no es tanto el modelo sanitario, sino</strong> <a href="http://www.joserodriguez.info/bloc/?p=3463&amp;cpage=1#comment-8161"><strong>un problema de gestión y control</strong>.</a></p>
+<p>Ayer me di un golpe (/ostión/) en la nariz (el fútbol fuera de la tele duele, ¿lo sabíais?) y, a parte de hinchada y sangrando, esta mañana he podido apreciar que estaba torcida. De modo que después de comer he ido al Hospital Quirón de urgencias para ver si podían recolocarme la nariz un poco.</p>
+<p>He estado deambulando cerca de una hora por Urgencias hasta que me han llamado para hacerme pasar: de la sala en la que estaba a otra al final del pasillo (con sillas más cómodas, eso si). Y unos 10 minutos después me han hecho pasar para hacerme una radiografía. De vuelta a Urgencias con mi foto.<strong>Llevamos una hora justa</strong>.</p>
+<p>Al volver a urgencias la administrativa me dice que he de ir al Otorrino, pero que no puedo subir hasta que ella me avisé. Inocente de mi le digo si puede precisar un poco (media hora, una hora, ¿dos?) pero su cara de circunstancias me sirve de respuesta. Así que me siento de nuevo en esa sala de Urgencias sin revistas, tele, música, máquina de café ni nada por el estilo. De modo que he aprovechado para ver si había habido mucho movimiento mientras estaba &ldquo;fuera&rdquo;: Una pareja que estaba ahí antes de que llegase no se había movido, los han llamado luego, así que debían llevar una hora y algo. Dos chicas que han llegado poco después que yo las han llamado más tarde aún, también pasaban de la hora. Un par de niños, alguna embarazada, otro lesionado del fútbol, &hellip; los que he tenido más o menos controlados acumulaban buenos tiempos de espera (rondando la hora). Los niños iban más deprisa, habrá mucho pediatra.</p>
+<p>Cumplida la <strong>segunda hora</strong> me llaman, me dan un papel y me envían de paseo a la cuarta planta. Ahí que voy. Llego, la enfermera se va, vuelve, que me siente y espere. Hay dos salitas, una abarrotada, y la otra vacía. Me voy a la vacía. ¡Sorpresa! ¡El Hola de la semana (17/11)! Almenos algo para pasar el rato. (Por cierto, no os perdáis la foto de Zapatero, los Reyes y el Papa que hay en esa revista, es tremenda).</p>
+<p>Una suerte, en media hora me llaman de nuevo (llaman a otro, pero ha ido al baño así que me cuelan) y en cinco minutos estoy de nuevo fuera, con mi informe, mi radiografía y un &ldquo;tómate esto&hellip; tantos días, luego&hellip;&rdquo;.</p>
+<p>En resumen, <strong>dos horas y media</strong> para hacer una radiografía, apretarme la nariz por uno y otro lado, y darme un tratamiento. 2 horas 15 minutos de tiempo muerto, 15 minutos de hacer algo (contando pasear por el pasillo).</p>
+<p>Llegado aquí uno se pregunta si no habría acabado antes en cualquier otro sitio (público o privado) y, todo ingenuo, piensa que el hospital <strong>tiene sistemas de control</strong> para medir cosas cómo: sus tiempos de atención a pacientes, la sobrecarga de su servicio de urgencias, etc&hellip; ¡Al fin y al cabo el sistema es de Indra! Y sospecho que tenerlo, lo tienen: mi informe médico tiene unas casillas donde pone cuando llego, cuando me ven, cuando me despachan. Así que es de suponer que tienen un sistema que dice si hay sobrecarga, si son lentos, si son rápidos&hellip; Incluso deben poder compararse con los centros vecinos&hellip;</p>
+<p>Pues la gerencia del hospital debe estar de enhorabuena, <strong>porque he llegado a las 16:25, me han visitado a las 16:25 y ¡¡¡me he ido a las 16:25!!!</strong> Que la radiografía ponga 17:35 y el tique del parking 19:10 es cosa de las máquinas locas esas. No se de que me quejo.. Dejando a un lado que eso de dejar que las enfermeras puedan tocar los tiempos&hellip;</p>
+<p>Uno puede ir al centro que quiera, sea público, privado o concertado, pero si su gerencia (que no deambula por los pasillos) no tiene forma de saber como funciona su centro, es imposible que funcione bien. Lo de las horas es un ejemplo, es un dato: cuando viene más gente, cuanto tiempo tardo en verlos, cuanto tiempo tardo en tratarlos, &hellip; parece un <strong>dato importante</strong>, ¿no? pues la gerencia no lo tiene.</p>
+<p>Así que mutualista o no, público o privado, a mi me sigue pareciendo que <strong>el problema está en el control</strong> y en que, en este país (y esto es una observación muy personal): cada vez hay más dejadez en todo.</p>
+<p>Para terminar, si por un casual alguien de Quirón cae por aquí, igual que a <a href="http://twitter.com/trinitro">@trinitro</a> le cayó gente de Mutua Terrassa, les recomiendo que lean <a href="http://www.joserodriguez.info/bloc/?p=3531" title="100 blogoerrores: Error 24 hacer el cafre con las críticas en la red, el caso de Mutua Terrassa">este otro post suyo</a>, no sea que cometan los mismos errores&hellip;</p>
+<p>Ya os he aburrido suficiente, a ver si escribo algo más decente luego&hellip;</p>
+<p>PS: Nota para aventureros, el parking de la Quirón sale a <strong>3,70€ la hora</strong>, y las tarifas hay que ir a consultarlas *dentro*.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Voto útil</title>
+      <link>https://www.marcfargas.com/2010/08/voto-%C3%BAtil/</link>
+      <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/08/voto-%C3%BAtil/</guid>
+      <description>&lt;p&gt;¡Se acercan elecciones en Catalunya! (por si alguien aún no lo sabía).&lt;/p&gt;
+&lt;p&gt;Este año hay una peculiaridad respecto a anteriores convocatorias. Tenemos una galaxia de pequeños partidos o agrupaciones jóvenes (de nueva creación) que concurren a las elecciones. Por ello creo conveniente recordar algún que otro sutil aspecto de como funcionan las elecciones en España (y, a falta de Ley Electoral propia, en Catalunya).&lt;/p&gt;
+&lt;p&gt;Cuando una persona deposita su voto en la urna lo hace, en teoria, pensando en que candidatura (lista) tiene &lt;strong&gt;mayor capacidad&lt;/strong&gt; para hacer lo que él (el votante) considera mejor para el país. Cada lista tiene un programa que trata diversos temas &lt;em&gt;desde el punto de vista de ese partido o agrupación&lt;/em&gt;. Hablan de economía, sanidad, independencia o justicia, cada una, a su manera. En algunas vemos puntos en común y diferencias&amp;hellip;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>¡Se acercan elecciones en Catalunya! (por si alguien aún no lo sabía).</p>
+<p>Este año hay una peculiaridad respecto a anteriores convocatorias. Tenemos una galaxia de pequeños partidos o agrupaciones jóvenes (de nueva creación) que concurren a las elecciones. Por ello creo conveniente recordar algún que otro sutil aspecto de como funcionan las elecciones en España (y, a falta de Ley Electoral propia, en Catalunya).</p>
+<p>Cuando una persona deposita su voto en la urna lo hace, en teoria, pensando en que candidatura (lista) tiene <strong>mayor capacidad</strong> para hacer lo que él (el votante) considera mejor para el país. Cada lista tiene un programa que trata diversos temas <em>desde el punto de vista de ese partido o agrupación</em>. Hablan de economía, sanidad, independencia o justicia, cada una, a su manera. En algunas vemos puntos en común y diferencias&hellip;</p>
+<p>Ahora bien, no todas las candidaturas logran tener representación parlamentaria, por pequeña que sea. Y hay candidaturas que <strong>no entran en el reparto</strong>. Es decir, una candidatura cualquier necesita tener,<strong>como mínimo, un 3% (tres por ciento)</strong> de los votos en una circunscripción para entrar en el reparto de escaños. Cualquiera que no tenga ese 3% de votos queda inmediatamente descartada.</p>
+<p>Entonces el voto no se centra en que programa te gusta más, sino en cual tiene <strong>mayores posibilidades</strong> de desarrollarse  (dentro de los que más te gusten). Es decir, partidos/listas que <strong>como mínimo</strong> vayan a obtener un 3% de votos en una circunscripción.</p>
+<p>Mi recomendación: En el momento de ir a votar, mira los <strong>últimos sondeos</strong> (varios de ellos, los hay a patadas). Mira que candidaturas tienen <strong>posibilidades</strong> de alcanzar ese 3% soñado. Cualquiera que no las tenga, no la votes, en serio, <strong>tú voto no valdrá para nada</strong>. Tú voto tendrá más valor votando &ldquo;medio programa&rdquo; de tú <strong>segundo partido favorito</strong> que tenga un 5-10% de votos que votando &ldquo;todo el programa&rdquo; de tu partido favorito con un 1.5-2% de votos. Como mínimo tú voto <strong>tendrá</strong> alguna<strong>representación parlamentaria</strong>.</p>
+<p>Ojo, no digo que no haya que votar a nuevas candidaturas, digo que los sondeos existen y tienen suficiente precisión para decirnos si nuestro voto va a valer para algo o no o antes de depositarlo. Las nuevas candidaturas se tienen en cuenta en esos sondeos y si a una candidatura, en el sondeo, se le da un 1% de votos <strong>difícilmente</strong> sacará el 3% pocos días después.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>La teoría de &#39;El Dos Letras&#39;</title>
+      <link>https://www.marcfargas.com/2010/08/la-teor%C3%ADa-de-el-dos-letras/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/08/la-teor%C3%ADa-de-el-dos-letras/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Este post es de esos que ofenden a algunos, quien pueda sentirse ofendido tiene 2 opciones: No leerlo o considerar que forma parte de la minoría excluida del colectivo que voy a mencionar. Si aún así se ofende pues tiene dos problemas: ¡Ofenderse y Des-ofenderse! (El colectivo que voy a mencionar es aquel en que la matrícula de su coche tiene el formato antiguo (X-YYYY-ZZ) o el primer bloque del nuevo (XXXX-B**).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Disclaimer:</strong> Este post es de esos que ofenden a algunos, quien pueda sentirse ofendido tiene 2 opciones: No leerlo o considerar que forma parte de la minoría excluida del colectivo que voy a mencionar. Si aún así se ofende pues tiene dos problemas: ¡Ofenderse y Des-ofenderse! (El colectivo que voy a mencionar es aquel en que la matrícula de su coche tiene el formato antiguo (X-YYYY-ZZ) o el primer bloque del nuevo (XXXX-B**).</p>
+<p>Hay un tipo de conductor&hellip; aquel que al verlo nos preguntamos: <em>¿dónde le habrán dado el carné?</em> o, más bien, gritamos <em>¿dónde te han dado el carné, melón!?</em> es el colectivo denominado &ldquo;conductores de tómbola&rdquo; (porque, sospechamos, les dieron el carné en una tómbola). Son conductores que <strong>no recuerdan</strong> algunas normas básicas del código de circulación, como:</p>
+<ul>
+<li>Hay que circular (en autovías, autopistas y vías rápidas) por el carril de la <strong>derecha</strong> cuando no se está adelantando. <strong>Independientemente</strong> de si vamos a la velocidad máxima de la vía o no.</li>
+<li>Hay que incorporarse a las autopistas/autovías a un <strong>mínimo de 60kmh</strong>, para eso está el <strong>carril de aceleración</strong>. No el carril de la derecha.</li>
+<li>Hay que salir de esas mismas vías a un <strong>mínimo de 60kmh</strong> y frenaremos en el <strong>carril de desaceleración</strong> que para eso está. No hay que ir por el carril de la derecha a 30Kmh &ldquo;porque llega mi salida&rdquo;.</li>
+<li>Cuando, en vía urbana, vamos a <strong>girar</strong> hay que ponerse en el carril del extremo al que vamos a girar, no vale <strong>girar desde el carril central</strong> a menos que queramos que el conductor de nuestro lado se acuerde de toda nuestra familia.</li>
+<li>Al aparcar, si el espacio entre dos coches es <strong>menor</strong> que el largo de tú coche: <strong>no cabes, por mucho que lo intentes.</strong></li>
+<li>Cuando el semáforo se pone verde, lo correcto es arrancar. No es el momento de girarse a ver si el niño está cómodo o bajar la ventanilla para saludar al de al lado.</li>
+</ul>
+<p>Y un larguísimo etcétera de cosas que apenas se recuerdan durante el examen y que, por alguna extraña razón, se olvidan por completo al recir el carné (casi al mismo tiempo que &ldquo;olvidamos&rdquo; poner la &ldquo;L&rdquo;).</p>
+<p>Pero no siempre hay la misma cantidad de &ldquo;conductores de tómbola&rdquo; en la carretera. Si circulamos de madrugada <strong>sorprendente-mente</strong> ¡la gente circula por la derecha! Durante la semana, fuera de hora punta, la cosa más o menos anda bien. Pero el fin de semana&hellip; Parecería imposible encontrar una cola un sábado a las 10 de la mañana, pero no es así, hay pequeñas colas causadas por un tombolero en el carril del medio (digamos que a 60Kmh) junto con otro tombolero que lleva 10Km. adelantándolo (a 61Kmh) y si adelantas a ambos por la derecha a 62Kmh puede que te receten una de puntos.</p>
+<p>¿Que hace que haya más tomboleros en fin de semana, cuando circulan menos coches? Pues la teoría de &ldquo;El Dos Letras&rdquo; o, el óxido.</p>
+<p>Cuanto menos coges la bici, peor se te da. Cuanto menos lees, peor se te da. Cuanto menos hablas un idioma, peor se te da. Cuanto <strong>menos conduces, peor lo haces.</strong> Y hay mucha gente que coge el coche <strong>solo el fin de semana</strong>.</p>
+<p>En la misma línea, si solo usas el coches dos días a la semana (o uno) para hacer un par de decenas de kilómetros, no tendrás un flamante coche nuevo sino que con un coche cualquier vas más que contento. Puede que nuevo y de primera mano aunque 20 años después ya no será nuevo pero sigue sirviendo perfectamente. En la misma línea, si usas mucho el coche, es de prever que lo tendrás que ir renovándolo.</p>
+<p>De modo que, en resumen: #339966;&quot;&gt;<strong>Quienes usan poco el coche, conducen peor y tienen coches más viejos</strong>. O lo que es lo mismo: <strong>tienen matrículas antiguas</strong>. Hace unos años decía &ldquo;El que la matrícula sea anterior a un XXXX-IM&rdquo; para Barcelona. Con las nuevas matrículas era &ldquo;El que tenga la matrícula vieja&rdquo; o <strong>una matrícula de dos letras</strong>. Y este año he incorporado todas las matrículas del grupo B**, aunque el C** está camino de entrar al colectivo.</p>
+<p>Ojo, hay conductores fenomenales con matrículas de dos e incluso una letra. Y hay auténticos tomboleros con matrículas G** (las más nuevas). Pero si os fijáis al conducir puede que observéis que se os ponen los nudillos blancos con las matrículas viejas más que con las nuevas.</p>
+<p>Es una simple teoría, el que tenga una matrícula de dos letras o B** puede considerarse un conductor fenomenal, hay buenos y malos en todas las matrículas, solo digo que <strong>según yo</strong> cuanto más viejo el coche más concentración de conductores malos.</p>
+<p>La relación de &ldquo;normas olvidadas&rdquo; de arriba son las primeras que me han venido a la cabeza. ¡Pero la primera es la que más me molesta! Otro día hablamos de Glorietas o &ldquo;vías de circulación en sentido giratorio&rdquo;, una pista: no tienen consideración especial.</p>
+<p>Y como último apunte, cada vez que sale algún titular de que el mercado del automóbil repunta y demás, donde están los coches con matrículas J**? Porque la G lleva ya un par de años y no se ha acabado!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>El &#39;negocio&#39; de Comprar una Casa</title>
+      <link>https://www.marcfargas.com/2010/07/el-negocio-de-comprar-una-casa/</link>
+      <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/07/el-negocio-de-comprar-una-casa/</guid>
+      <description>&lt;p&gt;A veces le doy vueltas a &lt;strong&gt;¿Es buen negocio comprarse una casa?&lt;/strong&gt; porque, reconozcámoslo, nadie se compra una casa para perder dinero. Voy a soltar un par de razonamientos que puede hacerse una &amp;ldquo;persona de la calle&amp;rdquo;. Así de paso complementaré el post de Roger de ayer, &lt;a href=&#34;http://www.lorem-ipsum.es/blogs/materiasgrises/2010/07/la-gran-recesion-lecciones-i.html&#34;&gt;concretamente el punto &amp;ldquo;G&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hay una &lt;a href=&#34;http://buscon.rae.es/draeI/SrvltConsulta?TIPO_BUS=3&amp;amp;LEMA=m%C3%A1xima&#34;&gt;máxima&lt;/a&gt; que viene a decir algo así como &amp;ldquo;A Mayor riesgo, mayor rentabilidad&amp;rdquo; y &amp;ldquo;A Menor riesgo, menor rentabilidad&amp;rdquo;. Se puede escribir también al revés: &amp;ldquo;Cuanta más rentabilidad, más riesgo&amp;rdquo;. Si a esto le juntamos los grandes argumentos del comprador de casas hay algo que no cuadra: &amp;ldquo;El precio nunca baja&amp;rdquo;, &amp;ldquo;Es una inversión segura&amp;rdquo;&amp;hellip; pero, para que una inversión sea rentable ha de tener algún riesgo, ¿no?. ¿Dónde está el riesgo en comprar una casa? o, ¿quizás no es &lt;strong&gt;tan buen negocio&lt;/strong&gt;?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A veces le doy vueltas a <strong>¿Es buen negocio comprarse una casa?</strong> porque, reconozcámoslo, nadie se compra una casa para perder dinero. Voy a soltar un par de razonamientos que puede hacerse una &ldquo;persona de la calle&rdquo;. Así de paso complementaré el post de Roger de ayer, <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/07/la-gran-recesion-lecciones-i.html">concretamente el punto &ldquo;G&rdquo;</a>.</p>
+<p>Hay una <a href="http://buscon.rae.es/draeI/SrvltConsulta?TIPO_BUS=3&amp;LEMA=m%C3%A1xima">máxima</a> que viene a decir algo así como &ldquo;A Mayor riesgo, mayor rentabilidad&rdquo; y &ldquo;A Menor riesgo, menor rentabilidad&rdquo;. Se puede escribir también al revés: &ldquo;Cuanta más rentabilidad, más riesgo&rdquo;. Si a esto le juntamos los grandes argumentos del comprador de casas hay algo que no cuadra: &ldquo;El precio nunca baja&rdquo;, &ldquo;Es una inversión segura&rdquo;&hellip; pero, para que una inversión sea rentable ha de tener algún riesgo, ¿no?. ¿Dónde está el riesgo en comprar una casa? o, ¿quizás no es <strong>tan buen negocio</strong>?</p>
+<p>Como muestra, fijaos que al final de la &ldquo;burbuja inmobiliaria&rdquo;, era el momento en que mayores eran las rentabilidades y, también, mayor era el riesgo: si petaba la burbuja acababan todos con un montón de ladrillos, que mira por donde, es como han acabado&hellip;</p>
+<p>Si asumimos esa máxima (si se os ocurren inversiones donde no se cumpla, ponedlas en los comentarios por favor, ¡que quiero ser rico!) queda claro que hay gato encerrado: ¡La compraventa de ladrillos no puede ser rentable!</p>
+<p>&ldquo;El precio nunca baja&rdquo;&hellip; <strong>el dinero pierde valor con el tiempo</strong>. Es decir, si yo tengo 1000€ debajo del colchón, el año que viene esos 1.000€ valdrán 970€ (ie: inflación al 3%) es decir, que con los mismos 1.000€ el año que viene podré comprar lo que hoy compraría con 970€. Eso se debe, entre otras cosas, a que &ldquo;todo&rdquo; es un 3% más caro (y los salarios suben, etc). Por lo mismo si hoy me compro una casa o un piso por 180.000€, a menos que quiera <strong>perder dinero</strong> con ella, su &ldquo;precio&rdquo; deberá subir, al menos, ese 3% cada año.</p>
+<p>Es decir, si me compro una casa por 180.000€ y dentro de 10 años la vendo por 200.000€ <strong>estoy perdiendo dinero</strong>. Y si dentro de 25 la vendo por menos de 370.000€ **sigo perdiendo dinero.**Aquellos que se compran un piso hoy diciendo &ndash; &ldquo;en 10 años o así nos compraremos una casa y venderemos el piso&rdquo; &ndash; ¿esperan vender el piso un 34% más caro? <strong>como mínimo</strong>. Eso es un 3,4% anual de rentabilidad frente a ese 3% da <strong>un 0,4% neto, un pufo</strong>.</p>
+<p>Sobre ese 34% y 3,4%, hay que decir que dejando a un lado la burbuja, que ya reventó, la evolución del precio de la vivienda suele ir bastante parejo a la evolución de la inflación, es decir, que en un mundo ideal sin burbujas de ladrillos el valor de nuestra casa el día que la vendiéramos sería el de compra más inflación.</p>
+<p>Claro, que nuestra inversión no se limita a los 180.000€ de la compra, hay que añadir, primero, el valor que pierde por convertirse en &ldquo;segunda mano&rdquo;. También deberemos sumar los gastos de la inversión: Impuestos pagados, reparaciones, reformas, &hellip; y los intereses de la hipoteca (a menos que hayamos comprado el inmueble al contado) que, según los plazos, pueden llegar a sumar tanto como la hipoteca en si.</p>
+<p>Llegados a este punto supongo que está claro que un <strong>inmueble, como inversión, es un pufo</strong>.</p>
+<p>Hasta aquí: las letras del tesoro son más rentables. Si no vamos a comprar una casa al contado, casi es más &ldquo;barato&rdquo; alquilar una vivienda y con la diferencia (aquí ya no hay interses!) comprar letras del estado y nos saldrá todo más barato. Ojo, hay inversiones más rentables (con mayor riesgo, claro).</p>
+<p>(Nota, el 180.000€ lo saqué del Ministerio de Vivienda, el 3% es un <a href="http://www.lavanguardia.es/premium/publica/publica?COMPID=51262805468&amp;ID_PAGINA=22088&amp;ID_FORMATO=9">número que me gusta</a> que tampoco afecta mucho a nada pues hablamos que la evolución del precio es pareja a la inflación).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Traición o Orgullo</title>
+      <link>https://www.marcfargas.com/2010/07/traici%C3%B3n-o-orgullo/</link>
+      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/07/traici%C3%B3n-o-orgullo/</guid>
+      <description>&lt;p&gt;Ahí fuera, más allá de nuestras fronteras, hay Catalanes de renombre. El nombre de “Catalunya” los sigue allá donde vayan para orgullo de sus compatriotas. En casi cualquier ámbito imaginable &lt;a href=&#34;http://es.wikipedia.org/wiki/Categor%C3%ADa:Catalanes&#34;&gt;tenemos grandes nombres&lt;/a&gt;: Antoni Gaudí, Salvador Dalí y Joan Miró, Montserrat Caballé, Pau Gasol, Ferran Adrià… Incluso exportamos marcas de renombre como &lt;a href=&#34;http://www.elperiodico.com/es/noticias/gente/20100629/seis-productos-catalanes-aspiran-estar-entre-los-100-mejores-del-mundo/356350.shtml&#34;&gt;Vichy Catalan o Freixenet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nos henchimos de orgullo cuando estas y otras muchas personas salen ahí fuera. Pensamos que son los mejores. Y puede que lo sean o, simplemente, es que son de nuestra tierra.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ahí fuera, más allá de nuestras fronteras, hay Catalanes de renombre. El nombre de “Catalunya” los sigue allá donde vayan para orgullo de sus compatriotas. En casi cualquier ámbito imaginable <a href="http://es.wikipedia.org/wiki/Categor%C3%ADa:Catalanes">tenemos grandes nombres</a>: Antoni Gaudí, Salvador Dalí y Joan Miró, Montserrat Caballé, Pau Gasol, Ferran Adrià… Incluso exportamos marcas de renombre como <a href="http://www.elperiodico.com/es/noticias/gente/20100629/seis-productos-catalanes-aspiran-estar-entre-los-100-mejores-del-mundo/356350.shtml">Vichy Catalan o Freixenet</a>.</p>
+<p>Nos henchimos de orgullo cuando estas y otras muchas personas salen ahí fuera. Pensamos que son los mejores. Y puede que lo sean o, simplemente, es que son de nuestra tierra.</p>
+<p>Sería maravilloso inventar una cura para el cáncer, el motor de curvatura, el viaje interdimensional o el secreto de la juventud y llenar de orgullo los corazones de tus compatriotas. Que digan: “Mira, ahí va un Catalán”. Sería maravilloso que Cesc Fabregas marcase “el gol” en una final de Champions con el Arsenal: “Un Catalán entrega la Champions League al Arsenal”.</p>
+<p>Pero, al parecer, hay un límite. ¿Que un catalán marque “el gol” que coloca a España en la primera final de un Mundial de su historia? ¡Eso es traición no menos! ¡Que reinstauren la pena capital, el traidor debe ser castigado!</p>
+<p>¿HEMOS PERDIDO LA CABEZA? Alguien se ha parado a pensar, por un momento, ¿cómo se debe sentir Puyol? Marcó un tanto que hará historia, llevó a España a su primera final. Un gol por el que debe sentir auténtico orgullo indistintamente de los colores que vistiese. Estaba ahí <strong>para marcar goles</strong>, es su trabajo y lo desempeñó fabulosamente. En cambio, mira para a casa y ve como, algunos, lo acusan de traidor.</p>
+<p>En la Selección hay, al menos, ocho jugadores del Barça y unos cuantos catalanes; si marcan, serán traidores (dicen). La actual Selección es una alabanza a un modelo: El del Barça y su Masia. Que los mejores jugadores de España vengan del Barça, que su modelo esté probando ser de los mejores o que su estilo maraville al resto del mundo incluso vistiendo otros colores, eso no vale. Y si los colores que se visten son los de España entonces es traición.</p>
+<p>Es triste, muy triste, que Puyol reciba más alabanzas de Madrid (y el resto de España) que de Barcelona simplemente por los colores que vestía ayer. Es realmente triste que, parte de, Catalunya no reconozca a sus héroes cuando lo son fuera de su tierra.</p>
+<p>Eso sí, cuando un catalán haga un gran descubrimiento en EEUU, o gane lo que sea que se gana en la NBA, haga una nueva Sagrada Familia en Dubái o lo que sea. Acusémosle de traición. ¿Cómo se le ocurre descubrir, ganar o diseñar algo fuera de una universidad catalana, un equipo catalán o una parcela de Barcelona?</p>
+<p>A mí personalmente, Puyol me hizo feliz ayer. Y la selección Española con su estilo y sus jugadores me llena de orgullo. Sea española, medio-catalana o “el Barça y cuatro suplentes”, la Selección hizo un fútbol maravilloso ayer que ojalá repitan el domingo.</p>
+<p>Algunos piensan que Catalunya ya no es la “<a href="http://en.wikipedia.org/wiki/Els_Segadors">Catalunya rica i plena</a>”, sino que parece más un recuerdo deslucido. En cambio, estos días, en la prensa Española (y la del mundo) lucen fotografías de catalanes en “La Roja”, los comentaristas de Telecinco se desgañitan alabando el juego de Puyol y Piqué. Para ellos no importa que sean Catalanes, son parte de la Selección y están haciendo un fútbol increíble. Pero, al parecer, para algunos Catalanes sí que importa…</p>
+<p>De Gaulle <a href="http://twitter.com/Treintanyero/status/18035385453" title="Un tweet de Treintanyero">dijo</a> algo así como: &ldquo;<strong>Patriotismo</strong> es cuando el amor por tu propio pueblo es lo primero;<strong>nacionalismo</strong>,cuando el odio por los demás pueblos es lo primero.&rdquo;</p>
+<p>Cuanta razón.</p>
+<p>(<strong>Nota al margen, 13/07/2010:</strong> He eliminado algunos comentarios abajo que no aportaban nada (y quien los escribió, aparentemente, no tenía intención alguna de aportar nada), con sus nombres aleatorios, e-mails, falsos y misma IP.)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Reforma Laboral, 14 de Junio</title>
+      <link>https://www.marcfargas.com/2010/06/reforma-laboral-14-de-junio/</link>
+      <pubDate>Mon, 14 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/06/reforma-laboral-14-de-junio/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.elpais.com/&#34;&gt;El País&lt;/a&gt; ha publicado (&lt;a href=&#34;http://w3.marcfargas.com/es/doc/2010-06/el-documento-del-gobierno-para-la-reforma-laboral&#34;&gt;El documento del Gobierno para la reforma laboral&lt;/a&gt;) las 41 páginas del último documento que el Gobierno entregó a patronal y sindicatos el viernes que, en principio, es con el que se empezará la negociación con los grupos parlamentarios. A falta de la versión definitiva (que, en un principio, saldrá el Miércoles) comento lo que me parece más destacado del borrador actual.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTA:&lt;/strong&gt; &lt;em&gt;Lo que se detalla aquí es un borrador de la reforma (de ahí la redacción en condicional) en ningún cais representa la versión final de la Reforma. (Lo pongo claro por si alguien llega aquí en un futuo vía Google).&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://www.elpais.com/">El País</a> ha publicado (<a href="http://w3.marcfargas.com/es/doc/2010-06/el-documento-del-gobierno-para-la-reforma-laboral">El documento del Gobierno para la reforma laboral</a>) las 41 páginas del último documento que el Gobierno entregó a patronal y sindicatos el viernes que, en principio, es con el que se empezará la negociación con los grupos parlamentarios. A falta de la versión definitiva (que, en un principio, saldrá el Miércoles) comento lo que me parece más destacado del borrador actual.</p>
+<p><strong>NOTA:</strong> <em>Lo que se detalla aquí es un borrador de la reforma (de ahí la redacción en condicional) en ningún cais representa la versión final de la Reforma. (Lo pongo claro por si alguien llega aquí en un futuo vía Google).</em></p>
+<p>La llamada &ldquo;<strong>Mochila Austriaca</strong>&rdquo; se &ldquo;plantea&rdquo; en la Reforma pero se dejaría pendiente de regular un año después de la entrada en vigor de la misma. La Reforma solo dice que la mochila tendría efecto solo en los <strong>contratos indefinidos nuevos</strong> a partir de la regulación de la misma. Espero, que cuando se regule, eso se quite, y se ponga alguna disposición para que los que <strong>ahora</strong> tienen un contrato indefinido puedan tener su mochila sin irse al paro primero.</p>
+<p>Se abriría la puerta a <strong>obligar a los parados</strong> a participar en &ldquo;acciones que mejoren la ocupabilidad&rdquo; a partir del centésimo (100) día en el paro, aunque la redacción actual no deja claro si habría sanciones o no a partir de ese día (solo establece la voluntariedad hasta el día 100).</p>
+<p>En el campo de las ETT, las empresas usuarias serían responsables subsidiarias (y solidarias en algunos casos) de las obligaciones salariales y frente a la Seguridad Social. En la misma área se prohibiría recurrir a las ETT para cubrir puestos de especial peligrosidad, con algunas excepciones.</p>
+<p>En cuanto al despido Colectivo y el Objetivo se defineiría un poco más que es o no un despido objetivo: Causas económicas <strong>no coyunturales</strong>, acreditadas &ldquo;objetiva y documentalmente&rdquo;; Causas técnicas justificando &ldquo;mínimamente la razonabilidad&rdquo;. También se establecería una <strong>subvención del FOGASA de 8 días por año</strong> en contratos indefinidos posteriores a la entrada en vigor de la Reforma (y que tengan una duración mínima de un año). Personalmente tanto lo de &ldquo;objetiva y documentalmente&rdquo; como &ldquo;mínimamente la razonabilidad&rdquo; no me parece que sea una gran clarificación que vaya a evitar visitar al juez cada vez que se haga un despido Objetivo (actualmente el 80% acaban declarados improcedentes).</p>
+<p>Los contratos temporales tendrían una <strong>indemnización de 12 días</strong> al finalizar (su entrada en vigor sería progresiva).</p>
+<p>Se regularía algo parecido al modelo alemán: Posibilidad de suspender contratos y/o hacer reducciones de jornada. Sin indemnizaciones. Con acceso a la prestación por desempleo en algunos casos. Siempre que &ldquo;razonablemente&rdquo; la medida ayude a superar una <strong>situación coyuntural</strong>. También se regula la<strong>suspensión por causas de Fuerza Mayor</strong>.</p>
+<p>Se abriría la vía para que un empresario pueda <strong>descolgarse de los convenios colectivos</strong> en ciertos ámbitos por causas técnicas, organizativas o de producción: Sistema de Remuneración, Sistema de trabajo y rendimiento, Régimen de turno, horarios, &hellip; algunos cambios podrían dar pié a que el trabajador rescinda su contrato con una indemnización de 20 días; la mayoría deberían reintroducirse cuando al vencer el convenio actual; un juez puede considerar que no proceden y restituir al trabajador (o trabajadores) las condiciones previas.</p>
+<p>Como curiosidad, el apartado sobre el encadenamiento de contratos temporales tiene seis disyuntivas (uso de la &ldquo;o&rdquo;) en la misma frase.</p>
+<p>Como <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/06/notas-muy-breves-sobre-la-reforma-laboral.html">decía Roger hace unos días</a>: &ldquo;es un punto de partida decente&rdquo;.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>La Reforma Laboral al Desnudo</title>
+      <link>https://www.marcfargas.com/2010/06/la-reforma-laboral-al-desnudo/</link>
+      <pubDate>Wed, 09 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/06/la-reforma-laboral-al-desnudo/</guid>
+      <description>&lt;p&gt;Mis &lt;a href=&#34;http://www.disney.es/FilmesDisney/g-force/&#34;&gt;espías/fuentes&lt;/a&gt; en la Moncloa me han pasado el &lt;strong&gt;último borrador&lt;/strong&gt; de la Reforma Laboral que se está intentando pactar, dice así:&lt;/p&gt;
+&lt;p&gt;Ley XX/2010 de XX de XXX.. por la que&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;Artículo Primero: Se establece &lt;strong&gt;Curro&lt;/strong&gt; como el vocablo adecuado para referirse al, hasta ahora, concepto de &lt;strong&gt;Trabajo&lt;/strong&gt;, el cambio de vocablo afecta a todo el ámbito: &lt;strong&gt;Currante&lt;/strong&gt; por Trabajador, Estatuto de los Currantes por Estatuto de los Trabajadores, etc&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Artículo Segundo: Todas las formas de negociación colectiva quedan eliminadas, en favor del artilugio de arbitraje que se introduce más adelante.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Mis <a href="http://www.disney.es/FilmesDisney/g-force/">espías/fuentes</a> en la Moncloa me han pasado el <strong>último borrador</strong> de la Reforma Laboral que se está intentando pactar, dice así:</p>
+<p>Ley XX/2010 de XX de XXX.. por la que&hellip;.</p>
+<p>Artículo Primero: Se establece <strong>Curro</strong> como el vocablo adecuado para referirse al, hasta ahora, concepto de <strong>Trabajo</strong>, el cambio de vocablo afecta a todo el ámbito: <strong>Currante</strong> por Trabajador, Estatuto de los Currantes por Estatuto de los Trabajadores, etc&hellip;</p>
+<p>Artículo Segundo: Todas las formas de negociación colectiva quedan eliminadas, en favor del artilugio de arbitraje que se introduce más adelante.</p>
+<p>Artículo Tercero: Se declara la &ldquo;<a href="http://en.wikipedia.org/wiki/Magic_8-Ball">Bola 8 Mágica</a>&rdquo; como instrumento de arbitraje y negociación único en el ámbito laboral. El Estado tiene las competencias en materia reguladora de que puede o no decir <strong>La Bola.</strong></p>
+<p>Artículo Cuarto: Las indemnizaciones por despido, independientemente del tipo de despido, se decidirán con un <a href="http://img194.imageshack.us/i/img2860i.jpg/">dado de 24</a>, un primer lanzamiento indicará los días a indemnizar por año obtenido en el segundo lanzamiento. El Estado tiene potestad para definir tablas de corrección sobre el segundo lanzamiento según estime oportuno por Real Decreto de forma temporal.</p>
+<p>Como podeis ver se trata de una reforma en profundidad, la falta de acuerdo está en el Artículo Tercero, cada cual quiere poner sus frases en la Bola. Personalmente opino que <strong>El Ordenador</strong> debería mezclar palabras de forma aleatoria y meterlas en la bola, tampoco se notará demasiado&hellip;</p>
+<p>No he podido contenerme ha hacer la broma tonta, lo siento. Ahora <strong>en serio:</strong> Parece que lo único que, de momento, veremos es una definición clara de que son las <strong>Causas de despido objetivas</strong> (esas que permiten indemnizaciones de 20 días), por todo lo demás&hellip;</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Jugando con el Calendario Electoral</title>
+      <link>https://www.marcfargas.com/2010/06/jugando-con-el-calendario-electoral/</link>
+      <pubDate>Mon, 07 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/06/jugando-con-el-calendario-electoral/</guid>
+      <description>&lt;p&gt;Las apuestas sobre cuando se celebrarán las próximas elecciones al Parlament de Catalunya son de lo más variopintas, con sus defensores y retractores.&lt;/p&gt;
+&lt;p&gt;Para que todos podamos participar en las apuestas en igualdad de condiciones primero hay que explicar las normas:&lt;/p&gt;
+&lt;p&gt;La primera de todas es que, a &lt;a href=&#34;http://www.parlament.cat/web/composicio/resultats-electorals&#34;&gt;falta de una ley electoral propia&lt;/a&gt;, las elecciones al Parlament se rigen por las mismas normas que las &lt;a href=&#34;http://noticias.juridicas.com/base_datos/Admin/lo5-1985.html&#34;&gt;del Congreso de los Diputados&lt;/a&gt;. Algo muy útil teniendo en cuenta las posibilidades de que se &amp;ldquo;llegasen a juntar&amp;rdquo; ambas convocatorias, aprendiendo un lote de normas podemos apostar a dos caballos.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Las apuestas sobre cuando se celebrarán las próximas elecciones al Parlament de Catalunya son de lo más variopintas, con sus defensores y retractores.</p>
+<p>Para que todos podamos participar en las apuestas en igualdad de condiciones primero hay que explicar las normas:</p>
+<p>La primera de todas es que, a <a href="http://www.parlament.cat/web/composicio/resultats-electorals">falta de una ley electoral propia</a>, las elecciones al Parlament se rigen por las mismas normas que las <a href="http://noticias.juridicas.com/base_datos/Admin/lo5-1985.html">del Congreso de los Diputados</a>. Algo muy útil teniendo en cuenta las posibilidades de que se &ldquo;llegasen a juntar&rdquo; ambas convocatorias, aprendiendo un lote de normas podemos apostar a dos caballos.</p>
+<p>La segunda norma es en cuanto a fechas:</p>
+<ul>
+<li>Las elecciones son el quincuagésimo cuarto (54) día posterior a la convocatoria de elecciones.</li>
+<li>La convocatoria ordinaria será 25 días antes de agotar el mandato de la Cámara.</li>
+<li>No se puede convocar elecciones cuando se esté <strong>tramitando una moción de censura</strong>.
+<ul>
+<li>Dicha moción se ha de votar al quinto día de su presentación, de modo que no afectaría demasiado al calendario a menos que se aprobase.</li>
+</ul>
+</li>
+</ul>
+<p>Con estas normas en la mano podemos empezar a barajar fechas. Primero, hoy 7 de Junio era el día límite para convocar las elecciones antes de Agosto. Y entendemos que a nadie le interesa Agosto. Os pongo las fechas que más se mueven estos días:</p>
+<ul>
+<li><strong>20/12/2010</strong>, Lunes así que pensaremos en 19/12/2010. La convocatoria <strong>ordinaria</strong> que por algún motivo nadie habla de ella. Se ha de convocar 25 días antes de cumplirse el cuarto aniversario del actual Parlament, que si no me equivoco se constituyó el 21 de Noviembre de 2006. Y nos sale 27 de Octubre de 2010 para la convocatoria, sumamos 54 y sale 20/12/2010. Esto es <strong>lo más tarde</strong> posible agotando por completo el mandato.</li>
+<li><strong>21/11/2010</strong>, al parecer cierta empresa podría <a href="http://xucla.blogspot.com/2010/06/eleccions-el-21-de-novembre.html">tener medio encargada la campaña institucional</a>para esa fecha. La convocatoria sería el 28 de Septiembre.</li>
+<li><strong>31/10/2010</strong>, el Domingo más cercano a las elecciones de 2006. La convocatoria sería el 7 de Septiembre.</li>
+<li><strong>24/10/2010</strong>, el Domingo anterior al de antes, la convocatoria seria el 31 de Agosto. Eso es un problema, no estoy seguro pero diría que el MH President no se va a poner a convocar en Agosto.</li>
+</ul>
+<p>Estas son las &ldquo;favoritas&rdquo; en domingo. Si asumimos que no se hará la convocatoria en Agosto la fecha más temprana sería el 23 de Octubre (sábado) y la última el 20 de Diciembre. O convocando entre el 9 y el 31 de Julio nos caerían en Septiembre. Entre estas fechas se pueden hacer las apuestas que se quieran :)</p>
+<p>Si el Govern quiere agotar el mandato para sacar adelante &ldquo;todo lo que pueda&rdquo; podrían apurar hasta el 26-27 de Octubre para disolver el Parlament y las elecciones serían casi casi en Navidad. Pero viendo los, cada vez más, acusados desmarques/distanciamientos entre los miembros del tripartit dudo que intenten apurar tanto. De modo que si la cosa se complica y el Govern se vuelve insostenible podrían convocar en Julio para la vuelta del verano, digamos el 23/7 para el 15/9 así toda la campaña electoral caería en Septiembre.</p>
+<p>Si el MHP Montilla consigue tener quietecitos a sus socios de Govern podría intentar llegar a Noviembre o incluso Diciembre.</p>
+<p>Todo esto también vale para las elecciones Generales (salvo que cualquiera de estas fechas sería anticipada, ninguna sería ordinaria).</p>
+<p>Hagan sus apuestas :)</p>
+<p><strong>Actualización 12:57:</strong> Olvidé comentar que el 1 de Noviembre (Festivo) cae en Lunes de modo que más de uno hará puente ese fin de semana. Podeis ir tachando el 31/10/2010 :)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Prohibido endeudarse en 2011</title>
+      <link>https://www.marcfargas.com/2010/06/prohibido-endeudarse-en-2011/</link>
+      <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/06/prohibido-endeudarse-en-2011/</guid>
+      <description>&lt;p&gt;Una de las flamantes medidas que incluye el &lt;a href=&#34;http://www.boe.es/boe/dias/2010/05/24/pdfs/BOE-A-2010-8228.pdf&#34;&gt;Real Decreto-ley 8/2010, de 20 de mayo, por el que se adoptan medidas extraordinarias para la reducción del déficit público&lt;/a&gt;. Es la prohibición de concertar operaciones de endeudamiento a largo plazo hasta el año 2012.&lt;/p&gt;
+&lt;p&gt;A casi cualquiera que le pongan esto en frente lo primero que piensa es: ¿Cuanto tiempo tengo para endeudarme? y si tienes mucho tiempo la medida no sirve para nada (o puede ser contraproducente). Así que al redactar el decreto la pregunta inversa es: ¿Como de pronto hay que aplicar la medida para que sea efectiva?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Una de las flamantes medidas que incluye el <a href="http://www.boe.es/boe/dias/2010/05/24/pdfs/BOE-A-2010-8228.pdf">Real Decreto-ley 8/2010, de 20 de mayo, por el que se adoptan medidas extraordinarias para la reducción del déficit público</a>. Es la prohibición de concertar operaciones de endeudamiento a largo plazo hasta el año 2012.</p>
+<p>A casi cualquiera que le pongan esto en frente lo primero que piensa es: ¿Cuanto tiempo tengo para endeudarme? y si tienes mucho tiempo la medida no sirve para nada (o puede ser contraproducente). Así que al redactar el decreto la pregunta inversa es: ¿Como de pronto hay que aplicar la medida para que sea efectiva?</p>
+<p>Alguien hizo el cálculo muy bien: <strong>Ni una semana.</strong> Y por la naturaleza de la medida, obviamente, nadie fue avisado (sino estamos en lo mismo: no sirve). No entraré a debatir si es justo o no que de la noche a la mañana te digan: <strong>No puedes pedir más financiación a largo plazo</strong>. La cuestión es que decidió que el cálculo era incorrecto, y la medida en lugar entrar en vigor <strong>ya mismo</strong> <a href="http://www.lavanguardia.es/economia/noticias/20100525/53933642357/el-limite-al-endeudamiento-de-los-ayuntamientos-no-entra-hoy-en-vigor-sino-el-1-de-enero-de-2011.html">entrará en vigor el uno de enero</a>. Dando así un semestre entero a los ayuntamientos para &ldquo;planificarse&rdquo;.</p>
+<p>En un mundo con Ayuntamientos responsables y saneados la financiación a largo plazo debería servir solo para financiar inversiones, infraestructuras, vamos: <strong>cosas nuevas</strong>. Ni para pagar nóminas, mantenimientos, etc&hellip; Es decir, que una medida así <strong>en un mundo ideal</strong> implicaría que se detuvieran o retrasaran las inversiones planificadas para 2011. O que se buscasen otras formas de financiación (ie: concesionarias, pago en 2012, etc).</p>
+<p>Podemos pensar que los ayuntamientos en estos seis meses mirarán cuanto dinero podrán disponer en 2011, que inversiones podrán llevar a cabo y <strong>cuanto dinero les va a faltar.</strong> También habrá ayuntamientos que se saltarán lo de mirar que podrán llevar a cabo y miraran directamente lo que les va faltar. Y como buenos gestores lo que harán es aprovechar los próximos seis meses para concertar las operaciones de endeudamiento en 2010.</p>
+<p>Hoy, que ya tenemos los detalles del plan de austeridad del Ajuntament de Barcelona, sabemos que el ente está concretando una operación financiera (endeudamiento) cercana a los 240 millones de Euros para financiar inversiones en el 2011.</p>
+<p>Cualquier ayuntamiento con una mínima capacidad de gestión debe estar ahora mismo echando las cuentas pertinentes: Que <strong>debemos</strong> recortar; Que <strong>podemos</strong> recortar; Que <strong>haremos</strong> en 2011; Cuanto<strong>ingresaremos</strong> en 2011; Cuanto <strong>gastaremos</strong> en 2011; <strong>¿Cuanto nos falta?.</strong> Sacarán esa cifra lo antes posible para empezar a negociar la financiación y cerrarla antes del 1 de Enero de 2011. Lo que no se podrán endeudar en 2011 lo harán en 2010.</p>
+<p>Entendemos que los Ayuntamientos (responsables) <strong>habrían hecho recortes si o si</strong>, de modo que lo que sumen de menos este semestre responde a esos recortes, no a la medida en si que ha quedado cuasi sin efecto. (Con &ldquo;sumen&rdquo; me refiero al endeudamiento &ldquo;normal&rdquo; del semestre más &ldquo;lo que sumen&rdquo; para 2011).</p>
+<p>Dije que la medida podía ser contraproducente, ya sabemos que los préstamos se pagan, cuanto más tiempo lo debas más pagarás. De modo que si yo necesito un dinero en Junio de 2011 pero lo pido hoy, pago <strong>más en intereses</strong>. Es decir, que la medida no solo se convirtió en inútil cuando se aplazó, sino que aumenta el gasto de los municipios.</p>
+<p>Y, a parte, tenemos los Ayuntamientos sin tanta capacidad de gestión que: a) pedirán más dinero del que necesitarán pagando más por ello. b) pedirán menos del que necesitarán y se encontraran en 2011 sin dinero para pagar cosas.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Responsabilidad política</title>
+      <link>https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/</guid>
+      <description>&lt;p&gt;Esta mañana ha sucedido algo extraño en Madrid, muchos pensarán que ya saben el qué, pero quizás no ven claro el &lt;strong&gt;Que&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para entender lo que ha sucedido hoy, antes de señalar a nadie con el dedo hay que ver clara la situación en la que se encuentra España. Podemos mirar &lt;a href=&#34;http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/generando-desconfianza.html&#34;&gt;como nos ven desde fuera&lt;/a&gt; para hacernos una idea, pero en resumen: no somos Grecia, pero estamos a un paso de acabar igual.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Esta mañana ha sucedido algo extraño en Madrid, muchos pensarán que ya saben el qué, pero quizás no ven claro el <strong>Que</strong>.</p>
+<p>Para entender lo que ha sucedido hoy, antes de señalar a nadie con el dedo hay que ver clara la situación en la que se encuentra España. Podemos mirar <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/generando-desconfianza.html">como nos ven desde fuera</a> para hacernos una idea, pero en resumen: no somos Grecia, pero estamos a un paso de acabar igual.</p>
+<p>Hemos estado un par de añitos cazando gamusinas por el campo sin hacer prácticamente nada a parte de gastar dinero a espuertas. Y, ahora, nuestro problema más acuciante (y el que más preocupa a nuestros socios Europeos), <a href="http://www.tv3.cat/videos/2930131/Mas-No-mho-posaran-facil">lo explicó esta mañana en TV3</a> Artur Más: Necesitamos dinero (ie: que compren nuestra deuda) y si no damos muestras de que podremos pagar nadie nos lo prestará.</p>
+<p><strong>Nota:</strong> Cuando <strong>inviertes</strong> en letras y bonos del Tesoro estás <strong>comprando</strong> deuda Española (y te conviertes en <em>malvado especulador financiero</em>). Si tienes letras, bonos, etc&hellip; eres uno de los que &ldquo;quiere cobrar&rdquo;.</p>
+<p>Zapatero <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/de-perdidos-al-rio.html">se despertó de golpe un dia</a> (sonó el teléfono) y asumió que no puede estar pendiente de las próximas elecciones, en un momento de lucidez decidió que la prioridad absoluta era el país y que ahora solo había una salida: medidas impopulares y urgentes. A lo que hizo Zapatero ese día se le llama Harakiri, valentía política o sentido de Estado. La cuestión es que hizo algo que a su partido (y a toda la izquierda) le sentó como una puñalada pero que era, y es, necesario.</p>
+<p>Cuando el Gobierno se hace el harakiri para salvar el país es de esperar que la oposición le eche una mano, más si llevan tiempo pidiendo, precisamente, eso. Pero no, <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/la-aportacion-del-pp.html">ya sabemos que hizo la oposición</a>. Y la izquierda traicionada, por supuesto, no va a ayudar; menos aún con elecciones a la vuelta de la esquina buena parte de ellos. Una vez más en esta legislatura, el Gobierno hecha la vista a los nacionalistas: PNV y CiU. Esos dos partidos que no quieren formar parte de España pero que mientras no haya otro remedio, al menos, que siga a flote. PNV dijo no. CiU se abstuvo (es lo que necesitaba el Gobierno <strong>y</strong>España).</p>
+<p>CiU <a href="http://www.ciu.cat/fitxa_noticies.php?news_ID=25424">ha hecho algo muy parecido</a> a lo que hizo Zapatero ese día: <strong>lo que había que hacer</strong>. Saben perfectamente que esto les puede costar votos igual que al PSOE, a <a href="http://www.duranilleida.org/?p=1559">Duran i Lleida</a> <a href="http://www.duranilleida.org/?p=1500&amp;cpage=1#comment-190251">ya le llueven tortas en su blog</a> (los últimos comentarios del post), en twitter hay mas de un militante y simpatizante decepcionado/frustrado/traicionado. Pero es lo que había que hacer, es lo que debía haber hecho la oposición.</p>
+<p>No hablamos de salvar al Gobierno, hablamos de <strong>salvar el país</strong> (del que Catalunya, por el momento, forma parte) y, según como se mire, hablamos de <a href="http://twitter.com/marcarza/status/14836346397">salvar la moneda única</a>. Hablamos de evitar que España se convierta en Grecia durante el fin de semana. Sí, el Gobierno puedo haberlo evitado pero no lo hizo, pero <strong>no podemos convertir este país en Grecia para castigar al Gobierno</strong>. A <strong>eso</strong> se le llama <strong>Sentido de Estado</strong>.</p>
+<p>Dejadme añadir un par de apuntes aleatorios:</p>
+<ul>
+<li>&ldquo;Convoque elecciones señor presidente&rdquo;, dejando a un lado el <a href="http://www.escolar.net/MT/archives/2010/05/oe-oe-oe.html">lamentable espectáculo del Senado</a>. Si observamos la última encuesta del CIS (previa a publicarse el sumario del caso Gürtel), PP y PSOE están empatados. Es muy probable que terminásemos con las cámaras como están ahora: sin mayoría absoluta en ningún lado necesitando apoyos puntuales. Pero con una diferencia:<strong>habríamos perdido 3 meses</strong> disolviendo las cámaras, convocando elecciones, la campaña, el verano, constituyendo el Gobierno&hellip; Tres meses que el resto de Europa no nos concederá.</li>
+<li>(En mi opinión) Si ganase el PP id buscando otro país, en serio, su trabajo en la oposición es peor que el del Gobierno. Tiemblo solo de pensar que pudieran gobernar. Por suerte quienes deberían auparlos no son ciegos y también tiemblan.</li>
+<li>(En mi opinión) Lo del PP hoy en el Congreso es de un irresponsable absoluto, Europa entera nos miraba y lo ha visto. Por arañar cuatro votos&hellip;</li>
+</ul>
+<p>Os recomiendo <a href="http://www.edgarrovira.com/blog/2010/05/27/un-mati-al-congres/">el post de Edgar Rovira</a> donde resume que significaba la votación de hoy.</p>
+<p><strong>Update 27/05/10,</strong> Recopilo algunos enlaces que encuentro sobre el tema por si os interesan (iré añadiendo):</p>
+<ul>
+<li>Enric Juliana <a href="http://www.lavanguardia.es/lv24h/20100527/53935166232.html">habla de ello en La Vanguardia</a> y no exagera demasiado.</li>
+<li>Tano santos, igual que Roger, escribe sobre como nos ven <a href="http://www.elpais.com/articulo/economia/Espana/fuera/elpepieco/20100527elpepieco_10/Tes">&ldquo;desde fuera&rdquo; en El País</a>, y lo <a href="http://www.fedeablogs.net/economia/?p=4503">reproduce en FEDEA</a>.</li>
+<li>Geógrafo Subjetivo también <a href="http://geografiasubjetiva.com/2010/05/27/a-un-voto-del-infierno/">escribe sobre lo cerca que hemos estado de tener un problema Gordo, muy Gordo</a>.</li>
+<li>Recomiendo <strong>encarecidamente</strong> que leais los comentarios que <a href="http://www.duranilleida.org/?p=1559">ha ido dejando la gente en el blog de Duran i Lleida</a>, hay en ambos sentidos, de Catalunya y del resto de España.</li>
+<li><a href="http://www.lavanguardia.es/lv24h/20100528/53935512430.html">Jordi Barbeta en La Vanguardia</a> tampoco exagera mucho.</li>
+<li>Roger Senserrich escribe también sobre esto con &ldquo;<a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/ciu-salva-el-mundo.html">CiU salva el mundo</a>&rdquo;</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Y ahora, Reforma laboral</title>
+      <link>https://www.marcfargas.com/2010/05/y-ahora-reforma-laboral/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/y-ahora-reforma-laboral/</guid>
+      <description>&lt;p&gt;Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (&lt;a href=&#34;https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/&#34;&gt;Responsabilidad política&lt;/a&gt; aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:&lt;/p&gt;
+&lt;p&gt;El lunes al anochecer vence el (último) plazo dado por Zapatero para llegar a un acuerdo para la Reforma Laboral. Si hay acuerdo (lo dudo) no digo nada, pero si no lo hay&amp;hellip; viviremos un deja vú.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ya hemos hablado de los difícil que ha sido sacar adelante el decreto para reducir el déficit (<a href="https://www.marcfargas.com/2010/05/responsabilidad-pol%C3%ADtica/">Responsabilidad política</a> aún teniendo a todo el mundo mirándonos. Ahora voy con una reflexión rápida para la semana entrante:</p>
+<p>El lunes al anochecer vence el (último) plazo dado por Zapatero para llegar a un acuerdo para la Reforma Laboral. Si hay acuerdo (lo dudo) no digo nada, pero si no lo hay&hellip; viviremos un deja vú.</p>
+<p>Si no hay acuerdo, presumible mente, Zapatero tomará exactamente la misma via que ha tomado con la reducción del déficit: decreto. Y la misma vía implica la misma consecuencia: convalidar en el Congreso.</p>
+<p>Y ahí está el pastel, partiendo de que la Reforma Laboral sea <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/01/%C2%BFpor-que-necesitamos-una-reforma-laboral.html">tan dura como debe ser</a> CiU lo tendrá muy difícil para abstenerse de nuevo (recordad: hay elecciones en Noviembre y una cosa es tener Sentido de Estado, la otra es suicidarse políticamente desde la oposición / ser idiota) y del resto de fuerzas políticas no podemos esperar más que lo de hoy (el coste político de lo de hoy es irrisorio comparado con el que tendría esa Reforma).</p>
+<p>De modo que la Reforma por decreto no saldrá a menos que el PP se emborrache el día de la votación o toda la oposición (en un milagro) votase a favor dejando al PP solo (haciendo, entonces, el ridículo). Comprenderéis que ambas opciones son bastante imposibles de ver (lo del PP borracho no, en parte).</p>
+<p>Así pues, soys Zapatero, llega el lunes por la noche y no hay acuerdo. Hay que sacar la Reforma, pero sabes que no la podrás sacar adelante de ningún modo. Solo hay una cosa peor que el harakiri político, y es hacerlo <strong>para nada</strong> (ie: perder la votación). De modo que podrían pasar dos cosas:</p>
+<ul>
+<li>No hay acuerdo, no hay Reforma. (Puestos a no lograr pasarla, al menos no comerse el marrón).</li>
+<li>No hay acuerdo, Reforma descafeinada en plan parche.</li>
+</ul>
+<p>Con la segunda si se cuela algo de cafeína hay huelga general, igual pasaría si se lograse aprobar por decreto. Así que, a menos que haya políticos realmente responsables en la oposición (aparte de Duran i Lleida) o, sintiéndolo mucho, no habrá Reforma del Mercado Laboral.</p>
+<p><strong>Update 28/05/2010:</strong> Roger, ¡por una vez!, <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/ciu-salva-el-mundo.html">se muestra algo optimista con la Reforma Laboral</a> su punto de vista es interesante sobre porque CiU podría apoyar la Reforma Laboral y asumir su coste.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Resacón Diagonal</title>
+      <link>https://www.marcfargas.com/2010/05/resac%C3%B3n-diagonal/</link>
+      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/resac%C3%B3n-diagonal/</guid>
+      <description>&lt;p&gt;Y habló el pueblo. Dijo &amp;ldquo;C&amp;rdquo;. Dijo algo así como: Ahora no es el momento de gastar dinero, la Diagonal está bien como está, mi coche va por donde yo quiero, la Diagonal es una arteria ¿que pasará con los coches?, Hereu plega ja, yo voto C para llevar la contraria al Ayuntamiento, &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Jamás se habían dicho tantas cosas con una sola letra. Impresionante. Todo lo de arriba lo he oído, al menos, una vez en boca de alguien (menos lo del coche).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Y habló el pueblo. Dijo &ldquo;C&rdquo;. Dijo algo así como: Ahora no es el momento de gastar dinero, la Diagonal está bien como está, mi coche va por donde yo quiero, la Diagonal es una arteria ¿que pasará con los coches?, Hereu plega ja, yo voto C para llevar la contraria al Ayuntamiento, &hellip;</p>
+<p>Jamás se habían dicho tantas cosas con una sola letra. Impresionante. Todo lo de arriba lo he oído, al menos, una vez en boca de alguien (menos lo del coche).</p>
+<p>Lo importante es que la gente ha participado, un 12% de participación. No está del todo mal; como dato: las municipales mueven el 49% del electorado. Hay que analizar que ha llevado al voto de la &ldquo;C&rdquo;, ha habido muchas razones para votar la &ldquo;C&rdquo; y de muchas se pueden desprender algunas lecciones.</p>
+<h3 id="para-que-reformar-la-diagonal">¿Para que reformar la Diagonal?</h3>
+<p>Hay una cosas en la que Apple (y Steve Jobs en particular) son artistas: Crear necesidad donde no la hay. Y el Ayuntamiento de Barcelona es artista en una totalmente opuesta: no saber comunicar la necesidad donde si está. Muy poca gente es consciente de la necesidad de reformar la Diagonal (<a href="http://w3.marcfargas.com/ca/node/19">Diagonal, la Reforma necesaria</a>). Antes de empezar con la consulta el Ayuntamiento debió hacer llegar a sus ciudadanos esa necesidad de algún modo. Por ejemplo, podían haber hecho debates o ponencias al respecto desde diversas areas buscando algún eco mediático.</p>
+<h3 id="ahora-no-es-el-momento-estamos-en-crisis">Ahora no es el momento, estamos en crisis&hellip;</h3>
+<p>Otro fallo de comunicación, mucha gente con la que he hablado que decían esto creían que si ahora salía A o B a la vuelta del verano empezaban las obras. No se logró comunicar a la ciudadanía que estamos en una fase muy inicial del proyecto y que, como muy pronto, las obras empezarían en 2012-2013.</p>
+<h3 id="la-diagonal-es-una-arteria">La Diagonal es una arteria</h3>
+<p>De esta hay muchísimas variantes, solo diré que entre Francesc Maciá y Glòries el tráfico de la Diagonal supone un 1,6% de la movilidad total de Barcelona. Es una cifra &ldquo;abre ojos&rdquo;, la sueltas y el que tienes enfrente se queda mudo.</p>
+<h3 id="que-pasará-con-los-coches">¿Que pasará con los coches?</h3>
+<p>Aquí hay un dato importante, mucha gente, muchísima, cree que esta consulta ha sido una piedra al cielo, que nadie ha pensado ni planificado nada. Pero lo cierto es que hay un estudio de Movilidad (<a href="http://w3.marcfargas.com/ca/node/3">Reforma Diagonal, Informe de movilidad</a>) que deja claro que el trasfondo de la Reforma está muy estudiado. Ese informe explica muy bien que pasará con la Diagonal sino se toca, y que es lo que quieren hacer para evitarlo. Es una parte esencial para comprender el proyecto de Reforma y entender que a los coches no les pasará nada malo, sino que tardarán menos en cruzar la ciudad desde Esplugues hasta Sant Adrià y que prácticamente todas las vías del Eixample mejorarán su tráfico.</p>
+<h3 id="hereu-plega-ja-voto-c-para-llevar-la-contraria">Hereu plega ja, voto C para llevar la contraria&hellip;</h3>
+<p>El que vota la &ldquo;C&rdquo; por fastidiar por mi puede irse a casa. Lo que ha estado haciendo la oposición toda esta semana me parece, sinceramente, lamentable. (Y conste que, de momento, mi voto lo tiene un partido de la oposición).</p>
+<p>Los que han votado la &ldquo;C&rdquo; por alguno de los motivos que he expuesto arriba, por cualquier razón argumentable o, simplemente, porque tenían dudas sobre el proyecto les agradezco sinceramente su participación, les agradezco que hayan mostrado al Ayuntamiento que en esta sociedad hay gente que valora sus esfuerzos por mejorar los canales de comunicación con el ciudadano, en especial los de participación.</p>
+<h2 id="en-resumen-y-pensando-en-mañana">En resumen, y pensando en Mañana</h2>
+<p>El Ayuntamiento ha de sacar muchas lecciones de esta consulta, sobre todo ha de aprender a comunicarse bien. Hay muchos votos en la &ldquo;C&rdquo; que probablemente estarían en otro saco si se les hubiera puesto más información &ldquo;delante&rdquo;. (<strong>Nota</strong>: poner la información <strong>delante de uno no es lo mismo que hacerla disponible</strong>).</p>
+<p>Sobre el mañana, hay un apunte importante: en ningún momento se preguntaba si hay o no que reformar la Diagonal (y la oposición está de acuerdo en la necesidad de hacerlo). Lo único que se ha dicho hoy es que no se quiere ni una Rambla ni un Boulevard, así que el Ayuntamiento tendrá que preparar una Ronda General Mitre, una Avinguda Meridiana o una Gran Via tipo el tramo de Glóries al Besòs y ejecutarlo. Punto. Porque la &ldquo;C&rdquo; decía &ldquo;Ni A ni B&rdquo;.</p>
+<p>Ahora, más en serio, espero que todas esas pequeñas cosas maravillosas que no permiten cortar cintas que &ldquo;complementaban&rdquo; la Reforma, como la reordenación semafórica, volver a conectar Còrçega, invertir Avinguda Sarrià&hellip; se lleven a cabo. Estos <strong>no van ligados a la consulta</strong>, y pueden mejorar mucho el tráfico en Barcelona. También espero que TMB siga adelante con la ortogonalidad de las líneas de bus. Mirándolo friamente, lo único que no se podrá hacer, de momento, es conectar las dos redes del TRAM y mejorar las infernales aceras de la Diagonal.</p>
+<p>Al Ayuntamiento, como ciudadano, le expreso mi más sincero agradecimiento y admiración por su valentía al llevar a cabo esta consulta aún sabiendo los riesgos a los que se enfrenaban. Espero que el resultado no les haga temerosos de seguir innovando en procesos de participación ciudadana y que sigan trabajando por mejorar la ciudad con el respaldo, directo o indirecto, de la ciudadania.</p>
+<p>Por último, hay que agradecer a las dos primeras víctimas del resultado sus esfuerzos por convertir Barcelona en una ciudad mejor y más moderna. Carles Martí quien ha sido cesado como primer teniente de alcalde, y Pilar Conesa que ha renunciado como gerente de los sistemas de información del Ayuntamiento.</p>
+<p>Espero que ambas víctimas satisfagan la sed de dimisiones/ceses que ha reclamado la oposición durante toda la semana y que esto ponga fin al circo (porque ha sido un circo).</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Los cuchillos Ginsu y Zapatero</title>
+      <link>https://www.marcfargas.com/2010/05/los-cuchillos-ginsu-y-zapatero/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/los-cuchillos-ginsu-y-zapatero/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/abLB7aTmnE4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Estos anuncios fueron, durante tiempo, parte integral de nuestra programación televisiva, junto a los &amp;ldquo;Vigilantes de la Playa&amp;rdquo; o el &amp;ldquo;Equipo A&amp;rdquo;. Y, esta semana, el Presidente del Gobierno nos ha evocado una imagen que incorpora, no cuchillos, pero tijeras igual de eficaces. Aquí en Cataluña nos imaginamos a diario a los magistrados del Tribunal Constitucional haciendo papiroflexia con recortes del Estatut así que estamos acostumbrados a ver volar recortes&amp;hellip; (o imaginarlos).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/abLB7aTmnE4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Estos anuncios fueron, durante tiempo, parte integral de nuestra programación televisiva, junto a los &ldquo;Vigilantes de la Playa&rdquo; o el &ldquo;Equipo A&rdquo;. Y, esta semana, el Presidente del Gobierno nos ha evocado una imagen que incorpora, no cuchillos, pero tijeras igual de eficaces. Aquí en Cataluña nos imaginamos a diario a los magistrados del Tribunal Constitucional haciendo papiroflexia con recortes del Estatut así que estamos acostumbrados a ver volar recortes&hellip; (o imaginarlos).</p>
+<p>Solo haré un par de apuntes rápidos sobre los recortes que anunció Zapatero. Sobre las medidas en concreto ya han hablado mentes más brillantes que la mia: <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/de-perdidos-al-rio.html">Roger Senserric</a>, <a href="http://jorgegalindo.es/blog/e-pur-si-muove/">Jorge Galindo</a> o <a href="http://www.joserodriguez.info/bloc/?p=3290">José Rodríguez</a> entre muchísimas más por toda la blogoesfera. La mayoría están de acuerdo, almenos en parte, con las medidas anunciadas&hellip;</p>
+<p>Como curiosidad, el &ldquo;Versió RAC1&rdquo; de ayer incluía un gag fenomenal sobre como funciona el Gobierno últimamente (a base de EuroCollejas) si alguien encuentra el MP3 que me lo pase! :) la moraleja del gag viene a ser algo así como: ¡demos gracias de formar parte del Euro para que almenos desde Bruselas nos obliguen a hacer lo que debemos!</p>
+<p>Sobre la oposición&hellip; sería de esperar que apoyasen un poco al Gobierno cuando, por fin, actúa ante la crisis (lo que significa que por fin reconocen que sigue ahí y que no se va a ir en dos dias). Pero no. El PP sacó su propia receta de medidas (a cual más demagoga) que <a href="http://www.lorem-ipsum.es/blogs/materiasgrises/2010/05/la-aportacion-del-pp.html">Roger analiza en su blog</a>. Nada nuevo, la verdad, el PP se aseguró así de no sacarle demasiados puntos de ventaja al PSOE no vaya a ser que la impopularidad de las medidas (del Gobierno) les den la ventaja que pudiera ponerlos al frente del Gobierno.</p>
+<p>Volvamos a las medidas de Zapatero, hay una cosa <strong>importantísima</strong> que no se comenta mucho, lo<a href="http://www.lavanguardia.es/politica/noticias/20100513/53926920832/zapatero-se-censura-a-si-mismo-pp-mariano-rajoy-psoe-jose-luis-rodriguez-zapatero-tribunal-constituc.html">comenta Jordi Barbeta en LV</a>, y es que Zapatero, por si solo, no puede aprobar el paquete. Necesita algún apoyo para la votación. Y no hay muchos candidatos a mojarse, lo que es seguro es que sea quien sea va a pedir &ldquo;algo&rdquo; como, por ejemplo, que quiten la congelación de las pensiones. ¿Quien le apoyará? podemos dar por sentado que serán PNV o CiU. Por inverosímil que parezca los dos partidos que, por el momento, han mostrado más sentido de Estado en Madrid en los últimos meses son, precisamente, los nacionalistas. Asumidlo: El PP no apoyará al PSOE, ERC e ICV ni de broma con las elecciones autonómicas a la vuelta de la esquina y intentar sumar todos los grupos minoritarios implicaria descafeinar tanto el paquete que quedaría en papel mojado.</p>
+<p>Papel mojado&hellip; cabe recordar que las últimas grandes medidas que han salido de Moncloa han acabado, precisamente, en eso: papel mojado. ¿La Jubilación a los 67 años? ¿La Reforma Laboral? entre otras cosas&hellip; cada vez que se atisba valentía en el Gobierno este termina por retractarse o aplazar indefinidamente las qüestiones. De momento el paquete no se aprobará en el Consejo de Ministros de esta semana, sino la próxima (probablemente para poder atar esos apoyos necesarios). Esto le da al Gobierno una semana para arrepentirse, hecharse atrás, o descafeinar el paquete.</p>
+<p>Por suerte el paquete <strong>nos lo han mandado de arriba</strong> (Europa) así que si lo descafeinamos nos darán, como poco, una colleja.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Decisiones técnicas en manos de la ciudadania</title>
+      <link>https://www.marcfargas.com/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/</guid>
+      <description>&lt;p&gt;Siguiendo con la serie de posts sobre la Reforma de la Diagonal, voy con una nota rápida.&lt;/p&gt;
+&lt;p&gt;Hay voces que claman que es una aberración poner en manos de la ciudadanía una decisión de carácter técnico que debería ser tomada por los técnicos del Ayuntamiento.&lt;/p&gt;
+&lt;p&gt;Lo cierto es que la consulta se planteó, originalmente, sin decisiones técnicas a tomar, la verdad.&lt;/p&gt;
+&lt;p&gt;Vayamos atrás en el tiempo, cuando la opción C (&amp;ldquo;Ni A Ni B&amp;rdquo;) no estaba. En ese tiempo la consulta era un &amp;ldquo;A o B&amp;rdquo;. Es decir, el Ayuntamiento tomó la decisión técnica de que la Diagonal debía reformarse sí o sí (con el consenso de todos los grupos municipales) y lo que daba a escoger a la ciudadanía era entre dos variantes estéticas que sus técnicos consideraban adecuadas para el fin que perseguian (evitar el colapso de la Diagonal).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Siguiendo con la serie de posts sobre la Reforma de la Diagonal, voy con una nota rápida.</p>
+<p>Hay voces que claman que es una aberración poner en manos de la ciudadanía una decisión de carácter técnico que debería ser tomada por los técnicos del Ayuntamiento.</p>
+<p>Lo cierto es que la consulta se planteó, originalmente, sin decisiones técnicas a tomar, la verdad.</p>
+<p>Vayamos atrás en el tiempo, cuando la opción C (&ldquo;Ni A Ni B&rdquo;) no estaba. En ese tiempo la consulta era un &ldquo;A o B&rdquo;. Es decir, el Ayuntamiento tomó la decisión técnica de que la Diagonal debía reformarse sí o sí (con el consenso de todos los grupos municipales) y lo que daba a escoger a la ciudadanía era entre dos variantes estéticas que sus técnicos consideraban adecuadas para el fin que perseguian (evitar el colapso de la Diagonal).</p>
+<p>Lo repetiré, cuando se empezó a hablar de la Consulta de la Diagonal la decisión que debíamos tomar era éstetica. Todos los aspectos técnicos habían sido estudiados por el Ayuntamiento y lo que en un proyecto normal serían &ldquo;los dos finalistas&rdquo; es lo que nos dan a escoger.</p>
+<p>Fué más adelante, cuando se incluyó la opción C (&ldquo;Ni A Ni B&rdquo;) que la decisión se complicó. A partir de ese momento la decisión ya no es estética, es técnica. Ahora tenemos que tomar una decisión técnica sobre un tema increiblemente complicado como es el urbanismo y, una vez tomada la decisión técnica, según cual sea podemos avanzar a la decisión estética.</p>
+<p>La consulta, tal y como está planteada, no es (como muchos creen): &ldquo;Me gusta la A, me gusta la B o no me gusta ninguna&rdquo; la consulta realmente está preguntando, primero, si creemos que la Diagonal tiene algún problema, porque como ya comenté (Avinguda Diagonal, la opción C) si sale vencedora la opción C estaremos diciendo algo así como &ldquo;De aquí al 2015 no hay de que preocuparse&rdquo; y eso es una decisión técnica.</p>
+<p>Con esto no quiero decir que la opción C no deba estar ahí y no deba votarse. Estoy diciendo que la opción C modificó sustancialmente el tipo de consulta (de estética a técnica) y que la ciudadanía (en su mayoría, a mi parecer) no percibe este matiz, sino que vota la opción C como si &ldquo;El mes que viene nos darán otro par de opciones&rdquo;.</p>
+<p>Por último, la inclusión de la opción C también presenta una decisión ideológica compleja que, creo, no debe presentarse en una consulta a tan bajo nivel, pues las decisiones ideológicas se toman en las elecciones. Así pués: Decisión ideológica primero, luego la técnica y por último la estética. No está mal para ser la primera consulta que hace el Ayuntamiento.</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>La inteligencia tras la Consulta de la Diagonal</title>
+      <link>https://www.marcfargas.com/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/</guid>
+      <description>&lt;p&gt;Y seguimos con la Reforma de la Diagonal (Diagonal, la Reforma necesaria).&lt;/p&gt;
+&lt;p&gt;Ayer comentaba: como lo que, en un principio, se planteó como una consulta sobre un tema meramente estético se había convertido en una decisión bastante más compleja (Decisiones técnicas en manos de la ciudadania). Hoy toca plantear una nueva pregunta: &lt;strong&gt;¿Realmente el Ayuntamiento ha dejado tan importante decisión en manos de la ciudadanía?&lt;/strong&gt; (la decisión sería: evitar el colapso de la Diagonal).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Y seguimos con la Reforma de la Diagonal (Diagonal, la Reforma necesaria).</p>
+<p>Ayer comentaba: como lo que, en un principio, se planteó como una consulta sobre un tema meramente estético se había convertido en una decisión bastante más compleja (Decisiones técnicas en manos de la ciudadania). Hoy toca plantear una nueva pregunta: <strong>¿Realmente el Ayuntamiento ha dejado tan importante decisión en manos de la ciudadanía?</strong> (la decisión sería: evitar el colapso de la Diagonal).</p>
+<p>Bueno, no lo tengo del todo claro. Hay que recordar que el hecho de que la consulta es vinculante no se clarificó hasta casi casi el dia de la consulta (unos 15 días antes más o menos), pero tampoco es una cuestión demasiado relevante (ahora). Veamos, sabemos que sucederá si gana las opciones A o B (Boulevard Diagonal, la opción A y Rambla Diagonal, la opción B) y conocemos parte de las implicaciones de la tercera opción (Avinguda Diagonal, la opción C) pero, por lo que se hasta hoy, lo que se está preguntando (y lo que es vinculante) es: <strong>¿Como quieres que sea la Diagonal nueva: Asi, Asa, o ni Asi ni Asa?</strong> ojo, que ahí está la clave.</p>
+<p>¿Estás de acuerdo en invertir el sentido del tráfico en Av. Sarrià? ¿Estás de acuerdo en reordenar las secuencias semafóricas priorizando otras calles en detrimento de la Diagonal? estas preguntas <strong>claramente técnicas</strong> que están íntimamente relacionadas con la Reforma de la Diagonal <strong>no entran en la consulta</strong>. Tanto si sale la A, B o ninguna de las dos, el ayuntamiento <strong>puede tirar adelante estos otros proyectos</strong> sin ningún problema. El proyecto que realmente podría quedar &ldquo;bloqueado&rdquo; es el TRAM que, almenos temporalmente, se podría sustituir por un super-mega-bus. Incluso el proyecto de ortogonalidad de las lineas de autobús puede seguir adelante perfectamente.</p>
+<p>En resumen, hay que aplaudir la inteligencia que se atisba tras la elaboración de la consulta que, si bien deja en manos de la ciudadanía algunos aspectos técnicos, las partes críticas del proyecto están al margen y se podrán ejecutar pase lo que pase.</p>
+<p>Pero atentos, sobretodo los que estén votando la tercera opción con efusividad: La tercera opción <strong>deja las manos libres a Hereu</strong> para hacer prácticamente lo que quiera, lo único que no puede hacer es A o B, pero puede hacer una calle totalmente peatonal si quiere, o una autopista de peage, o una montaña rusa. <strong>Lo que quiera</strong> menos la A o la B. Ahí os he pillado eh :) Ahora preguntaos: ¿Tal vez a Hereu le interese que gane la C?</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Boulevard Diagonal, la opción A</title>
+      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/</guid>
+      <description>&lt;p&gt;El viernes escribía sobre la necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria), ahora comentaré a vuelo de pájaro la opción A. &lt;em&gt;A vuelo de pájaro porque la red está llena de información sobre la opción A, solo quiero introducirla brevemente para exponer mis opiniones sobre ella.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Imaginaos por un momento un Passeig de Gràcia con tranvía.&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;SECCIO_A.jpg#center&#34;/&gt; &lt;figcaption&gt;
+            Sección de la propuesta A de la reforma diagonal
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Ahora tenéis una imagen aproximada de como es la opción A.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>El viernes escribía sobre la necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria), ahora comentaré a vuelo de pájaro la opción A. <em>A vuelo de pájaro porque la red está llena de información sobre la opción A, solo quiero introducirla brevemente para exponer mis opiniones sobre ella.</em></p>
+<p>Imaginaos por un momento un Passeig de Gràcia con tranvía.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="SECCIO_A.jpg#center"/> <figcaption>
+            Sección de la propuesta A de la reforma diagonal
+        </figcaption>
+</figure>
+
+<p>Ahora tenéis una imagen aproximada de como es la opción A.</p>
+<p>De salir ganadora esta opción tendríamos anchas aceras frente a los comercios para ir de compras. En esta misma acera un carril &ldquo;de proximidad&rdquo; para que los vehículos accedan a sus garajes, o los repartidores puedan hacer reparto. El mismo carril sería utilizado por las bicis y patinadores. Imaginad algo así como el tráfico del Portal del Àngel o la Plaça Nova (Catedral). Claramente delimitado por un pavimento diferente al del resto de la acera.</p>
+<p>Pasado este carril nos encontraríamos una primera linea de árboles dando sombra a un segundo espacio para pasear, una segunda línea de árboles y el asfalto.</p>
+<p>Observad que hasta aquí tenemos dos zonas &ldquo;paseables&rdquo;, la de los que van de compras y la de los que quieren pasear (a la sombra de los árboles).</p>
+<p>En la calzada tenemos dos únicos carriles separados físicamente (con el mismo sistema que el carril bus de la Avinguda Picasso) por sentido. El primer carril se dedicaría al tráfico en general: Autobuses, taxis, coches, motocicletas, &hellip; y el segundo al tranvía (de ahí la separación física).</p>
+<p>Aunque esta opción también tiene alguna pega&hellip;</p>
+<p>El carril de &ldquo;proximidad&rdquo; corre el riesgo de terminar como el actual lateral de Diagonal: lleno de coches y furgonetas parados con todos sus intermitentes parpadeando. Problema que tiene fácil solución, el mismo que Ciutat Vella: barreras neumáticas que se abran a ciertas horas para carga y descarga o con identificación de vecino para acceder a garajes. Pero es algo que hay que tener en cuenta, pues es algo que podría suceder.</p>
+<p>Y el otro problema, que a mi parecer es el más grave, es el único carril para el tránsito. Imaginad cualquiera de las siguientes situaciones: Un pequeño toque entre dos coches (no esperareis que se aparten para hacer el parte, ¿verdad?), un vehículo averiado, un autobús estropeado&hellip; el último es poco probable, pero si se rompe estará ahí unos 30 minutos. Los otros casos dependen de lo conscientes que sean los implicados de que no están solos en el mundo. En cualquier caso, hay un solo carril limitado físicamente por ambos lados (árboles, y los separadores del TRAM), ese tramo de Diagonal queda totalmente impracticable, y dependeremos de los reflejos de los demás que no se queden parados en el resto de Diagonal. No es algo que pase a menudo, pero puede pasar, y eso <strong>sí es un problema</strong>. Se pueden hacer algunos arreglos como trasladar el carril de proximidad a la calzada central (manteniendo el pavimento diferenciado) de modo que al menos puedas apartar los vehículos parados/averiados y, incluso, ¡puedes pasar con el vehículo policial que multa a los indebidamente estacionados!</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Boulevard Diagonal, la opción B</title>
+      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/</guid>
+      <description>&lt;p&gt;Hace un rato hablaba de la opción A de la Reforma Diagonal (&lt;a href=&#34;https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/&#34;&gt;Boulevard Diagonal, la opción A&lt;/a&gt;), y el viernes escribía sobre la necesidad de reformar la Diagonal (&lt;a href=&#34;https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/&#34;&gt;Diagonal, la Reforma necesaria&lt;/a&gt;). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.&lt;/p&gt;
+&lt;p&gt;El ejercicio ahora será imaginarse la &amp;ldquo;Rambla de Catalunya&amp;rdquo; o &amp;ldquo;Les Rambles&amp;rdquo;, con tranvía y aceras, bastante, más anchas.&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;SECCIO_B.jpg#center&#34;/&gt; &lt;figcaption&gt;
+            Sección de la propuesta B de la reforma diagonal
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Ahora tenéis una idea aproximada de los que es la Rambla Diagonal:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hace un rato hablaba de la opción A de la Reforma Diagonal (<a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">Boulevard Diagonal, la opción A</a>), y el viernes escribía sobre la necesidad de reformar la Diagonal (<a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la Reforma necesaria</a>). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.</p>
+<p>El ejercicio ahora será imaginarse la &ldquo;Rambla de Catalunya&rdquo; o &ldquo;Les Rambles&rdquo;, con tranvía y aceras, bastante, más anchas.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="SECCIO_B.jpg#center"/> <figcaption>
+            Sección de la propuesta B de la reforma diagonal
+        </figcaption>
+</figure>
+
+<p>Ahora tenéis una idea aproximada de los que es la Rambla Diagonal:</p>
+<p>Es sensiblemente diferente a la anterior, si bien sigue predominando el tranvia y los espacios para pasear, ahora tenemos una primera acera frente a los comercios (más ancha que la anterior, por cierto) con una primera linea de árboles pegada a ella. Nos encontraríamos entonces una primera calzada para uno de los dos sentidos de circulación con tres carriles distintos: Uno para el TRAM y dos para el resto del tráfico. Uno de ellos, probablemente, BUS/TAXI y el otro para tránsito rodado en general. Después de esta primera calzada, en el centro de la vía, encontraríamos una nueva acera para pasear, con un amplio espacio para pasear y un carril bici separado físicamente del paseo. Ambos flanqueados por dos líneas de árboles. Y nos quedaría la calzada y acera del otro lado iguales a las anteriores.</p>
+<p>Aquí también hay cosas malas, y buenas. El hecho de tener los dos carriles bici en el mismo sitio implica que las bicis no estarán tentadas de ir &ldquo;contra dirección&rdquo; con tal de ahorrarse cruzar la Diagonal. Y tenemos dos carriles en la calzada, de modo que un accidente o avería no inutiliza por completo la vía.</p>
+<p>Pero también hay alguna pega. La carga y descarga ha de efectuarse en la calzada, lo que inutiliza de forma intermitente el primer carril (el del BUS). Suponemos que nadie se pondrá a descargar frente a la marquesina del bus (&hellip;) pero eso no significa que el bus no tenga que ir entrando y saliendo de su carril. Igual que con la opción anterior podríamos poner unos horarios para la carga y descarga asegurando que en horas punta ambos carriles sean practicables, y para los que se paren en vehículo privado siempre tendremos ese bonito vehículo con cámaras sobre el techo.</p>
+<p>Y la otra, más subjetiva, es que en días de muchísimo calor o frío, el paseo central podría acabar en desuso. Teniendo las aceras laterales, en la central únicamente habrá gente que quiera pasear y los que están en tránsito desde el tranvía a la acera lateral. Si hace mucho frió o calor los primeros, seguramente, estén dentro del TRAM.</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Boulevard Diagonal, la opción C</title>
+      <link>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/</guid>
+      <description>&lt;p&gt;Hace un rato escribía de la opción B de la Reforma Diagonal (Rambla Diagonal, la opción B), algo antes sobre la opción A (Boulevard Diagonal, la opción A), y el viernes escribía sobre la imperiosa necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria). Queda la opción C. Esta con algo más de profundidad.&lt;/p&gt;
+&lt;p&gt;La opción C es, oficialmente, &amp;ldquo;cap de les dues&amp;rdquo; o &amp;ldquo;ni A ni B&amp;rdquo;. Pero tiene muchas lecturas posibles: &amp;ldquo;No me toques la Diagonal&amp;rdquo;, &amp;ldquo;Mi coche pasa por donde yo quiero&amp;rdquo;, &amp;ldquo;Ahora no es el momento&amp;rdquo;, &amp;ldquo;Ni A ni B&amp;rdquo;, &amp;ldquo;Quiero más opciones&amp;rdquo;, &amp;hellip; el catálogo es infinito. Hay lecturas más interesadas o menos, y las hay de más responsables o menos.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hace un rato escribía de la opción B de la Reforma Diagonal (Rambla Diagonal, la opción B), algo antes sobre la opción A (Boulevard Diagonal, la opción A), y el viernes escribía sobre la imperiosa necesidad de reformar la Diagonal (Diagonal, la Reforma necesaria). Queda la opción C. Esta con algo más de profundidad.</p>
+<p>La opción C es, oficialmente, &ldquo;cap de les dues&rdquo; o &ldquo;ni A ni B&rdquo;. Pero tiene muchas lecturas posibles: &ldquo;No me toques la Diagonal&rdquo;, &ldquo;Mi coche pasa por donde yo quiero&rdquo;, &ldquo;Ahora no es el momento&rdquo;, &ldquo;Ni A ni B&rdquo;, &ldquo;Quiero más opciones&rdquo;, &hellip; el catálogo es infinito. Hay lecturas más interesadas o menos, y las hay de más responsables o menos.</p>
+<p>Quien vote la opción C ha de tener muy presente una cosa, leedla bien por favor: <strong>Lo que tú quieres expresar votando la opción C, difícilmente es lo que el Ayuntamiento y la oposición &ldquo;oirán&rdquo;</strong>. Así de claro, si votas C para el Ayuntamiento puedes estar diciendo: &ldquo;Ni A ni B&rdquo; o &ldquo;No me toques la Diagonal&rdquo; y decir que dijiste &ldquo;Quiero más opciones&rdquo;. Para la oposición seguramente dirás &ldquo;Quiero más opciones&rdquo; o &ldquo;No me toques la Diagonal&rdquo; y decir que lo que votas es &ldquo;Ahora no es el momento&rdquo; (lo he puesto todo al azar, son ejemplos).</p>
+<p>De modo que considero que hay que profundizar mucho en esta opción, sabiendo que cada uno lo interpretará como quiere, es importante saber que pasará si sale la C para que, al menos, las consecuencias sean las que buscamos.</p>
+<p>Primero, &ldquo;<strong>Ahora no es el momento</strong>&rdquo;, ciertamente, pero hay que tener en cuentas algunas cosas. Los presupuestos del ayuntamiento se hacen por legislaturas, es decir, que si ahora votamos la Reforma de la Diagonal, esta irá en los presupuestos del 2011-2015. Del mismo modo que si no se hace (opción C) ya no se podrá hacer ninguna reforma (importante) antes de 2016-2020 (recordad que la Diagonal quedará saturada alrededor de 2018 junto a parte del Eixample: Diagonal, la Reforma necesaria). Lo que quiero decir es que si &ldquo;Ahora no es el momento&rdquo; pero 2014-2015 os parece que será &ldquo;el momento&rdquo;. Entonces podéis volver a estudiar las opciones A y B.</p>
+<p>Por otro lado, si &ldquo;<strong>mi coche pasa por donde yo quiero</strong>&rdquo; recuerda que las travesías ganarán tiempo (¡y puede que carriles!) así que podrías pasar tu coche por más sitios y <strong>más rapido</strong>.</p>
+<p>Sobre el dinero&hellip; bueno, veréis que no he dicho nada de lo que va a costar la Reforma. Es dinero sí, bastante, no tanto como el túnel del AVE. Pero ese dinero se va a gastar igual en esta cosa o en otra, al menos en esta se nos da la oportunidad de decidir (podemos decidir que se gaste en otra cosa, claro). Es decir, si votamos &ldquo;C&rdquo; el ayuntamiento no va a guardar ese montón de dinero en un cajón, lo va a gastar igual.</p>
+<p>Ahora bien, supongamos que sale vencedora la opción C. ¿Que podría pasar? Ya hemos dicho que antes de 2016 pasaría poca cosa (algún parche aquí o ahí, bastante chapucero..) pero, ¿y 2016?.</p>
+<p>El PSC difícilmente podría hacer nada, habrá hecho una consulta sobre el tema (vinculante, al menos para Hereu) y sería poco serio salir con otra consulta dentro de 4-5 años (a tiempo para poder presupuestarlo en 2016), es decir, que hasta allá en 2018 (parece lejos, pero queda, relativamente, poco) cuando la Diagonal sea totalmente impracticable no podrían hacer nada. Entonces les echaremos todas las culpas aunque aquí la culpa, realmente, sería nuestra.</p>
+<p>CiU lo tiene algo más fácil, si consigue sacar al PSC de la alcaldía (cosa que podría pasar, pero no es segura), para ellos la consulta no es vinculante, podrían hacer su propia consulta con sus propias A y B y&hellip; bueno, esperar a 2016 para ponerlo en el presupuesto de esa legislatura. Ah, sobre A y B Trias dijo que si sale una de esas dos y el gana las elecciones sacará A&rsquo; y B&rsquo; (es decir, su A y su B). Es diferente si no ganan, entonces la alcaldía tendría las manos atadas y la Diagonal podría quedar hipotecada (a menos que el PSC asumiera el coste político de reformar la Diagonal sí o sí).</p>
+<p>Y listos. La semana entrante ya podéis ir a votar! Cualquier duda podéis preguntarme a mí o en el blog oficial de la consulta bien en forma de comentario en alguna de sus entradas o utilizando el e-mail.</p>
+<p>También tenéis un grupo en Facebook y una cuenta de Twitter.</p>
+<p>Y <strong>recordad</strong>, que es la primera vez que el Ayuntamiento hace esto lo más importante, independientemente de la opción escogida, <strong>es la participación</strong> de modo que <strong>por favor id a votar</strong>. No teneis ni que salir de casa!</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Diagonal, la Reforma necesaria</title>
+      <link>https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/</link>
+      <pubDate>Sat, 08 May 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2010/05/diagonal-la-reforma-necesaria/</guid>
+      <description>&lt;p&gt;Durante la próxima semana tendrá lugar en Barcelona la que será la primera consulta ciudadana sobre un tema, importante, de la ciudad.&lt;/p&gt;
+&lt;p&gt;Todos los mayores de 16 años que estuvieran empadronados en Barcelona el 31/12/2009 podrán votar, entre los días &lt;strong&gt;10 y 16 de Mayo (de 2010)&lt;/strong&gt;, en cualquiera de los 108 puntos presenciales o por Internet.&lt;/p&gt;
+&lt;p&gt;A tres dias del día &amp;ldquo;D&amp;rdquo; aún hay gente que se pregunta muchas cosas, como ¿Es necesaria la reforma?, ¿Como me afecta? o ¿Vale la pena que vaya a votar?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Durante la próxima semana tendrá lugar en Barcelona la que será la primera consulta ciudadana sobre un tema, importante, de la ciudad.</p>
+<p>Todos los mayores de 16 años que estuvieran empadronados en Barcelona el 31/12/2009 podrán votar, entre los días <strong>10 y 16 de Mayo (de 2010)</strong>, en cualquiera de los 108 puntos presenciales o por Internet.</p>
+<p>A tres dias del día &ldquo;D&rdquo; aún hay gente que se pregunta muchas cosas, como ¿Es necesaria la reforma?, ¿Como me afecta? o ¿Vale la pena que vaya a votar?</p>
+<h2 id="es-necesaria-la-reforma">¿Es necesaria la reforma?</h2>
+<p>Cualquiera que haya ido en coche por la Diagonal (o sus calles aledañas) sabe que hay algo ahí que no funciona como debería: ¡los semáforos duran poco!; hay muchos autobuses; el lateral siempre está lleno de furgonetas&hellip; Quien vaya a pie sabe lo difícil que es cruzar Diagonal sin entrenamiento previo, o tener que pasear por aceras de 90cm.. Los ciclistas teneis que compartir acera con los peatones. Los que van en autobús pueden encontrarse en una caravana de más de <strong>7 autobuses juntos</strong>&hellip;</p>
+<p>Pero las cosas <strong>van a empeorar</strong>, el ayuntamiento lo sabe, esta es la estimación de como estará el <strong>Eixample en 2018</strong> con los proyectos actualmente aprobados:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="Escenari2018_TotSenseDiagonal_InfMobilitatP21.png#center"
+         alt="Estimación situación tráfico eixample 2018"/> <figcaption>
+            Estimación situación tráfico eixample 2018
+        </figcaption>
+</figure>
+
+<p>Hacer una Reforma en la Diagonal tiene <strong>conseqüencias en todo el Eixample</strong>, es una via de 11 quilómetros que atraviesa toda la ciudad. Por suerte esta semana solo hemos de pensar en 3,5 de esos 11 quilómetros. El tramo entre Francesc Macià y Glòries. Es, relativamente, corto. Pero, como veremos, tiene conseqüencias en todo el Eixample.</p>
+<h2 id="como-me-afecta">¿Como me afecta?</h2>
+<p>La Reforma <strong>no solo consiste en mover unos árboles</strong> y poner un tranvía. Se trata de <strong>cambiar el modelo de mobilidad</strong> de esa vía y ajustarlo al del resto de la ciudad. Con la reforma pasarán muchas cosas, incluso si no se hace nada, <strong>pasarán cosas</strong>.</p>
+<p>Uno de los cambios más visibles es que la Av. Sarrià, entre Francesc Macià y Av. Tarradelles, y Urgell, entre Diagonal y Av.Sarrià <strong>cambiarán de sentido</strong> para facilitar el tráfico de entrada. Quedando más o menos así:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="PlanolFMaciaIMobilitatP28.png#center"/> <figcaption>
+            Detalle Francesc Macià según propuesta
+        </figcaption>
+</figure>
+
+<p>También veremos otros cambios &ldquo;grandes&rdquo; como:</p>
+<figure class="align-center ">
+    <img loading="lazy" src="ProjectesRelacionatsInfMobilitatP22.png#center"/> <figcaption>
+            Proyectos varios relacionados
+        </figcaption>
+</figure>
+
+<ul>
+<li>El paso de Diputació y Castillejos por la Diagonal.</li>
+<li>Un <strong>túnel de dos</strong> carriles desde la entrada por Glòries a Cartagena.</li>
+<li>Conexión de Diputació con Gran Via desde Creu Coberta (evitando Pl. Espanya de salida).</li>
+<li>Còrsega volverá a cruzar la Diagonal.</li>
+</ul>
+<p>Y aún nos quedan los cambios poco visibles, pero importantes.</p>
+<p>Los semáforos de la Diagonal pierden tiempo &ldquo;verde&rdquo;, eso es tiempo que ganan las travesías y los pasos de peatones que cruzan la Diagonal. En cruces simples (como Muntaner) se ganarán 19 segundos para cruzar a pie o en coche (<strong>un 50% más</strong>), mientras que en cruces más complejos como Roselló+Llúria+Diagonal ganarán 4 segundos cada cruce (un 15%). Eso, aunque no lo parezca es mucho tiempo, es (de media) un <strong>22% más de tiempo para cruzar la Diagonal</strong>.</p>
+<p>A parte de ganar tiempo de verde, reducir tiempos en la Diagonal permite ajustar mejor la red ortogonal del eixample permitiendo que logremos más &ldquo;olas verdes&rdquo; (ie: &ldquo;pillar&rdquo; todos los semáforos en verde).</p>
+<p>También se prevé modificar el cruce de Diagonal-Sardenya-Aragó-Marina, con un parque y unas calzadas más manejables.</p>
+<h2 id="dónde-irán-a-parar-lo-coches-que-ya-no-vayan-por-la-diagonal">¿Dónde irán a parar lo coches que ya no vayan por la Diagonal?</h2>
+<p>El Ayuntamiento ha comprobado, y demostrado, varias veces que cuando se pierde una vía por algún motivo los coches no se van todos a &ldquo;la calle de abajo&rdquo; o la de &ldquo;arriba&rdquo;, sino que se distribuyen por toda la trama del Eixample. Un ejemplo ahora mismo es la calle Mallorca que está cortada en varias partes. Los coches que cruzan Barcelona por la Diagonal (y, aunque parezca mentira, no son tantos) se distribuirán por el Eixample y en muchos casos ganarán tiempo (podeis leer el Reforma Diagonal, Informe de movilidad si no me creeis).</p>
+<h2 id="es-importante-que-vaya-a-votar">¿Es importante que vaya a Votar?</h2>
+<p>En una palabra: <strong>Si</strong>.</p>
+<p>Esta es una iniciativa que ha tomado el Ayuntamiento (y que la Carta Municipal le permite tomar una vez al año) para delegar en la ciudadania una decisión importante que definirá el modelo de ciudad que queremos entre todos. Y, independientemente del tema de la consulta, es importante la implicación de la ciudadanía pues <strong>el éxito o fracaso</strong> de esta consulta condicionará consultas futuras (si las hubiese). De modo que, vayas a votar A, B o C, <strong>por favor: hazlo</strong>.</p>
+<p>En cuanto tenga un momento escribiré sobre las tres opciones. Mientras, siguiendo con el plano del principio del post, os dejo la estimación de como estará el Eixample en 2018 con la Reforma Diagonal y sus proyectos vinculados:</p>
+<p>Gracias por leer estos cuatro tostones sobre la Reforma de la Diagonal, todo lo que he escrito sobre el tema:</p>
+<h2 id="otras-notas-sobre-la-reforma-de-la-diagonal">Otras notas sobre la Reforma de la Diagonal</h2>
+<ul>
+<li><a href="/2010/05/diagonal-la-reforma-necesaria/">Diagonal, la reforma necesaria</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-a/">La opción A</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-b/">La opción B</a></li>
+<li><a href="/2010/05/boulevard-diagonal-la-opci%C3%B3n-c/">La opción C</a></li>
+<li><a href="/2010/05/decisiones-t%C3%A9cnicas-en-manos-de-la-ciudadania/">Decisiones técnicas en manos de la ciudadania</a></li>
+<li><a href="/2010/05/la-inteligencia-tras-la-consulta-de-la-diagonal/">La inteligencia tras la Consulta de la Diagonal</a></li>
+<li><a href="/2010/05/resac%C3%B3n-diagonal/">Resacón Diagonal</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>La dignidad de Catalunya</title>
+      <link>https://www.marcfargas.com/2008/11/la-dignidad-de-catalunya/</link>
+      <pubDate>Wed, 26 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/2008/11/la-dignidad-de-catalunya/</guid>
+      <description>Reproducción de la editorial conjunta publicada por 12 periódicos catalanes</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Doce periódicos de Cataluña: El Periódico, La Vanguardia, Avui, El Punt, Diari de Girona, Diari de Tarragona, Segre, La Mañana, Regió 7, El 9 Nou, Diari de Sabadell y Diari de Terrassa. Publicaron esta mañana (Jueves, 26 de Noviembre de 2009) una editorial conjunta, reproduzco aquí su contenido:</p>
+<p><strong>Nota 27/05/2010</strong>: Este texto no es mio. Su autor original es desconocido.</p>
+</blockquote>
+<p>Después de casi tres años de lenta deliberación y de continuos escarceos tácticos que han dañado su cohesión y han erosionado su prestigio, el Tribunal Constitucional puede estar a punto de emitir sentencia sobre el Estatut de Catalunya, promulgado el 20 de julio del 2006 por el jefe del Estado, rey Juan Carlos, con el siguiente encabezamiento: &ldquo;Sabed: Que las Cortes Generales han aprobado, los ciudadanos de Catalunya han ratificado en referéndum y Yo vengo en sancionar la siguiente ley orgánica&rdquo;. Será la primera vez desde la restauración democrática de 1977 que el Alto Tribunal se pronuncia sobre una ley fundamental refrendada por los electores.</p>
+<p>La expectación es alta y la inquietud no es escasa ante la evidencia de que el Tribunal Constitucional ha sido empujado por los acontecimientos a actuar como una cuarta cámara, confrontada con el Parlament de Catalunya, las Cortes Generales y la voluntad ciudadana libremente expresada en las urnas. Repetimos, se trata de una situación inédita en democracia. Hay, sin embargo, más motivos de preocupación. De los doce magistrados que componen el tribunal, sólo diez podrán emitir sentencia, ya que uno de ellos (Pablo Pérez Tremps) se halla recusado tras una espesa maniobra claramente orientada a modificar los equilibrios del debate, y otro (Roberto García-Calvo) ha fallecido.</p>
+<p>De los diez jueces con derecho a voto, cuatro siguen en el cargo después del vencimiento de su mandato, como consecuencia del sórdido desacuerdo entre el Gobierno y la oposición sobre la renovación de un organismo definido recientemente por José Luis Rodríguez Zapatero como el &ldquo;corazón de la democracia&rdquo;. Un corazón con las válvulas obturadas, ya que sólo la mitad de sus integrantes se hallan hoy libres de percance o de prórroga. Esta es la corte de casación que está a punto de decidir sobre el Estatut de Catalunya. Por respeto al tribunal –un respeto sin duda superior al que en diversas ocasiones este se ha mostrado a sí mismo– no haremos mayor alusión a las causas del retraso en la sentencia.</p>
+<p>La definición de Catalunya como nación en el preámbulo del Estatut, con la consiguiente emanación de &ldquo;símbolos nacionales&rdquo; (¿acaso no reconoce la Constitución, en su artículo 2, una España integrada por regiones y nacionalidades?); el derecho y el deber de conocer la lengua catalana; la articulación del Poder Judicial en Catalunya, y las relaciones entre el Estado y la Generalitat son, entre otros, los puntos de fricción más evidentes del debate, a tenor de las versiones del mismo, toda vez que una parte significativa del tribunal parece estar optando por posiciones irreductibles. Hay quien vuelve a soñar con cirugías de hierro que cercenen de raíz la complejidad española. Esta podría ser, lamentablemente, la piedra de toque de la sentencia.</p>
+<p>No nos confundamos, el dilema real es avance o retroceso; aceptación de la madurez democrática de una España plural, o el bloqueo de esta. No sólo están en juego este o aquel artículo, está en juego la propia dinámica constitucional: el espíritu de 1977, que hizo posible la pacífica transición. Hay motivos serios para la preocupación, ya que podría estar madurando una maniobra para transformar la sentencia sobre el Estatut en un verdadero cerrojazo institucional. Un enroque contrario a la virtud máxima de la Constitución, que no es otra que su carácter abierto e integrador.</p>
+<p>El Tribunal Constitucional, por consiguiente, no va a decidir únicamente sobre el pleito interpuesto por el Partido Popular contra una ley orgánica del Estado (un PP que ahora se reaproxima a la sociedad catalana con discursos constructivos y actitudes zalameras). El Alto Tribunal va a decidir sobre la dimensión real del marco de convivencia español, es decir, sobre el más importante legado que los ciudadanos que vivieron y protagonizaron el cambio de régimen a finales de los años setenta transmitirán a las jóvenes generaciones, educadas en libertad, plenamente insertas en la compleja supranacionalidad europea y confrontadas a los retos de una globalización que relativiza las costuras más rígidas del viejo Estado nación. Están en juego los pactos profundos que han hecho posible los treinta años más virtuosos de la historia de España. Y llegados a este punto es imprescindible recordar uno de los principios vertebrales de nuestro sistema jurídico, de raíz romana: Pacta sunt servanda. Lo pactado obliga.</p>
+<p>Hay preocupación en Catalunya y es preciso que toda España lo sepa. Hay algo más que preocupación. Hay un creciente hartazgo por tener que soportar la mirada airada de quienes siguen percibiendo la identidad catalana (instituciones, estructura económica, idioma y tradición cultural) como el defecto de fabricación que impide a España alcanzar una soñada e imposible uniformidad. Los catalanes pagan sus impuestos (sin privilegio foral); contribuyen con su esfuerzo a la transferencia de rentas a la España más pobre; afrontan la internacionalización económica sin los cuantiosos beneficios de la capitalidad del Estado; hablan una lengua con mayor fuelle demográfico que el de varios idiomas oficiales en la Unión Europea, una lengua que en vez de ser amada, resulta sometida tantas veces a obsesivo escrutinio por parte del españolismo oficial, y acatan las leyes, por supuesto, sin renunciar a su pacífica y probada capacidad de aguante cívico. Estos días, los catalanes piensan, ante todo, en su dignidad; conviene que se sepa.</p>
+<p>Estamos en vísperas de una resolución muy importante. Esperamos que el Tribunal Constitucional decida atendiendo a las circunstancias específicas del asunto que tiene entre manos –que no es otro que la demanda de mejora del autogobierno de un viejo pueblo europeo–, recordando que no existe la justicia absoluta sino sólo la justicia del caso concreto, razón por la que la virtud jurídica por excelencia es la prudencia. Volvemos a recordarlo: el Estatut es fruto de un doble pacto político sometido a referéndum.</p>
+<p>Que nadie se confunda, ni malinterprete las inevitables contradicciones de la Catalunya actual. Que nadie yerre el diagnóstico, por muchos que sean los problemas, las desafecciones y los sinsabores. No estamos ante una sociedad débil, postrada y dispuesta a asistir impasible al menoscabo de su dignidad. No deseamos presuponer un desenlace negativo y confiamos en la probidad de los jueces, pero nadie que conozca Catalunya pondrá en duda que el reconocimiento de la identidad, la mejora del autogobierno, la obtención de una financiación justa y un salto cualitativo en la gestión de las infraestructuras son y seguirán siendo reclamaciones tenazmente planteadas con un amplísimo apoyo político y social. Si es necesario, la solidaridad catalana volverá a articular la legítima respuesta de una sociedad responsable.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Nokia Beta Labs Stickers</title>
       <link>https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/</link>
       <pubDate>Mon, 25 Aug 2008 10:36:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/</guid>
-      <description>Three days ago Nokia Beta Labs announced they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!
-Maybe they should have send 10 stickers to the 100 first ones, I&amp;rsquo;ll have a hard time looking where to put so many stickers!
-Anyway, thanks Nokia</description>
+      <description>&lt;p&gt;Three days ago Nokia Beta Labs &lt;a href=&#34;https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/&#34;&gt;announced&lt;/a&gt; they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Nokia Beta Labs stickers&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/2008/08/nokia-beta-labs-stickers/stickers.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Maybe they should have send 10 stickers to the 100 first ones, I&amp;rsquo;ll have a hard time looking where to put so many stickers!&lt;/p&gt;
+&lt;p&gt;Anyway, thanks Nokia&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Three days ago Nokia Beta Labs <a href="https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/">announced</a> they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!</p>
-<p><img loading="lazy" src="stickers.jpg" alt="Nokia Beta Labs stickers"  />
-</p>
+<p><img alt="Nokia Beta Labs stickers" loading="lazy" src="/2008/08/nokia-beta-labs-stickers/stickers.jpg"></p>
 <p>Maybe they should have send 10 stickers to the 100 first ones, I&rsquo;ll have a hard time looking where to put so many stickers!</p>
 <p>Anyway, thanks Nokia</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Hobbes in the River</title>
       <link>https://www.marcfargas.com/2008/08/hobbes-in-the-river/</link>
       <pubDate>Wed, 20 Aug 2008 21:05:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/08/hobbes-in-the-river/</guid>
-      <description>This Saturday there was the &amp;ldquo;Fast Painting&amp;rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&amp;rsquo;t spend any time painting.
-He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)</description>
+      <description>&lt;p&gt;This Saturday there was the &amp;ldquo;Fast Painting&amp;rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&amp;rsquo;t spend any time painting.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hobbes in the river&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/2008/08/hobbes-in-the-river/hobbes.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This Saturday there was the &ldquo;Fast Painting&rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&rsquo;t spend any time painting.</p>
-<p><img loading="lazy" src="hobbes.jpg" alt="Hobbes in the river"  />
-</p>
+<p><img alt="Hobbes in the river" loading="lazy" src="/2008/08/hobbes-in-the-river/hobbes.jpg"></p>
 <p>He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Im 25</title>
       <link>https://www.marcfargas.com/2008/08/im-25/</link>
       <pubDate>Sun, 03 Aug 2008 10:00:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/08/im-25/</guid>
-      <description>Just for you to know, I&amp;rsquo;m now 25 years old!</description>
+      <description>&lt;p&gt;Just for you to know, I&amp;rsquo;m now 25 years old!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Just for you to know, I&rsquo;m now 25 years old!</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Moved to Google Apps</title>
       <link>https://www.marcfargas.com/2008/07/moved-to-google-apps/</link>
       <pubDate>Tue, 29 Jul 2008 19:47:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/07/moved-to-google-apps/</guid>
-      <description>I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.
-The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&amp;rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&amp;rsquo;t answered, please resend.
-The only downside, I hoped google would have some &amp;ldquo;easy&amp;rdquo; way to move my google account from *@gmail.</description>
+      <description>&lt;p&gt;I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.&lt;/p&gt;
+&lt;p&gt;The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&amp;rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&amp;rsquo;t answered, please resend.&lt;/p&gt;
+&lt;p&gt;The only downside, I hoped google would have some &amp;ldquo;easy&amp;rdquo; way to move my google account from *@gmail.com to my Google Apps domain.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I started to get tired of managing my own exim+spamassassin+clamav+dovecot only to serve my domain, so I dediced to give Google Apps a try.</p>
 <p>The move was fairly easy, simply register and change MX records ;) (and use imapsync to copy mail). I guess I didn&rsquo;t loose anything but If you sent me a mail in the last two weeks and I haven&rsquo;t answered, please resend.</p>
 <p>The only downside, I hoped google would have some &ldquo;easy&rdquo; way to move my google account from *@gmail.com to my Google Apps domain.</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Ip Tunnel Over Ssh With Tun</title>
       <link>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</link>
       <pubDate>Thu, 24 Jul 2008 10:14:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/</guid>
-      <description>Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&amp;hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.
-The problem&amp;rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&amp;hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.</description>
+      <description>&lt;p&gt;Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&amp;hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.&lt;/p&gt;
+&lt;p&gt;The problem&amp;rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&amp;hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I had some connection problems in one of our offices, so I needed to connect in some alternative way. A good moment for experimenting&hellip; The alternative connection was my laptop acting as a router connected with my mobile phone via bluetooth.</p>
 <p>The problem&rsquo;s come with the VPN connections, IPSec is nice, but you can hate it on lots of things&hellip; i.e. all tunnels are setup using static ip addresses so in order to use the alternate connection (dynamic IP) I need to change the ipsec config of the other offices.</p>
 <p>So today I wanted to try something new, tunneling ip traffic from one network to another over an ssh connection. And it works, Gentoo&rsquo;s wiki has some information on the subject: <a href="https://web.archive.org/web/20090328151009/http://gentoo-wiki.com/HOWTO_VPN_over_SSH_and_tun" title="Gentoo Wiki">here</a></p>
 <p>In brief, you need to, on the server:</p>
 <p>Add &ldquo;<code>PermitTunnel yes</code>&rdquo; to <code>/etc/ssh/sshd_config</code>
 Now, on the client it&rsquo;s as easy as to run ssh with some parameters, my script for launching it is:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
-</span><span style="color:#75715e"></span>HOST<span style="color:#f92672">=</span>REMOTE_PARTY_ADDRESS
-HOST_PORT<span style="color:#f92672">=</span><span style="color:#ae81ff">22</span>
-TUN_LOCAL<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>   <span style="color:#75715e"># tun device number here.</span>
-TUN_REMOTE<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>  <span style="color:#75715e"># tun device number there</span>
-IP_LOCAL<span style="color:#f92672">=</span>192.168.111.2 <span style="color:#75715e"># IP Address for tun here</span>
-IP_REMOTE<span style="color:#f92672">=</span>192.168.111.1 <span style="color:#75715e"># IP Address for tun there.</span>
-IP_MASK<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span> <span style="color:#75715e"># Mask of the ips above.</span>
-NET_REMOTE<span style="color:#f92672">=</span>192.168.0.0/16 <span style="color:#75715e"># Network on the other side of the tunnel</span>
-NET_LOCAL<span style="color:#f92672">=</span>192.168.8.0/24  <span style="color:#75715e"># Network on this side of the tunnel</span>
- 
-echo <span style="color:#e6db74">&#34;Starting VPN tunnel ...&#34;</span>
-modprobe tun
-ssh -w <span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span>:<span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span> -f <span style="color:#e6db74">${</span>HOST<span style="color:#e6db74">}</span> -p <span style="color:#e6db74">${</span>HOST_PORT<span style="color:#e6db74">}</span> <span style="color:#e6db74">&#34;\
-</span><span style="color:#e6db74">	ip addr add </span><span style="color:#e6db74">${</span>IP_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>IP_MASK<span style="color:#e6db74">}</span><span style="color:#e6db74"> dev tun</span><span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74"> \
-</span><span style="color:#e6db74">	&amp;amp;&amp;amp; ip link set tun</span><span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74"> up \
-</span><span style="color:#e6db74">	&amp;amp;&amp;amp; ip route add </span><span style="color:#e6db74">${</span>NET_LOCAL<span style="color:#e6db74">}</span><span style="color:#e6db74"> via </span><span style="color:#e6db74">${</span>IP_LOCAL<span style="color:#e6db74">}</span><span style="color:#e6db74"> \
-</span><span style="color:#e6db74">	&amp;amp;&amp;amp; true&#34;</span>
-sleep <span style="color:#ae81ff">3</span>
-ip addr add <span style="color:#e6db74">${</span>IP_LOCAL<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>IP_MASK<span style="color:#e6db74">}</span> dev tun<span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span>
-ip link set tun<span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span> up
-ip route add <span style="color:#e6db74">${</span>NET_REMOTE<span style="color:#e6db74">}</span> via <span style="color:#e6db74">${</span>IP_REMOTE<span style="color:#e6db74">}</span>
-echo <span style="color:#e6db74">&#34;... done.&#34;</span>
-</code></pre></div><p>You&rsquo;ll maybe want to run this as root, because of the &ldquo;ip&rdquo; commands, and so ;)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span>HOST<span style="color:#f92672">=</span>REMOTE_PARTY_ADDRESS
+</span></span><span style="display:flex;"><span>HOST_PORT<span style="color:#f92672">=</span><span style="color:#ae81ff">22</span>
+</span></span><span style="display:flex;"><span>TUN_LOCAL<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>   <span style="color:#75715e"># tun device number here.</span>
+</span></span><span style="display:flex;"><span>TUN_REMOTE<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>  <span style="color:#75715e"># tun device number there</span>
+</span></span><span style="display:flex;"><span>IP_LOCAL<span style="color:#f92672">=</span>192.168.111.2 <span style="color:#75715e"># IP Address for tun here</span>
+</span></span><span style="display:flex;"><span>IP_REMOTE<span style="color:#f92672">=</span>192.168.111.1 <span style="color:#75715e"># IP Address for tun there.</span>
+</span></span><span style="display:flex;"><span>IP_MASK<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span> <span style="color:#75715e"># Mask of the ips above.</span>
+</span></span><span style="display:flex;"><span>NET_REMOTE<span style="color:#f92672">=</span>192.168.0.0/16 <span style="color:#75715e"># Network on the other side of the tunnel</span>
+</span></span><span style="display:flex;"><span>NET_LOCAL<span style="color:#f92672">=</span>192.168.8.0/24  <span style="color:#75715e"># Network on this side of the tunnel</span>
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Starting VPN tunnel ...&#34;</span>
+</span></span><span style="display:flex;"><span>modprobe tun
+</span></span><span style="display:flex;"><span>ssh -w <span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span>:<span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span> -f <span style="color:#e6db74">${</span>HOST<span style="color:#e6db74">}</span> -p <span style="color:#e6db74">${</span>HOST_PORT<span style="color:#e6db74">}</span> <span style="color:#e6db74">&#34;\
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	ip addr add </span><span style="color:#e6db74">${</span>IP_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>IP_MASK<span style="color:#e6db74">}</span><span style="color:#e6db74"> dev tun</span><span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74"> \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	&amp;amp;&amp;amp; ip link set tun</span><span style="color:#e6db74">${</span>TUN_REMOTE<span style="color:#e6db74">}</span><span style="color:#e6db74"> up \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	&amp;amp;&amp;amp; ip route add </span><span style="color:#e6db74">${</span>NET_LOCAL<span style="color:#e6db74">}</span><span style="color:#e6db74"> via </span><span style="color:#e6db74">${</span>IP_LOCAL<span style="color:#e6db74">}</span><span style="color:#e6db74"> \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	&amp;amp;&amp;amp; true&#34;</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>ip addr add <span style="color:#e6db74">${</span>IP_LOCAL<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>IP_MASK<span style="color:#e6db74">}</span> dev tun<span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>ip link set tun<span style="color:#e6db74">${</span>TUN_LOCAL<span style="color:#e6db74">}</span> up
+</span></span><span style="display:flex;"><span>ip route add <span style="color:#e6db74">${</span>NET_REMOTE<span style="color:#e6db74">}</span> via <span style="color:#e6db74">${</span>IP_REMOTE<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;... done.&#34;</span>
+</span></span></code></pre></div><p>You&rsquo;ll maybe want to run this as root, because of the &ldquo;ip&rdquo; commands, and so ;)</p>
 <p>It&rsquo;s still far from perfect (i.e: the tunnel dies too often for some reason&hellip; although keep alive is set). But at least people around can print again! Luckily VoIP is handled out of the VPN.</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Wordpress in the Meantime</title>
       <link>https://www.marcfargas.com/2008/07/wordpress-in-the-meantime/</link>
       <pubDate>Sun, 20 Jul 2008 20:34:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/07/wordpress-in-the-meantime/</guid>
-      <description>Ok, as you may have noticed I&amp;rsquo;m running Wordpress.
-Although I&amp;rsquo;m a big fan of Django and I really enjoy developing sites with it, I just realised I do not have time to &amp;ldquo;build&amp;rdquo; my own website, neither to write up a blog app (I know, there are many out there). So I decided I&amp;rsquo;d try to live with Wordpress for some time, &amp;hellip;
-That just has a few problems&amp;hellip; My server (marcfargas.</description>
+      <description>&lt;p&gt;Ok, as you may have noticed I&amp;rsquo;m running Wordpress.&lt;/p&gt;
+&lt;p&gt;Although I&amp;rsquo;m a big fan of Django and I really enjoy developing sites with it, I just realised I do not have time to &amp;ldquo;build&amp;rdquo; my own website, neither to write up a blog app (I know, there are many out there). So I decided I&amp;rsquo;d try to live with Wordpress for some time, &amp;hellip;&lt;/p&gt;
+&lt;p&gt;That just has a few problems&amp;hellip; My server (marcfargas.com) has no PHP, and no MySQL! So I have to run the blog on a subdomain which is hosted in Dreamhost (I have an account here for other stuff).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ok, as you may have noticed I&rsquo;m running Wordpress.</p>
 <p>Although I&rsquo;m a big fan of Django and I really enjoy developing sites with it, I just realised I do not have time to &ldquo;build&rdquo; my own website, neither to write up a blog app (I know, there are many out there). So I decided I&rsquo;d try to live with Wordpress for some time, &hellip;</p>
 <p>That just has a few problems&hellip; My server (marcfargas.com) has no PHP, and no MySQL! So I have to run the blog on a subdomain which is hosted in Dreamhost (I have an account here for other stuff).</p>
@@ -357,41 +1121,41 @@ That just has a few problems&amp;hellip; My server (marcfargas.</description>
 <p>NOTE to RSS Subscribers: I plan to write in either Spanish, Catalan or English. Posts in either language will be categorized so you can subscribe only to the language you want. See links at the right.</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Ms Excel Help Little Gem</title>
       <link>https://www.marcfargas.com/2008/02/ms-excel-help-little-gem/</link>
       <pubDate>Wed, 13 Feb 2008 13:12:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/02/ms-excel-help-little-gem/</guid>
-      <description>We know Microsoft likes to be ambiguous, I just got this on MS Excel Help (In Spanish):
-Si a1 es VERDADERO o se omite, ref se interpreta como una referencia estilo A1. Si a1 es FALSO o se omite, ref se interpreta como una referencia estilo L1C1. This can be translated to:
-If a1 is TRUE or omitted, ref is interpreted as a reference of style A1. If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.</description>
+      <description>&lt;p&gt;We know Microsoft likes to be ambiguous, I just got this on MS Excel Help (In Spanish):&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Si a1 es VERDADERO o se omite, ref se interpreta como una referencia estilo A1.
+Si a1 es FALSO o se omite, ref se interpreta como una referencia estilo L1C1.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This can be translated to:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;If a1 is TRUE or omitted, ref is interpreted as a reference of style A1.
+If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, the big question is, if a1 is omited how will ref be interpreted?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We know Microsoft likes to be ambiguous, I just got this on MS Excel Help (In Spanish):</p>
-<pre><code>Si a1 es VERDADERO o se omite, ref se interpreta como una referencia estilo A1.
+<pre tabindex="0"><code>Si a1 es VERDADERO o se omite, ref se interpreta como una referencia estilo A1.
 Si a1 es FALSO o se omite, ref se interpreta como una referencia estilo L1C1.
 </code></pre><p>This can be translated to:</p>
-<pre><code>If a1 is TRUE or omitted, ref is interpreted as a reference of style A1.
+<pre tabindex="0"><code>If a1 is TRUE or omitted, ref is interpreted as a reference of style A1.
 If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.
 </code></pre><p>Now, the big question is, if a1 is omited how will ref be interpreted?</p>
 <p>The Online Help (English version) is correct, somebody wanted to confuse Spanish users! ;)</p>
 <p>(Online version of Office Help available <a href="https://web.archive.org/web/20090101064733/http://office.microsoft.com/es-es/excel/HP100624133082.aspx" title="MS Online help">here</a>)</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Outgoing connections from Linux not working</title>
       <link>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</link>
       <pubDate>Sun, 13 Jan 2008 13:10:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2008/01/outgoing-connections-from-linux-not-working/</guid>
-      <description>A friend of mine has a nice MythTV box on his bedroom. Suddently the box decided to not open outgoing connections anymore&amp;hellip; I say outgoing because I could still connect to it from my home.
-I could not find out what was last changed, maybe an aptitude upgrade or did he change ISP?
-After some time looking around the only thing I could find out was a small difference between a SYN packet send from a remote place and the SYN packets send by the broken system:</description>
+      <description>&lt;p&gt;A friend of mine has a nice MythTV box on his bedroom. Suddently the box decided to not open outgoing connections anymore&amp;hellip; I say outgoing because I could still connect to it from my home.&lt;/p&gt;
+&lt;p&gt;I could not find out what was last changed, maybe an aptitude upgrade or did he change ISP?&lt;/p&gt;
+&lt;p&gt;After some time looking around the only thing I could find out was a small difference between a SYN packet send from a remote place and the SYN packets send by the broken system:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A friend of mine has a nice MythTV box on his bedroom. Suddently the box decided to not open outgoing connections anymore&hellip; I say outgoing because I could still connect to it from my home.</p>
 <p>I could not find out what was last changed, maybe an aptitude upgrade or did he change ISP?</p>
 <p>After some time looking around the only thing I could find out was a small difference between a SYN packet send from a remote place and the SYN packets send by the broken system:</p>
-<pre><code class="language-none" data-lang="none">22:56:47.855219 IP Banner.local.33509 &gt; google.es.www: S 206185417:206185417(0)
+<pre tabindex="0"><code class="language-none" data-lang="none">22:56:47.855219 IP Banner.local.33509 &gt; google.es.www: S 206185417:206185417(0)
     win 5840 &lt;mss 1460,sackOK,timestamp 218414628 0,nop,wscale 5&gt;
 
 23:24:16.072713 IP golfos.net.42742 &gt; Banner.local.ssh: S 1705835822:1705835822(0)
@@ -404,22 +1168,19 @@ After some time looking around the only thing I could find out was a small diffe
 <p>Sure, I have to read more about windows scaling and try to understand what is wrong with the router&rsquo;s firewall but for now: things work.</p>
 ]]></content:encoded>
     </item>
-    
     <item>
       <title>Trying Blogger</title>
       <link>https://www.marcfargas.com/2007/10/trying-blogger/</link>
       <pubDate>Sat, 20 Oct 2007 17:57:00 +0100</pubDate>
-      
       <guid>https://www.marcfargas.com/2007/10/trying-blogger/</guid>
-      <description>Hi there,
-This is a first post just to make sure something appears there. I created this blog just to see if my Nokia N95 can publish stuff there via Lifeblog or Share Online. But it doesn&amp;rsquo;t seem to like Google as it won&amp;rsquo;t publish to Blogger, neither Picassa&amp;hellip; Just flickr, Vox and Typepad&amp;hellip;
-Maybe that changes someday. But atleast I have a place to take notes of public interest.</description>
+      <description>&lt;p&gt;Hi there,&lt;/p&gt;
+&lt;p&gt;This is a first post just to make sure something appears there. I created this blog just to see if my Nokia N95 can publish stuff there via Lifeblog or Share Online. But it doesn&amp;rsquo;t seem to like Google as it won&amp;rsquo;t publish to Blogger, neither Picassa&amp;hellip; Just flickr, Vox and Typepad&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Maybe that changes someday. But atleast I have a place to take notes of public interest.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Hi there,</p>
 <p>This is a first post just to make sure something appears there. I created this blog just to see if my Nokia N95 can publish stuff there via Lifeblog or Share Online. But it doesn&rsquo;t seem to like Google as it won&rsquo;t publish to Blogger, neither Picassa&hellip; Just flickr, Vox and Typepad&hellip;</p>
 <p>Maybe that changes someday. But atleast I have a place to take notes of public interest.</p>
 <p>That is, a place to say things like: GNOME rocks, Debian rocks even more, my N95 is awesome&hellip; or things like that.</p>
 ]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

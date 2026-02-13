@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Marc Fargas</title>
+    <link>https://www.marcfargas.com/projects/</link>
+    <description>Recent content in Projects on Marc Fargas</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <atom:link href="https://www.marcfargas.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odoo Toolbox</title>
+      <link>https://www.marcfargas.com/projects/odoo-toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/odoo-toolbox/</guid>
+      <description>CLI toolkit for Odoo ERP</description>
+      <content:encoded><![CDATA[<p>Command-line tools for introspecting and automating Odoo instances — field exploration, record operations, model discovery. Designed for AI agent integration.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Go Easy</title>
+      <link>https://www.marcfargas.com/projects/go-easy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/go-easy/</guid>
+      <description>Google APIs for AI agents</description>
+      <content:encoded><![CDATA[<p>Unified library and CLI for Gmail, Drive, Calendar, and Tasks — built for AI agents that need to interact with Google services without browser automation.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Surf</title>
+      <link>https://www.marcfargas.com/projects/surf-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/surf-cli/</guid>
+      <description>Chrome browser automation CLI</description>
+      <content:encoded><![CDATA[<p>Control Chrome via CLI — navigate, click, fill forms, screenshot, read pages. Built for AI agent browser automation without heavyweight frameworks.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Holdpty</title>
+      <link>https://www.marcfargas.com/projects/holdpty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/holdpty/</guid>
+      <description>Detached PTY sessions</description>
+      <content:encoded><![CDATA[<p>Launch commands in a real pseudo-terminal, detach, and attach/view/record later. For supervising long-running agents and processes.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
