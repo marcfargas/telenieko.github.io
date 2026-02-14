@@ -1205,6 +1205,15 @@ If a1 is FALSE or omitted, ref is interpreted as a reference of style L1C1.
 ]]></content:encoded>
     </item>
     <item>
+      <title>First Post</title>
+      <link>https://www.marcfargas.com/posts/first-post/</link>
+      <pubDate>Fri, 11 Jan 2008 21:18:00 +0100</pubDate>
+      <guid>https://www.marcfargas.com/posts/first-post/</guid>
+      <description>&lt;p&gt;This is my first Blog Post, just to make sure everything went ok.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This is my first Blog Post, just to make sure everything went ok.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Trying Blogger</title>
       <link>https://www.marcfargas.com/posts/trying-blogger/</link>
       <pubDate>Sat, 20 Oct 2007 17:57:00 +0100</pubDate>
