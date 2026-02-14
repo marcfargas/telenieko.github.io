@@ -12,8 +12,10 @@
       <link>https://www.marcfargas.com/projects/odoo-toolbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/odoo-toolbox/</guid>
-      <description>CLI toolkit for Odoo ERP</description>
-      <content:encoded><![CDATA[<p>Command-line tools for introspecting and automating Odoo instances — field exploration, record operations, model discovery. Designed for AI agent integration.</p>
+      <description>Odoo ERP integration for AI agents</description>
+      <content:encoded><![CDATA[<p>Command-line tools for introspecting and automating Odoo instances — field exploration, record operations, model discovery, and accounting queries. Designed for AI agent integration.</p>
+<p>Odoo&rsquo;s XML-RPC API is powerful but undiscoverable. Field names are cryptic, relations are nested, and the documentation assumes you already know the data model. Odoo Toolbox makes the API explorable: list models, inspect fields with types and relations, search records with domain filters, and navigate the accounting chart — all from the command line.</p>
+<p>The pi skill that ships with it teaches AI agents Odoo&rsquo;s conventions: how <code>many2one</code> fields work, how to build domain filters, how to traverse account hierarchies. CI runs against a real Odoo 17 instance to catch regressions. Published to npm as <code>odoo-toolbox</code>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -23,6 +25,33 @@
       <guid>https://www.marcfargas.com/projects/go-easy/</guid>
       <description>Google APIs for AI agents</description>
       <content:encoded><![CDATA[<p>Unified library and CLI for Gmail, Drive, Calendar, and Tasks — built for AI agents that need to interact with Google services without browser automation.</p>
+<p>AI agents need to read email, create calendar events, manage files in Drive, and handle task lists. The official Google APIs are powerful but painful: OAuth flows, token refresh, pagination, encoding quirks, error handling. Go Easy wraps all of that into a single library with four CLIs (<code>go-gmail</code>, <code>go-drive</code>, <code>go-calendar</code>, <code>go-tasks</code>) that agents can call directly from bash.</p>
+<p>The design prioritizes agent ergonomics: two-phase OAuth that works in headless environments, consistent JSON output, pagination handled transparently, and a pi skill that teaches any LLM how to use it. Published to npm as <code>@marcfargas/go-easy</code>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Go MAPI</title>
+      <link>https://www.marcfargas.com/projects/go-mapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/go-mapi/</guid>
+      <description>MAPI-to-Gmail bridge for Windows</description>
+      <content:encoded><![CDATA[<p>The MAPI-to-Gmail bridge that didn&rsquo;t exist.</p>
+<p>MAPI is the Windows API behind &ldquo;Send by Email&rdquo; — right-click a file in Explorer, click Send, and your email client opens with the file attached. Every Windows application that can email uses it: PDF printers, accounting software, scanners, CRMs.</p>
+<p>Gmail and Google Workspace have no native MAPI support. The only third-party tool that filled the gap, Affixa, shut down. Go MAPI is the open-source replacement.</p>
+<p>It intercepts MAPI calls at the OS level, bridges them to a browser extension via native messaging, and creates a Gmail draft with the attachments ready to send. Works with Chrome and Edge. Handles ANSI and Unicode, multiple attachments, and codepage encoding edge cases that enterprise Windows software loves to produce.</p>
+<p>Built because 25 people at work couldn&rsquo;t right-click &ldquo;Send by Email&rdquo; anymore.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://www.marcfargas.com/projects/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/skills/</guid>
+      <description>Reusable skills for AI coding agents</description>
+      <content:encoded><![CDATA[<p>Agent-agnostic skill files that teach AI coding agents how to use specific tools. Works with pi, Claude Code, Cursor, and any agent that supports markdown-based skill injection.</p>
+<p>Skills are the &ldquo;man pages&rdquo; of the AI agent world — structured documentation that tells an LLM how to operate a CLI, what&rsquo;s safe to run, what patterns to follow, and what gotchas to avoid. Each skill is a standalone markdown file, CC0-licensed, designed to be dropped into any agent&rsquo;s context.</p>
+<p>Current skills cover Google Cloud (gcloud), process management (PM2), pre-release workflows (changesets), web search (ddgs), terminal recording (VHS), spreadsheet modeling, and Azure CLI. Installable via <code>npx skills add</code> for 39+ agents, or <code>pi install npm:@marcfargas/skills</code> for pi.</p>
+<p>The motivation: every time an agent struggles with a CLI, the fix is always the same — better instructions. Skills make those instructions reusable across projects and agents.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -30,8 +59,91 @@
       <link>https://www.marcfargas.com/projects/holdpty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/holdpty/</guid>
-      <description>Detached PTY sessions</description>
-      <content:encoded><![CDATA[<p>Launch commands in a real pseudo-terminal, detach, and attach/view/record later. For supervising long-running agents and processes.</p>
+      <description>Cross-platform detached terminal sessions</description>
+      <content:encoded><![CDATA[<p>Launch commands in a real pseudo-terminal, detach, reattach later. Like a minimal <code>screen</code> or <code>tmux</code>, but cross-platform — named pipes on Windows, Unix sockets everywhere else.</p>
+<p>Born from a specific need: AI agents that launch long-running processes need to detach from them and check back later. The existing tools (screen, tmux) are Unix-only and heavyweight. Holdpty is a single npm package that works on Windows, macOS, and Linux, with a pi skill that teaches agents how to use it.</p>
+<p>Supports <code>logs --tail/--follow</code>, session replay, Ctrl+A detach in attached mode, and PowerShell compatibility. Published to npm as <code>holdpty</code>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pi Planner</title>
+      <link>https://www.marcfargas.com/projects/pi-planner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/pi-planner/</guid>
+      <description>Plan-then-execute workflow for AI agents</description>
+      <content:encoded><![CDATA[<p>A pi extension that adds a structured plan-then-execute workflow for agents that touch external systems — ERPs, email, calendars, deployments.</p>
+<p>The problem: when an agent needs to create an Odoo invoice, send an email, and update a calendar event, confirming each tool call individually doesn&rsquo;t work. You can&rsquo;t assess a 5-step workflow one click at a time. Pi Planner lets the agent propose the full sequence, the human review it as a unit, and approve once.</p>
+<p>Plans persist as markdown files in <code>.pi/plans/</code> — auditable, diffable, they survive crashes. Includes plan mode (restricts tools to read-only during planning), a skill safety registry that classifies bash commands as READ or WRITE, and crash recovery that resumes stalled plans.</p>
+<p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pi Safety</title>
+      <link>https://www.marcfargas.com/projects/pi-safety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/pi-safety/</guid>
+      <description>Safety classification registry for AI agent tool calls</description>
+      <content:encoded><![CDATA[<p>A library that classifies AI agent tool calls as READ (no side effects) or WRITE (everything else) using glob-based command pattern matching.</p>
+<p>When an AI agent runs <code>npx go-gmail marc@example.com search &quot;invoice&quot;</code>, that&rsquo;s a read. When it runs <code>npx go-gmail marc@example.com send --to bob@example.com</code>, that&rsquo;s a write. Pi Safety provides the registry where skills declare their safety levels, and downstream tools (like Pi Planner) enforce them.</p>
+<p>Patterns use glob wildcards and are registered per tool/CLI. The LLM itself acts as the parser — when it loads a skill, it extracts the safety classifications and registers them. This means any new skill automatically gets safety enforcement without manual configuration.</p>
+<p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pi Test Harness</title>
+      <link>https://www.marcfargas.com/projects/pi-test-harness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/pi-test-harness/</guid>
+      <description>Test harness for pi extensions</description>
+      <content:encoded><![CDATA[<p>A test framework for pi extensions — lets you write automated tests that verify extension behavior without running a full LLM session.</p>
+<p>Pi extensions add tool calls to the agent, but testing them is awkward: you&rsquo;d need to spin up a model, craft prompts that trigger the right tools, and parse the output. Pi Test Harness provides a mock pi environment where you can call extension tools directly, assert on their outputs, and verify state changes.</p>
+<p>Used to test Pi Planner&rsquo;s plan lifecycle (propose → approve → execute → complete), Pi Safety&rsquo;s glob matching, and the interaction between plan mode and tool restrictions.</p>
+<p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pi Server</title>
+      <link>https://www.marcfargas.com/projects/pi-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/pi-server/</guid>
+      <description>Detachable agent sessions for pi</description>
+      <content:encoded><![CDATA[<p>Run pi as a headless daemon, connect and disconnect terminal clients at will — your session keeps running.</p>
+<p>Pi is a powerful coding agent, but it&rsquo;s tied to your terminal. Close the tab, lose the session. Pi Server fixes that: it wraps pi in a WebSocket-accessible daemon. Connect your terminal, work with the agent, disconnect, reconnect later and pick up where you left off.</p>
+<p>The foundation for remote agent access — run pi on a powerful server, connect from a laptop. Also the building block for web dashboards, mobile clients, and multi-agent orchestration where sessions need to outlive any single connection.</p>
+<p>Alpha status. Under active development.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>django-mailserver</title>
+      <link>https://www.marcfargas.com/projects/django-mailserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/django-mailserver/</guid>
+      <description>Mail services in Django (2009)</description>
+      <content:encoded><![CDATA[<p>A Django application for creating mail services — virtual domains, mailboxes, and aliases managed through Django&rsquo;s admin interface, backed by Postfix and Dovecot.</p>
+<p>Built in 2009, when self-hosted email was how you ran a business. 16 stars on GitHub — modest, but it solved a real problem for a few people running their own mail infrastructure on Django.</p>
+<p>Archived. A relic from a time when &ldquo;cloud email&rdquo; meant your own VPS with Postfix.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>importaSOL</title>
+      <link>https://www.marcfargas.com/projects/importasol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/importasol/</guid>
+      <description>ContaSOL/GestorSOL import file generator (2014)</description>
+      <content:encoded><![CDATA[<p>Librería Python para generar archivos XLS importables en las aplicaciones ContaSOL, GestorSOL, NominaSOL y demás productos del ecosistema SOL (Sage España).</p>
+<p>Nació de la necesidad de migrar datos contables entre sistemas — cuando tienes cientos de asientos y la única vía de entrada es un formato Excel propietario, automatizarlo no es opcional.</p>
+<p>Archivado. El ecosistema SOL sigue existiendo, pero los flujos de datos han cambiado.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SignalFlow</title>
+      <link>https://www.marcfargas.com/projects/signalflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/projects/signalflow/</guid>
+      <description>Signal-based flow programming in Python (2018)</description>
+      <content:encoded><![CDATA[<p>A Python library for signal-based flow programming — connect processing nodes with typed signals, build reactive data pipelines declaratively.</p>
+<p>An experiment in making data flow explicit: instead of calling functions, you connect signals. A node emits, downstream nodes react. The idea predates the current wave of &ldquo;AI agent pipelines&rdquo; by several years, though the motivation was different — real-time data processing, not LLM orchestration.</p>
+<p>Archived. The concept was sound; the timing was early.</p>
 ]]></content:encoded>
     </item>
   </channel>
