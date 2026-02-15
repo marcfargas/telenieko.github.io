@@ -13,9 +13,28 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/odoo-toolbox/</guid>
       <description>Odoo ERP integration for AI agents</description>
-      <content:encoded><![CDATA[<p>Command-line tools for introspecting and automating Odoo instances — field exploration, record operations, model discovery, and accounting queries. Designed for AI agent integration.</p>
-<p>Odoo&rsquo;s XML-RPC API is powerful but undiscoverable. Field names are cryptic, relations are nested, and the documentation assumes you already know the data model. Odoo Toolbox makes the API explorable: list models, inspect fields with types and relations, search records with domain filters, and navigate the accounting chart — all from the command line.</p>
-<p>The pi skill that ships with it teaches AI agents Odoo&rsquo;s conventions: how <code>many2one</code> fields work, how to build domain filters, how to traverse account hierarchies. CI runs against a real Odoo 17 instance to catch regressions. Published to npm as <code>odoo-toolbox</code>.</p>
+      <content:encoded><![CDATA[<p>AI-friendly Odoo integration — progressive knowledge modules and TypeScript client for working with Odoo v17 ERP.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Teaches AI agents how to work with Odoo through progressive, CI-tested skill modules. Instead of dumping 12,000 pages of Odoo docs into context, agents load only what they need: connection → domains → CRUD → domain-specific (mail, accounting, timesheets).</p>
+<p>Every code example in the skills is extracted and tested against a real Odoo v17 instance in CI. No doc rot, no hallucinated APIs.</p>
+<h2 id="quick-start">Quick Start</h2>
+
+      <p><strong>Install</strong> <small>(updated 2026-02-15)</small></p>
+      <pre><code>npx skills add marcfargas/odoo-toolbox</code></pre>
+<p><strong>TypeScript packages</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install @marcfargas/odoo-client
+</span></span><span style="display:flex;"><span>npm install @marcfargas/odoo-introspection
+</span></span></code></pre></div><p><strong>Scaffold a skill project</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx @marcfargas/create-odoo-skills my-odoo-skills
+</span></span></code></pre></div><h2 id="whats-inside">What&rsquo;s Inside</h2>
+<ul>
+<li><strong>8 foundational skills</strong>: connection, domains, field types, CRUD, search, introspection, properties, modules</li>
+<li><strong>5 domain-specific skills</strong>: mail/chatter, accounting, contracts, attendance, timesheets</li>
+<li><strong>TypeScript client</strong>: Lightweight RPC client (<code>@marcfargas/odoo-client</code>)</li>
+<li><strong>Schema introspection</strong>: Discover models/fields dynamically (<code>@marcfargas/odoo-introspection</code>)</li>
+<li><strong>All skills CC0</strong> (public domain) — code is LGPL-3.0</li>
+</ul>
+<p><a href="https://github.com/marcfargas/odoo-toolbox">Repository</a> · <a href="https://www.npmjs.com/search?q=%40marcfargas%2Fodoo-">npm packages</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -24,9 +43,39 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/go-easy/</guid>
       <description>Google APIs for AI agents</description>
-      <content:encoded><![CDATA[<p>Unified library and CLI for Gmail, Drive, Calendar, and Tasks — built for AI agents that need to interact with Google services without browser automation.</p>
-<p>AI agents need to read email, create calendar events, manage files in Drive, and handle task lists. The official Google APIs are powerful but painful: OAuth flows, token refresh, pagination, encoding quirks, error handling. Go Easy wraps all of that into a single library with four CLIs (<code>go-gmail</code>, <code>go-drive</code>, <code>go-calendar</code>, <code>go-tasks</code>) that agents can call directly from bash.</p>
-<p>The design prioritizes agent ergonomics: two-phase OAuth that works in headless environments, consistent JSON output, pagination handled transparently, and a pi skill that teaches any LLM how to use it. Published to npm as <code>@marcfargas/go-easy</code>.</p>
+      <content:encoded><![CDATA[<p>Unified TypeScript library and CLIs for Gmail, Drive, Calendar, and Tasks — designed for AI agents.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Wraps Google&rsquo;s official APIs in a single library with four agent-friendly CLIs:</p>
+<ul>
+<li><strong>go-gmail</strong>: Read, search, send email; manage drafts; handle threads</li>
+<li><strong>go-drive</strong>: Upload, download, search files; manage folders</li>
+<li><strong>go-calendar</strong>: Create events, manage calendars, query availability</li>
+<li><strong>go-tasks</strong>: Create, update, list tasks across task lists</li>
+</ul>
+<p>Two-phase OAuth works in headless environments (auth in browser, token to server). Pagination, encoding quirks, and token refresh handled transparently.</p>
+<h2 id="quick-start">Quick Start</h2>
+
+      <p><strong>Install</strong> <small>(updated 2026-02-15)</small></p>
+      <pre><code>npx skills add marcfargas/go-easy</code></pre>
+<p><strong>Install CLIs</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g @marcfargas/go-easy
+</span></span></code></pre></div><p><strong>TypeScript library</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install @marcfargas/go-easy
+</span></span></code></pre></div><p><strong>First-time auth</strong> (interactive):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx go-gmail auth
+</span></span></code></pre></div><p>Then agents can call:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx go-gmail search <span style="color:#e6db74">&#34;from:john subject:invoice&#34;</span>
+</span></span><span style="display:flex;"><span>npx go-drive upload report.pdf --folder-id &lt;id&gt;
+</span></span><span style="display:flex;"><span>npx go-calendar create <span style="color:#e6db74">&#34;Team sync&#34;</span> --start <span style="color:#e6db74">&#34;2026-02-20T10:00:00&#34;</span>
+</span></span><span style="display:flex;"><span>npx go-tasks create <span style="color:#e6db74">&#34;Review proposal&#34;</span> --list-id &lt;id&gt;
+</span></span></code></pre></div><h2 id="whats-inside">What&rsquo;s Inside</h2>
+<ul>
+<li><strong>4 gateway CLIs</strong>: <code>go-gmail</code>, <code>go-drive</code>, <code>go-calendar</code>, <code>go-tasks</code></li>
+<li><strong>TypeScript library</strong>: <code>@marcfargas/go-easy</code> (also exports programmatic API)</li>
+<li><strong>pi skill</strong>: Teaches agents the CLI patterns, auth flow, common operations</li>
+<li><strong>Skills CC0</strong> (public domain) — code is MIT</li>
+</ul>
+<p><a href="https://github.com/marcfargas/go-easy">Repository</a> · <a href="https://www.npmjs.com/package/@marcfargas/go-easy">npm</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -35,11 +84,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/go-mapi/</guid>
       <description>MAPI-to-Gmail bridge for Windows</description>
-      <content:encoded><![CDATA[<p>The MAPI-to-Gmail bridge that didn&rsquo;t exist.</p>
-<p>MAPI is the Windows API behind &ldquo;Send by Email&rdquo; — right-click a file in Explorer, click Send, and your email client opens with the file attached. Every Windows application that can email uses it: PDF printers, accounting software, scanners, CRMs.</p>
-<p>Gmail and Google Workspace have no native MAPI support. The only third-party tool that filled the gap, Affixa, shut down. Go MAPI is the open-source replacement.</p>
-<p>It intercepts MAPI calls at the OS level, bridges them to a browser extension via native messaging, and creates a Gmail draft with the attachments ready to send. Works with Chrome and Edge. Handles ANSI and Unicode, multiple attachments, and codepage encoding edge cases that enterprise Windows software loves to produce.</p>
-<p>Built because 25 people at work couldn&rsquo;t right-click &ldquo;Send by Email&rdquo; anymore.</p>
+      <content:encoded><![CDATA[<p>Open-source MAPI-to-Gmail bridge for Windows — makes &ldquo;Send by Email&rdquo; work with Gmail.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Intercepts MAPI calls (Windows&rsquo; &ldquo;Send by Email&rdquo; API) and creates Gmail drafts via browser extension. Right-click a file in Explorer → Send → Gmail draft opens with file attached.</p>
+<p>Every Windows app that can email uses MAPI: PDF printers, accounting software, scanners, CRMs. Gmail has no native MAPI support. The only third-party solution (Affixa) shut down. Go MAPI is the open-source replacement.</p>
+<p>Handles ANSI/Unicode, multiple attachments, and codepage encoding edge cases that enterprise Windows software produces.</p>
+<h2 id="install">Install</h2>
+<p><strong>Extension</strong> (required):<br>
+<a href="https://chrome.google.com/webstore/detail/...">Chrome Web Store</a> · <a href="https://microsoftedge.microsoft.com/addons/detail/...">Edge Add-ons</a></p>
+<p><strong>Native host</strong> (Windows):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>iwr https<span style="color:#960050;background-color:#1e0010">:</span>//raw.githubusercontent.com/marcfargas/go-mapi/main/install.ps1 | iex
+</span></span></code></pre></div><p>After install, &ldquo;Send by Email&rdquo; will create Gmail drafts instead of opening Outlook/Mail.</p>
+<h2 id="architecture">Architecture</h2>
+<p>Windows app → MAPI call → Native host (Rust) → Chrome extension → Gmail draft (via Google APIs)</p>
+<p><a href="https://github.com/marcfargas/go-mapi">Repository</a> · <a href="https://github.com/marcfargas/go-mapi#readme">Install guide</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -48,10 +106,82 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/skills/</guid>
       <description>Reusable skills for AI coding agents</description>
-      <content:encoded><![CDATA[<p>Agent-agnostic skill files that teach AI coding agents how to use specific tools. Works with pi, Claude Code, Cursor, and any agent that supports markdown-based skill injection.</p>
-<p>Skills are the &ldquo;man pages&rdquo; of the AI agent world — structured documentation that tells an LLM how to operate a CLI, what&rsquo;s safe to run, what patterns to follow, and what gotchas to avoid. Each skill is a standalone markdown file, CC0-licensed, designed to be dropped into any agent&rsquo;s context.</p>
-<p>Current skills cover Google Cloud (gcloud), process management (PM2), pre-release workflows (changesets), web search (ddgs), terminal recording (VHS), spreadsheet modeling, and Azure CLI. Installable via <code>npx skills add</code> for 39+ agents, or <code>pi install npm:@marcfargas/skills</code> for pi.</p>
-<p>The motivation: every time an agent struggles with a CLI, the fix is always the same — better instructions. Skills make those instructions reusable across projects and agents.</p>
+      <content:encoded><![CDATA[<p>Agent-agnostic skills that teach AI agents how to use specific tools — structured markdown &ldquo;man pages&rdquo; for LLMs.</p>
+<h2 id="what-it-is">What It Is</h2>
+<p>Skills are standalone markdown files that tell an agent:</p>
+<ul>
+<li>How to operate a CLI</li>
+<li>What&rsquo;s safe to run (safety classification)</li>
+<li>What patterns to follow</li>
+<li>What gotchas to avoid</li>
+</ul>
+<p>CC0-licensed (public domain). Works with pi, Claude Code, Cursor, and any agent that reads markdown.</p>
+<h2 id="available-skills">Available Skills</h2>
+
+      <p><strong>Install</strong> <small>(8 skills available as of 2026-02-15)</small></p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Command</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>List all skills</td>
+            <td><code>npx skills add marcfargas/skills --list</code></td>
+          </tr>
+          <tr>
+            <td>Install specific skill</td>
+            <td><code>npx skills add marcfargas/skills --skill &lt;name&gt;</code></td>
+          </tr>
+          <tr>
+            <td>Install all</td>
+            <td><code>npx skills add marcfargas/skills --skill '*'</code></td>
+          </tr>
+        </tbody>
+      </table>
+<h3 id="skill-breakdown">Skill Breakdown</h3>
+<p><strong>Cloud &amp; Infrastructure</strong></p>
+<ul>
+<li><code>azcli</code> — Azure CLI (az) for managing Azure resources</li>
+<li><code>gcloud</code> — Google Cloud Platform CLI (gcloud, gcloud storage, bq)</li>
+</ul>
+<p><strong>Development &amp; Release</strong></p>
+<ul>
+<li><code>pm2</code> — Process management (start, stop, restart, monitor)</li>
+<li><code>pre-release</code> — Pre-release review and changeset generation</li>
+<li><code>repo-hygiene</code> — Repository health checks</li>
+<li><code>vhs</code> — Terminal recording as GIF/MP4/WebM</li>
+</ul>
+<p><strong>Search &amp; Discovery</strong></p>
+<ul>
+<li><code>web-search</code> — Web search via ddgs (multi-engine metasearch)</li>
+</ul>
+<p><strong>Data &amp; Modeling</strong></p>
+<ul>
+<li><code>sheet-model</code> — Headless spreadsheet engine for financial models</li>
+</ul>
+<h2 id="install">Install</h2>
+<p><strong>List available skills</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx skills add marcfargas/skills --list
+</span></span></code></pre></div><p><strong>Install a specific skill</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx skills add marcfargas/skills --skill azcli
+</span></span><span style="display:flex;"><span>npx skills add marcfargas/skills --skill gcloud
+</span></span><span style="display:flex;"><span>npx skills add marcfargas/skills --skill pm2
+</span></span><span style="display:flex;"><span>npx skills add marcfargas/skills --skill sheet-model
+</span></span></code></pre></div><p><strong>Install all skills</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx skills add marcfargas/skills --skill <span style="color:#e6db74">&#39;*&#39;</span>
+</span></span></code></pre></div><p><strong>Interactive install</strong> (prompts if multiple skills available):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx skills add marcfargas/skills
+</span></span></code></pre></div><p><strong>From source</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/marcfargas/skills
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Point your agent at skills/&lt;name&gt;/SKILL.md</span>
+</span></span></code></pre></div><h2 id="pattern">Pattern</h2>
+<p>The motivation: <strong>every time an agent struggles with a CLI, the fix is better instructions</strong>. Skills make those instructions reusable across projects and agents.</p>
+<p>Emerged from odoo-toolbox and go-easy (both ship skills). Generalized into a standalone collection.</p>
+<p><a href="https://github.com/marcfargas/skills">Repository</a> · <a href="https://skills.sh">skills.sh registry</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -60,9 +190,22 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/holdpty/</guid>
       <description>Cross-platform detached terminal sessions</description>
-      <content:encoded><![CDATA[<p>Launch commands in a real pseudo-terminal, detach, reattach later. Like a minimal <code>screen</code> or <code>tmux</code>, but cross-platform — named pipes on Windows, Unix sockets everywhere else.</p>
-<p>Born from a specific need: AI agents that launch long-running processes need to detach from them and check back later. The existing tools (screen, tmux) are Unix-only and heavyweight. Holdpty is a single npm package that works on Windows, macOS, and Linux, with a pi skill that teaches agents how to use it.</p>
-<p>Supports <code>logs --tail/--follow</code>, session replay, Ctrl+A detach in attached mode, and PowerShell compatibility. Published to npm as <code>holdpty</code>.</p>
+      <content:encoded><![CDATA[<p>Launch commands in a real pseudo-terminal, detach, reattach later. Cross-platform <code>screen</code> / <code>tmux</code> alternative for AI agents.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Creates detached PTY sessions that survive disconnection. Windows (named pipes), macOS, and Linux (Unix sockets). Agents can launch long-running processes, detach, and check back later without blocking.</p>
+<p>Supports <code>logs --tail/--follow</code>, session replay, Ctrl+A detach in attached mode, and PowerShell compatibility.</p>
+<h2 id="quick-start">Quick Start</h2>
+
+      <p><strong>Install</strong> <small>(updated 2026-02-15)</small></p>
+      <pre><code>npx skills add marcfargas/holdpty</code></pre>
+<p><strong>Install CLI</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g holdpty
+</span></span></code></pre></div><p><strong>Usage</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>holdpty launch my-session -- npm run dev
+</span></span><span style="display:flex;"><span>holdpty logs my-session --follow
+</span></span><span style="display:flex;"><span>holdpty attach my-session
+</span></span><span style="display:flex;"><span>holdpty list
+</span></span></code></pre></div><p><a href="https://github.com/marcfargas/holdpty">Repository</a> · <a href="https://www.npmjs.com/package/holdpty">npm</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -71,10 +214,26 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/pi-planner/</guid>
       <description>Plan-then-execute workflow for AI agents</description>
-      <content:encoded><![CDATA[<p>A pi extension that adds a structured plan-then-execute workflow for agents that touch external systems — ERPs, email, calendars, deployments.</p>
-<p>The problem: when an agent needs to create an Odoo invoice, send an email, and update a calendar event, confirming each tool call individually doesn&rsquo;t work. You can&rsquo;t assess a 5-step workflow one click at a time. Pi Planner lets the agent propose the full sequence, the human review it as a unit, and approve once.</p>
-<p>Plans persist as markdown files in <code>.pi/plans/</code> — auditable, diffable, they survive crashes. Includes plan mode (restricts tools to read-only during planning), a skill safety registry that classifies bash commands as READ or WRITE, and crash recovery that resumes stalled plans.</p>
-<p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+      <content:encoded><![CDATA[<p>Structured plan-then-execute workflow for pi agents — review multi-step operations as a unit before execution.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>When an agent needs to touch external systems (Odoo, email, calendar, deployments), it proposes the full sequence first. You review the plan as a unit, approve once, and the agent executes.</p>
+<p>Prevents the &ldquo;confirm each tool call individually&rdquo; problem. You can&rsquo;t assess a 5-step workflow one click at a time.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Plan mode</strong>: Restricts tools to read-only during planning</li>
+<li><strong>Skill safety registry</strong>: Classifies bash commands as READ or WRITE</li>
+<li><strong>Persistent plans</strong>: Markdown files in <code>.pi/plans/</code> (auditable, diffable, survive crashes)</li>
+<li><strong>Crash recovery</strong>: Resumes stalled plans from checkpoints</li>
+<li><strong>Model override</strong>: Execute plans with a specific model (e.g., faster/cheaper for known-good plans)</li>
+</ul>
+<h2 id="install">Install</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install @marcfargas/pi-planner
+</span></span></code></pre></div><p>Add to pi config (<code>~/.pi/extensions/</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;extensions&#34;</span>: [<span style="color:#e6db74">&#34;@marcfargas/pi-planner&#34;</span>]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+<p><a href="https://github.com/marcfargas/pi-mf-extensions/tree/main/packages/pi-planner">Repository</a> · <a href="https://www.npmjs.com/package/@marcfargas/pi-planner">npm</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -95,10 +254,30 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/projects/pi-test-harness/</guid>
       <description>Test harness for pi extensions</description>
-      <content:encoded><![CDATA[<p>A test framework for pi extensions — lets you write automated tests that verify extension behavior without running a full LLM session.</p>
-<p>Pi extensions add tool calls to the agent, but testing them is awkward: you&rsquo;d need to spin up a model, craft prompts that trigger the right tools, and parse the output. Pi Test Harness provides a mock pi environment where you can call extension tools directly, assert on their outputs, and verify state changes.</p>
-<p>Used to test Pi Planner&rsquo;s plan lifecycle (propose → approve → execute → complete), Pi Safety&rsquo;s glob matching, and the interaction between plan mode and tool restrictions.</p>
+      <content:encoded><![CDATA[<p>Test framework for pi extensions — verify extension behavior without running a full LLM session.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Pi extensions add tool calls to agents, but testing is awkward: you&rsquo;d need to spin up a model, craft prompts that trigger tools, and parse output.</p>
+<p>Pi Test Harness provides a mock pi environment where you can:</p>
+<ul>
+<li>Call extension tools directly</li>
+<li>Assert on outputs</li>
+<li>Verify state changes</li>
+<li>Test tool interactions</li>
+</ul>
+<p>Playbook-based: write scenarios in YAML, run with real pi runtime (extensions, tools, hooks), model mocked via <code>streamFn</code>.</p>
+<h2 id="install">Install</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install --save-dev @marcfargas/pi-test-harness
+</span></span></code></pre></div><h2 id="example">Example</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">runPlaybook</span> } <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;@marcfargas/pi-test-harness&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">result</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">runPlaybook</span>(<span style="color:#e6db74">&#39;./test-plan-lifecycle.yml&#39;</span>, {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">extensions</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;@marcfargas/pi-planner&#39;</span>],
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">expect</span>(<span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">status</span>).<span style="color:#a6e22e">toBe</span>(<span style="color:#e6db74">&#39;success&#39;</span>);
+</span></span></code></pre></div><p>Used to test pi-planner&rsquo;s plan lifecycle, pi-safety&rsquo;s glob matching, and plan mode tool restrictions.</p>
 <p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
+<p><a href="https://github.com/marcfargas/pi-mf-extensions/tree/main/packages/pi-test-harness">Repository</a> · <a href="https://www.npmjs.com/package/@marcfargas/pi-test-harness">npm</a></p>
 ]]></content:encoded>
     </item>
     <item>

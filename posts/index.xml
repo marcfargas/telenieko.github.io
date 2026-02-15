@@ -932,7 +932,7 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
       <link>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-b/</link>
       <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
       <guid>https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-b/</guid>
-      <description>&lt;p&gt;Hace un rato hablaba de la opción A de la Reforma Diagonal (&lt;a href=&#34;https://www.marcfargas.com/posts/boulevard-diagonal-la-opci%C3%B3n-a/&#34;&gt;Boulevard Diagonal, la opción A&lt;/a&gt;), y el viernes escribía sobre la necesidad de reformar la Diagonal (&lt;a href=&#34;https://www.marcfargas.com/posts/diagonal-la-reforma-necesaria/&#34;&gt;Diagonal, la Reforma necesaria&lt;/a&gt;). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.&lt;/p&gt;
+      <description>&lt;p&gt;Hace un rato hablaba de la opción A de la Reforma Diagonal (&lt;a href=&#34;../posts/boulevard-diagonal-la-opci%C3%B3n-a/&#34;&gt;Boulevard Diagonal, la opción A&lt;/a&gt;), y el viernes escribía sobre la necesidad de reformar la Diagonal (&lt;a href=&#34;../posts/diagonal-la-reforma-necesaria/&#34;&gt;Diagonal, la Reforma necesaria&lt;/a&gt;). Lo justo es escribir también sobre la segunda opción, la B. También a vuelo de pájaro.&lt;/p&gt;
 &lt;p&gt;El ejercicio ahora será imaginarse la &amp;ldquo;Rambla de Catalunya&amp;rdquo; o &amp;ldquo;Les Rambles&amp;rdquo;, con tranvía y aceras, bastante, más anchas.&lt;/p&gt;
 &lt;figure class=&#34;align-center &#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;SECCIO_B.jpg#center&#34;/&gt; &lt;figcaption&gt;
@@ -1092,7 +1092,7 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
       <pubDate>Mon, 25 Aug 2008 10:36:00 +0100</pubDate>
       <guid>https://www.marcfargas.com/posts/nokia-beta-labs-stickers/</guid>
       <description>&lt;p&gt;Three days ago Nokia Beta Labs &lt;a href=&#34;https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/&#34;&gt;announced&lt;/a&gt; they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Nokia Beta Labs stickers&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/posts/nokia-beta-labs-stickers/stickers.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Nokia Beta Labs stickers&#34; loading=&#34;lazy&#34; src=&#34;../posts/nokia-beta-labs-stickers/stickers.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Maybe they should have send 10 stickers to the 100 first ones, I&amp;rsquo;ll have a hard time looking where to put so many stickers!&lt;/p&gt;
 &lt;p&gt;Anyway, thanks Nokia&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Three days ago Nokia Beta Labs <a href="https://web.archive.org/web/20081230032008/http://betalabs.nokia.com/blog/2008/08/22/beta-labs-stickers-shipped-to-you-for-free/">announced</a> they were giving stickers for free (20 stickers for the 50 first ones). Today, three days after, I got my 20 stickers!</p>
@@ -1107,7 +1107,7 @@ for GRUB just setup the <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/default/gr
       <pubDate>Wed, 20 Aug 2008 21:05:00 +0100</pubDate>
       <guid>https://www.marcfargas.com/posts/hobbes-in-the-river/</guid>
       <description>&lt;p&gt;This Saturday there was the &amp;ldquo;Fast Painting&amp;rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&amp;rsquo;t spend any time painting.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Hobbes in the river&#34; loading=&#34;lazy&#34; src=&#34;https://www.marcfargas.com/posts/hobbes-in-the-river/hobbes.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hobbes in the river&#34; loading=&#34;lazy&#34; src=&#34;../posts/hobbes-in-the-river/hobbes.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;He spent the whole day running on the river with the tennis ball, And I threw the ball and took photos :)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This Saturday there was the &ldquo;Fast Painting&rdquo; course on Gualba (a town in El Montseny), as you may guess from the photo, Me and Hobbes didn&rsquo;t spend any time painting.</p>
 <p><img alt="Hobbes in the river" loading="lazy" src="/posts/hobbes-in-the-river/hobbes.jpg"></p>
