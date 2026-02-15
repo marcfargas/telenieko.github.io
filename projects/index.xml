@@ -27,6 +27,7 @@
 </span></span></code></pre></div><p><strong>Scaffold a skill project</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx @marcfargas/create-odoo-skills my-odoo-skills
 </span></span></code></pre></div><h2 id="whats-inside">What&rsquo;s Inside</h2>
+<p>(Check repository for up to date list of skills)</p>
 <ul>
 <li><strong>8 foundational skills</strong>: connection, domains, field types, CRUD, search, introspection, properties, modules</li>
 <li><strong>5 domain-specific skills</strong>: mail/chatter, accounting, contracts, attendance, timesheets</li>
@@ -54,9 +55,7 @@
 </ul>
 <p>Two-phase OAuth works in headless environments (auth in browser, token to server). Pagination, encoding quirks, and token refresh handled transparently.</p>
 <h2 id="quick-start">Quick Start</h2>
-
-      <p><strong>Install</strong> <small>(updated 2026-02-15)</small></p>
-      <pre><code>npx skills add marcfargas/go-easy</code></pre>
+<p><em>Skills list unavailable at build time. See <a href="https://github.com/marcfargas/go-easy">repository</a> for current skills.</em></p>
 <p><strong>Install CLIs</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g @marcfargas/go-easy
 </span></span></code></pre></div><p><strong>TypeScript library</strong>:</p>
@@ -72,7 +71,7 @@
 <ul>
 <li><strong>4 gateway CLIs</strong>: <code>go-gmail</code>, <code>go-drive</code>, <code>go-calendar</code>, <code>go-tasks</code></li>
 <li><strong>TypeScript library</strong>: <code>@marcfargas/go-easy</code> (also exports programmatic API)</li>
-<li><strong>pi skill</strong>: Teaches agents the CLI patterns, auth flow, common operations</li>
+<li><strong>AI Agent Skill</strong>: Teaches agents the CLI patterns, auth flow, common operations</li>
 <li><strong>Skills CC0</strong> (public domain) — code is MIT</li>
 </ul>
 <p><a href="https://github.com/marcfargas/go-easy">Repository</a> · <a href="https://www.npmjs.com/package/@marcfargas/go-easy">npm</a></p>
@@ -117,31 +116,7 @@
 </ul>
 <p>CC0-licensed (public domain). Works with pi, Claude Code, Cursor, and any agent that reads markdown.</p>
 <h2 id="available-skills">Available Skills</h2>
-
-      <p><strong>Install</strong> <small>(8 skills available as of 2026-02-15)</small></p>
-      
-      <table>
-        <thead>
-          <tr>
-            <th>Action</th>
-            <th>Command</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>List all skills</td>
-            <td><code>npx skills add marcfargas/skills --list</code></td>
-          </tr>
-          <tr>
-            <td>Install specific skill</td>
-            <td><code>npx skills add marcfargas/skills --skill &lt;name&gt;</code></td>
-          </tr>
-          <tr>
-            <td>Install all</td>
-            <td><code>npx skills add marcfargas/skills --skill '*'</code></td>
-          </tr>
-        </tbody>
-      </table>
+<p><em>Skills list unavailable at build time. See <a href="https://github.com/marcfargas/skills">repository</a> for current skills.</em></p>
 <h3 id="skill-breakdown">Skill Breakdown</h3>
 <p><strong>Cloud &amp; Infrastructure</strong></p>
 <ul>
@@ -230,7 +205,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install @marcfargas/pi-planner
 </span></span></code></pre></div><p>Add to pi config (<code>~/.pi/extensions/</code>):</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;extensions&#34;</span>: [<span style="color:#e6db74">&#34;@marcfargas/pi-planner&#34;</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;extensions&#34;</span>: [<span style="color:#e6db74">&#34;npm:@marcfargas/pi-planner&#34;</span>]
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Part of the <a href="https://github.com/marcfargas/pi-mf-extensions">pi-mf-extensions</a> monorepo.</p>
 <p><a href="https://github.com/marcfargas/pi-mf-extensions/tree/main/packages/pi-planner">Repository</a> · <a href="https://www.npmjs.com/package/@marcfargas/pi-planner">npm</a></p>
@@ -271,7 +246,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">runPlaybook</span> } <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;@marcfargas/pi-test-harness&#39;</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">result</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">runPlaybook</span>(<span style="color:#e6db74">&#39;./test-plan-lifecycle.yml&#39;</span>, {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">extensions</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;@marcfargas/pi-planner&#39;</span>],
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">extensions</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;npm:@marcfargas/pi-planner&#39;</span>],
 </span></span><span style="display:flex;"><span>});
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">expect</span>(<span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">status</span>).<span style="color:#a6e22e">toBe</span>(<span style="color:#e6db74">&#39;success&#39;</span>);

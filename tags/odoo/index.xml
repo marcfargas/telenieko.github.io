@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tools on Marc Fargas</title>
-    <link>https://www.marcfargas.com/tags/tools/</link>
-    <description>Recent content in Tools on Marc Fargas</description>
+    <title>Odoo on Marc Fargas</title>
+    <link>https://www.marcfargas.com/tags/odoo/</link>
+    <description>Recent content in Odoo on Marc Fargas</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.marcfargas.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcfargas.com/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I Built odoo-toolbox</title>
       <link>https://www.marcfargas.com/posts/why-i-built-odoo-toolbox/</link>
@@ -98,76 +98,6 @@
 <p>Both coming soon.</p>
 <hr>
 <p><em>odoo-toolbox is open source. <a href="https://github.com/marcfargas/odoo-toolbox">Repository</a> · <a href="https://www.npmjs.com/search?q=%40marcfargas%2Fodoo-">npm packages</a> · <a href="https://github.com/marcfargas/odoo-toolbox">Install the skill</a></em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Building My AI Workbench</title>
-      <link>https://www.marcfargas.com/posts/building-my-ai-workbench/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcfargas.com/posts/building-my-ai-workbench/</guid>
-      <description>How a terminal coding agent became the backbone of everything I build — not by being smart, but by being composable.</description>
-      <content:encoded><![CDATA[<p>Two weeks ago I had a collection of tools. A Hugo blog. An Odoo integration. Some CLI wrappers for Google APIs. A browser automation framework. They existed in separate repos, worked independently, and shared nothing.</p>
-<p>Today they&rsquo;re an ecosystem. Not because I wrote some grand unification layer, but because I found a tool that thinks the way Unix thinks: everything is a file, every program does one thing, and <code>|</code> connects them.</p>
-<p>This is the story of how <a href="https://github.com/badlogic/pi-mono">pi</a> — a minimal terminal coding agent — became my operating system for building things.</p>
-<h2 id="what-pi-actually-is">What pi actually is</h2>
-<p>Pi is not an IDE. It&rsquo;s not Cursor, not Copilot, not any of the AI-enhanced editors fighting for your attention. It&rsquo;s closer to bash: a harness that gives an LLM four tools (<code>read</code>, <code>write</code>, <code>edit</code>, <code>bash</code>) and gets out of the way.</p>
-<p>The magic isn&rsquo;t in what pi ships with. It&rsquo;s in what pi <em>lets you add</em>:</p>
-<ul>
-<li><strong>Skills</strong> — markdown files that teach the model how to use specific tools. Like man pages, but for AI.</li>
-<li><strong>Extensions</strong> — TypeScript modules that add new tool calls. Like adding <code>grep</code> to your PATH.</li>
-<li><strong>Agents</strong> — named configurations with a persona, a model, and a set of skills. Like shell aliases with opinions.</li>
-<li><strong>Chains</strong> — sequences of agents, where each step&rsquo;s output flows into the next. Like pipes.</li>
-</ul>
-<p>None of these concepts are revolutionary. They&rsquo;re borrowed from the oldest playbook in computing: small pieces, loosely joined.</p>
-<h2 id="the-workbench-two-weeks-in">The workbench, two weeks in</h2>
-<p>Here&rsquo;s what I&rsquo;ve built on top of pi in 14 days:</p>
-<p><strong>18 skills</strong> across two layers. The <a href="https://github.com/marcfargas/skills">shared ones</a> are tool-specific and agent-agnostic — Azure CLI, Google Cloud, PM2 process management, web search, spreadsheet modeling, terminal recording, pre-release workflows. The personal ones handle my specific workflows — Bitwarden credential retrieval, browser launch sequences, document generation (Word, Excel, PowerPoint, PDF), multi-model design reviews.</p>
-<p><strong>8 agents</strong> with different personalities. Four are reviewers that I run in parallel during design sprints — two architecture-focused, two implementation-focused. One is a synthesizer that merges their feedback. One is a scout that explores codebases. One delegates to OpenAI&rsquo;s Codex for pure coding tasks. One is a researcher.</p>
-<p><strong>2 extensions</strong> that add persistent state. A TODO system that survives across sessions — the agent claims tasks, journals progress, marks them done. And a knowledge graph (&ldquo;brain&rdquo;) that extracts signals from emails, notes, and ERP records, clusters them into entities, and lets the agent resolve &ldquo;who is this phone number?&rdquo; against accumulated context.</p>
-<p><strong>23 experiments</strong> — design documents that went through structured review cycles before any code was written. Each one followed the same pattern: capture the vision, run parallel reviewers across different models, synthesize, iterate.</p>
-<p><strong>11 memoria entries</strong> — stable facts the agent records when it discovers something non-obvious. Unix sockets don&rsquo;t work on Windows (use named pipes). npm Trusted Publishing requires Node 24. PGLite date intervals produce timestamps, not dates. Each entry saves 2 hours of rediscovery.</p>
-<h2 id="the-pattern-that-makes-it-work">The pattern that makes it work</h2>
-<p>The Unix philosophy says: write programs that do one thing and do it well, write programs that work together, write programs that handle text streams.</p>
-<p>Skills do one thing. The <code>odoo</code> skill teaches the model to query an Odoo ERP — field exploration, record operations, accounting queries. It knows nothing about email. The <code>go-easy</code> skill teaches the model Gmail, Drive, Calendar, and Tasks. It knows nothing about ERPs. The <code>sheet-model</code> skill teaches the model to build spreadsheets with live formulas. It knows nothing about where the data comes from.</p>
-<p>But they compose. &ldquo;Read last month&rsquo;s invoices from Odoo, build a ratio model, email the CFO&rdquo; works — not because someone designed an invoice-to-spreadsheet-to-email pipeline, but because each skill handles its piece and the agent holds the thread.</p>
-<p>That&rsquo;s the thing about composability: the interesting behaviors are the ones nobody planned for.</p>
-<h2 id="beyond-code-the-business-design-sprint">Beyond code: the business design sprint</h2>
-<p>Here&rsquo;s where it gets interesting. The same pattern that reviews software architecture also reviews business strategy.</p>
-<p>I run a group of professional services companies — legal, accounting, property management. When we needed to prepare for a bank meeting with a client, I didn&rsquo;t just crunch numbers. I wrote a briefing document with the financial position, the adjustments we&rsquo;d planned, and what we needed from the bank. Then I ran four reviewers:</p>
-<pre tabindex="0"><code>4 reviewers in parallel:
-  - Fractional CFO         ×  Gemini 2.5 Pro
-  - Bank relationship mgr  ×  Gemini 2.5 Pro
-  - Fractional CFO         ×  Claude Sonnet
-  - Bank relationship mgr  ×  Claude Sonnet
-        │
-        ▼
-  Synthesizer merges all 4 reviews
-</code></pre><p>The CFO personas dissected the client&rsquo;s EBITDA, found €45K–€80K of legitimate adjustments we hadn&rsquo;t considered — capitalizing internal development under Spanish GAAP, correcting accrual mismatches, recognizing unbilled revenue for Q4 work. The banking personas explained exactly how the bank&rsquo;s internal risk tool weights ratios, what the real thresholds are for SME credit in Spain, and why we should change the presentation order.</p>
-<p>None of these reviewers are &ldquo;coding agents.&rdquo; They&rsquo;re business personas — a CFO who knows Spanish accounting, a bank analyst who knows how BBVA&rsquo;s risk engine works. The same chain infrastructure that runs architecture reviews runs financial strategy. The skill system doesn&rsquo;t care what domain the knowledge is in.</p>
-<p>More recently, when a client was forced into a strategic decision — hire a replacement or double down on outsourcing — I wrote a vision document for transforming the business model. Four reviewers again, but this time: a fractional CFO, a COO with outsourcing experience, a strategy consultant, and a regulatory compliance specialist. The strategy reviewer&rsquo;s verdict was blunt: &ldquo;this isn&rsquo;t a strategic transformation, it&rsquo;s an operational optimization dressed up as one — where&rsquo;s your moat?&rdquo; The compliance reviewer mapped every regulatory risk across four professional service areas. The COO said the vision was missing the entire &ldquo;how&rdquo; of daily operations.</p>
-<p>That feedback reshaped the plan. And it cost us an hour of writing the vision document, plus five minutes of compute time.</p>
-<h2 id="the-design-sprint-for-code">The design sprint for code</h2>
-<p>The same workflow applies to software. When I have an idea — say, a Google Chat gateway for the company&rsquo;s AI assistant — I write a vision document: problem, goal, architecture, constraints, risks, open questions. Then four reviewers, this time architecture and implementation focused, across two different models. A synthesizer merges their feedback.</p>
-<p>23 experiments went through this process. Some survived. Some got killed by the reviews — which is exactly the point. Killing a bad idea at the vision stage costs 10 minutes. Killing it after implementation costs a week.</p>
-<p>The key insight: the reviewers are just markdown files with a persona. Creating a CFO reviewer or a banking analyst takes 5 minutes. Creating a regulatory compliance specialist for Spanish professional services takes 10. The chain infrastructure — parallel execution, output aggregation, synthesis — is generic. The domain knowledge lives in the personas.</p>
-<h2 id="what-i-actually-built-with-it">What I actually built with it</h2>
-<p>This isn&rsquo;t theoretical. In two weeks, working evenings and weekends:</p>
-<ul>
-<li><a href="https://github.com/marcfargas/go-easy"><strong>go-easy</strong></a> — A unified Google API library for AI agents. Gmail, Drive, Calendar, Tasks. OAuth flows, two-phase auth, CLI tools. Published to npm.</li>
-<li><a href="https://github.com/marcfargas/odoo-toolbox"><strong>odoo-toolbox</strong></a> — Odoo ERP integration for AI agents. CI runs against a real Odoo instance. Published to npm.</li>
-<li><a href="https://github.com/marcfargas/holdpty"><strong>holdpty</strong></a> — Cross-platform detached terminal sessions. Named pipes on Windows, Unix sockets everywhere else. Published to npm.</li>
-<li><strong>This website</strong> — Rebuilt from two legacy Hugo sites, merged content from two languages, deployed with GitHub Actions. The agent did the migration, I made design decisions.</li>
-</ul>
-<p>16 published npm packages, a rebuilt website, 23 design documents, and a knowledge graph. None of it written by the AI. All of it written <em>with</em> the AI — the agent handled the scaffolding, the CI/CD, the release mechanics, the tedious migrations, while I focused on what matters: what to build and why.</p>
-<p>We event built a test harness for the agent so it can verify it&rsquo;s own modifications, <a href="https://github.com/marcfargas/pi-mf-extensions/tree/main/packages/pi-test-harness">pi-test-harness</a></p>
-<h2 id="the-carpenters-workshop">The carpenter&rsquo;s workshop</h2>
-<p>I keep coming back to this metaphor: a carpenter&rsquo;s workshop.</p>
-<p>A good workshop isn&rsquo;t about having the fanciest tools. It&rsquo;s about having tools you know intimately, arranged the way you think, adapted to the work you do. The table saw is bolted where you need it. The jigs are purpose-built. The wood rack is sorted by project, not by species.</p>
-<p>My pi setup is my workshop. The skills are my jigs — purpose-built for specific operations. The agents are my apprentices — each trained for a particular kind of work. The memoria is the notebook on the wall — hard-won lessons I don&rsquo;t want them to relearn. The experiments are my sketches — ideas tested cheaply before committing wood.</p>
-<p>None of this is a product. It&rsquo;s not meant to be installed by anyone else. It&rsquo;s a personal workbench, built incrementally over two weeks, adapted to how I think and what I build.</p>
-<p>And that&rsquo;s the point. The best tools are the ones you build for yourself.</p>
-<hr>
-<p><em>This post is part of the <a href="/series/ai-workbench/">AI Workbench</a> series, where I document the evolving setup. Next up: the Unix philosophy angle — why skills, not prompts, are the right abstraction for AI agents.</em></p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -6,8 +6,100 @@
     <description>Recent content in Ai on Marc Fargas</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcfargas.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Built odoo-toolbox</title>
+      <link>https://www.marcfargas.com/posts/why-i-built-odoo-toolbox/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcfargas.com/posts/why-i-built-odoo-toolbox/</guid>
+      <description>I pointed Claude at Odoo&amp;#39;s docs. It hallucinated methods, invented field names, and wrote code that didn&amp;#39;t work. So I lent it a hand.</description>
+      <content:encoded><![CDATA[<p>I run several companies on Odoo. Legal, accounting, property management — all of it flows through Odoo. Invoices, contracts, timesheets, CRM leads, accounting entries. Thousands of records, dozens of models, years of data.</p>
+<p>When AI coding agents got good enough to write real code, the obvious move was: point the agent at Odoo and start asking questions. &ldquo;How much did we invoice last quarter?&rdquo; &ldquo;What&rsquo;s the average collection time for this client?&rdquo; &ldquo;Post a note on that CRM lead.&rdquo;</p>
+<p>It didn&rsquo;t work.</p>
+<h2 id="the-hallucination-problem">The hallucination problem</h2>
+<p>Here&rsquo;s what happens when you ask Claude, GPT, or any frontier model to interact with Odoo&rsquo;s XML-RPC API:</p>
+<p>It makes things up.</p>
+<p>Not random garbage — plausible-sounding things. Method names that look right but don&rsquo;t exist. Field names that follow Odoo&rsquo;s naming conventions but aren&rsquo;t real. API patterns from older versions mixed with current ones. The model has absorbed enough Odoo knowledge from the internet to be dangerous, but not enough to be correct.</p>
+<p>I&rsquo;d ask it to read invoices and it would call <code>account.invoice.search</code> — a model that was renamed to <code>account.move</code> years ago. I&rsquo;d ask for customer data and it would reference <code>customer_id</code> when the field is actually <code>partner_id</code>. It would construct domains using operators that don&rsquo;t exist in Odoo&rsquo;s filter syntax.</p>
+<p>The output looked professional. It compiled. It even ran — right up until the Odoo server returned an error about a model or field that doesn&rsquo;t exist.</p>
+<h2 id="why-the-obvious-solutions-dont-work">Why the obvious solutions don&rsquo;t work</h2>
+<p><strong>&ldquo;Just give it the docs.&rdquo;</strong> Which docs? There&rsquo;s Odoo Community, Odoo Enterprise, and the OCA ecosystem — three overlapping codebases with different modules, different fields, sometimes different behavior for the same model. And that&rsquo;s before you account for the fact that every Odoo instance is different. Your instance has custom modules, specific patches, configuration flags that change field visibility, installed OCA addons that extend core models. The &ldquo;Odoo docs&rdquo; don&rsquo;t describe <em>your</em> Odoo — they describe a platonic ideal that doesn&rsquo;t match any production system. Even if you could figure out which docs to feed the model, dump all of it into context and you&rsquo;ve blown the window. Even with large contexts, the model drowns in irrelevant information about modules you don&rsquo;t use and patterns that don&rsquo;t apply.</p>
+<p><strong>&ldquo;Use RAG.&rdquo;</strong> Retrieval-Augmented Generation sounds perfect in theory. Embed the docs, retrieve relevant chunks, feed them to the model. In practice, it retrieves the wrong patterns. A question about <code>account.move</code> retrieves fragments about invoicing, billing, credit notes, and journal entries — all mixed together, with no coherent mental model of how they relate. The model gets confused, not enlightened.</p>
+<p><strong>&ldquo;Fine-tune on Odoo code.&rdquo;</strong> Ignoring the cost and maintenance burden, this still doesn&rsquo;t solve the core problem: Odoo&rsquo;s API has version-specific behavior, field-level quirks, and read/write asymmetries that only surface when you actually test against a running instance. A fine-tuned model confident in wrong patterns is worse than a base model that admits uncertainty.</p>
+<p>The fundamental issue isn&rsquo;t lack of knowledge. It&rsquo;s lack of <em>structured, validated</em> knowledge.</p>
+<h2 id="the-insight-progressive-tested-modules">The insight: progressive, tested modules</h2>
+<p>The solution came from thinking about how a human Odoo developer learns. Nobody reads all 12,000 pages. You learn connection first, then how to query, then how to write, then domain-specific operations. Each layer builds on the previous one.</p>
+<p>So I built that learning path — but for AI agents.</p>
+<p><a href="https://github.com/marcfargas/odoo-toolbox">odoo-toolbox</a> is a set of knowledge modules that teach an agent Odoo progressively:</p>
+<ol>
+<li><strong>Connection</strong> — how to authenticate, manage sessions, handle the RPC protocol</li>
+<li><strong>Domains</strong> — Odoo&rsquo;s query filter syntax, operators, composition rules</li>
+<li><strong>Field types</strong> — the type system, the critical read/write asymmetries (you read a Many2one as <code>[id, name]</code> but write it as just <code>id</code>)</li>
+<li><strong>CRUD</strong> — create, read, update, delete with all the edge cases</li>
+<li><strong>Search</strong> — search patterns, pagination, field selection</li>
+<li><strong>Introspection</strong> — discover models and fields dynamically (so the agent doesn&rsquo;t have to guess)</li>
+<li><strong>Properties</strong> — user-defined dynamic fields, a common source of confusion</li>
+<li><strong>Modules</strong> — module lifecycle, installation, dependency management</li>
+</ol>
+<p>Then domain-specific modules on top: mail and chatter, accounting entries, timesheets, attendance, contracts.</p>
+<p>The agent loads only what it needs. Asking about invoices? Load connection + domains + CRUD + accounting. Posting a chatter message? Load connection + mail. The context stays focused.</p>
+<h2 id="the-part-that-actually-matters-ci-testing">The part that actually matters: CI testing</h2>
+<p>Here&rsquo;s the thing that separates this from yet another documentation project.</p>
+<p>Every code example in every module is extracted and run against a real Odoo instance in CI. Not mocked. Not simulated. A Docker container with Odoo Community, a test database, and actual RPC calls.</p>
+<p>The validation loop is simple and brutal:</p>
+<ol>
+<li>Write a skill module with code examples</li>
+<li>CI extracts every code block</li>
+<li>Each one runs against the real Odoo instance</li>
+<li>If any example fails, the build fails</li>
+</ol>
+<p>This means the documentation can&rsquo;t rot. When Odoo&rsquo;s behavior changes, the CI catches it. When I write an example with the wrong field name, the CI catches it. When I describe an API pattern that doesn&rsquo;t actually work, the CI catches it.</p>
+<p>125 commits over four weeks. Every one of them tested.</p>
+<h2 id="the-other-part-that-actually-matters-introspection">The other part that actually matters: introspection</h2>
+<p>The skills teach an agent how Odoo works <em>in general</em>. But your Odoo instance isn&rsquo;t general — it has custom models, OCA modules, configuration-specific fields, and behavior that no documentation covers.</p>
+<p>That&rsquo;s where <a href="https://www.npmjs.com/package/@marcfargas/odoo-introspection"><code>@marcfargas/odoo-introspection</code></a> comes in. It lets the agent <em>ask your Odoo instance directly</em>: what models exist here? What fields does this model have? What type is this field, what&rsquo;s it related to, is it required?</p>
+<p>The workflow looks like this:</p>
+<ol>
+<li>Agent connects to your Odoo instance using the connection skill</li>
+<li>Agent uses the introspector to discover what&rsquo;s actually there — not what the docs say should be there, but what <em>is</em> there</li>
+<li>Agent explores field types, relation targets, required fields, computed fields</li>
+<li>Agent tests operations against the live instance</li>
+<li>Once something works, it gets written into a skill module — a tested reference that won&rsquo;t hallucinate</li>
+</ol>
+<p>This is the loop that closes the gap between generic documentation and your specific Odoo. The base skills teach the agent <em>how</em> to talk to Odoo. The introspector teaches it <em>what your Odoo looks like</em>. And the CI pipeline ensures that what worked yesterday still works today.</p>
+<h2 id="what-it-looks-like-in-practice">What it looks like in practice</h2>
+<p>With odoo-toolbox loaded, an agent can answer questions it would otherwise hallucinate on:</p>
+<p>&ldquo;What fields does <code>account.move</code> have for invoice amounts?&rdquo; — The agent uses the introspection module to discover fields dynamically, instead of guessing from training data.</p>
+<p>&ldquo;Search for all draft invoices from January&rdquo; — The agent constructs a proper domain filter using the syntax it learned from the domains module, not an approximation from Stack Overflow fragments.</p>
+<p>&ldquo;Post a note on partner record 42&rdquo; — The agent uses the mail/chatter module, which teaches the exact <code>message_post</code> method signature and its keyword arguments.</p>
+<p>The difference isn&rsquo;t subtle. Before: the agent writes code that looks right and fails at runtime. After: the agent writes code that works, because it learned from tested examples, not internet fragments.</p>
+<h2 id="the-ecosystem">The ecosystem</h2>
+<p>The skills are one part. The toolbox also ships TypeScript packages that back them:</p>
+<ul>
+<li><strong><a href="https://www.npmjs.com/package/@marcfargas/odoo-client">@marcfargas/odoo-client</a></strong> — A lightweight RPC client. Handles authentication, session management, the JSON-RPC protocol. No Odoo framework dependency.</li>
+<li><strong><a href="https://www.npmjs.com/package/@marcfargas/odoo-introspection">@marcfargas/odoo-introspection</a></strong> — Schema discovery. Ask &ldquo;what models exist?&rdquo; and &ldquo;what fields does this model have?&rdquo; programmatically.</li>
+<li><strong><a href="https://www.npmjs.com/package/@marcfargas/create-odoo-skills">@marcfargas/create-odoo-skills</a></strong> — Scaffold your own skill project. Fork the structure, point it at your Odoo instance, test your own modules.</li>
+</ul>
+<p>The skills themselves are CC0 — public domain. Use them, modify them, ship them in your product, I don&rsquo;t care. The TypeScript code is LGPL-3.0.</p>
+<p>Installing the skill is one command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx skills add marcfargas/odoo-toolbox
+</span></span></code></pre></div><h2 id="who-this-is-for">Who this is for</h2>
+<p>Not everyone.</p>
+<p>If you run a business on Odoo and work with AI coding agents — Claude Code, Cursor, pi, whatever — this gives your agent accurate, tested knowledge about how Odoo actually works. No hallucinations, no guessing, no &ldquo;let me try this method and see if it exists.&rdquo;</p>
+<p>If you&rsquo;re building AI tooling for Odoo — chatbots, automation, reporting — the TypeScript packages give you a clean foundation without pulling in Odoo&rsquo;s entire framework.</p>
+<p>If you don&rsquo;t use Odoo, this is irrelevant. And that&rsquo;s fine.</p>
+<h2 id="whats-next">What&rsquo;s next</h2>
+<p>This post is the origin story. The next two go deeper:</p>
+<ul>
+<li><strong>For business operators</strong>: How to get your AI agent working with your Odoo instance — the non-technical walkthrough, shown as an agent conversation. No code required.</li>
+<li><strong>For developers</strong>: The progressive skill architecture — why it works, how to build your own skills, the testing pipeline that keeps everything honest.</li>
+</ul>
+<p>Both coming soon.</p>
+<hr>
+<p><em>odoo-toolbox is open source. <a href="https://github.com/marcfargas/odoo-toolbox">Repository</a> · <a href="https://www.npmjs.com/search?q=%40marcfargas%2Fodoo-">npm packages</a> · <a href="https://github.com/marcfargas/odoo-toolbox">Install the skill</a></em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Building My AI Workbench</title>
       <link>https://www.marcfargas.com/posts/building-my-ai-workbench/</link>
